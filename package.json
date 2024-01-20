@@ -1,13 +1,13 @@
 {
-  "name": "nodejs",
+  "name": "atilimbackend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["atilimbackend", "node"],
+  "author": "Ali Al-Fatlawi",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.5",
@@ -16,5 +16,5 @@
   "devDependencies": {
     "nodemon": "^3.0.3"
   },
-  "description": ""
+  "description": "AtilimSchedule API"
 }
