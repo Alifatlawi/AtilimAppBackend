@@ -1,7 +1,7 @@
+require('dotenv').config();
 const express = require('express');
 const getCourses = require('./services/courses'); 
 const processCoursesData = require('./controller/processData');
-
 const app = express();
 app.use(express.json());
 
@@ -29,6 +29,6 @@ app.get('/courses', async (req, res) => {
 });
 
 const port = 4000;
-app.listen(port, () => {
+app.listen(process.env.PORT, () => {
     console.log(`Server started on port: ${port}`);
 });
