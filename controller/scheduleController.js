@@ -38,7 +38,7 @@ function generateSchedulesHelper(courses, index, currentSchedule, schedules) {
 
 function hasConflict(schedule, sectionToAdd) {
     for (const item of schedule) {
-        const scheduledSection = item.section; // Get the section from the schedule item
+        const scheduledSection = item.section; // Correctly access the section
 
         for (const scheduledSchedule of scheduledSection.schedules) {
             for (const scheduleToAdd of sectionToAdd.schedules) {
@@ -51,6 +51,7 @@ function hasConflict(schedule, sectionToAdd) {
 
     return false;
 }
+
 
 
 function overlaps(s1, s2) {

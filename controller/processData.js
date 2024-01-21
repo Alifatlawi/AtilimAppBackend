@@ -59,18 +59,25 @@ function extractSubjectInfo(lessonRow, subjectsTable) {
     const subjectRow = subjectsTable.data_rows.find(subject => subject.id === lessonRow.subjectid);
     if (!subjectRow) return {};
 
-    // Assuming the subject name contains the ID and section as the first two components
+    let courseID, sectionID, courseName;
     const subjectComponents = subjectRow.name.split('-').map(comp => comp.trim());
-    if (subjectComponents.length < 3) return {};
+
+    // Adjusted logic to handle missing or non-standard course names
+    courseID = subjectComponents[0] || "Unknown CourseID";
+    sectionID = subjectComponents.length > 1 ? subjectComponents[1] : "Unknown SectionID";
+    courseName = subjectComponents.slice(2).join(' - ') || courseID;
 
     return {
         subjectID: lessonRow.subjectid,
         subjectName: subjectRow.name,
-        courseID: subjectComponents[0],
-        sectionID: subjectComponents[1],
-        courseName: subjectComponents.slice(2).join(' - ')
+        courseID: courseID,
+        sectionID: sectionID,
+        courseName: courseName
     };
 }
+
+
+
 
 function extractDayName(card, daysDefsTable) {
     const daysEncoded = card.days; // Assuming this is a string like '000100'

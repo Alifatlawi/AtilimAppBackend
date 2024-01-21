@@ -330,6 +330,2058 @@
     ]
   },
   {
+    "id": "ENG102",
+    "name": "ENG102",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Müh. 2019H",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "14:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "Müh. 2025H",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. 2027H",
+            "period": "3.",
+            "startTime": "11:30",
+            "endTime": "13:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. 2025H",
+            "period": "3.",
+            "startTime": "11:30",
+            "endTime": "13:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. 2027H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. B1029H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "04",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. 2029Ö",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. 2025H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "05",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. B1029H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "Müh. 2019H",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "06",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. 2027H",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Pazartesi",
+            "classroom": "Müh. 2025H",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "07",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Müh. B1029H",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "Müh. B1015H",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "08",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. 2027H",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Pazartesi",
+            "classroom": "Müh. B1029H",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "09",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. 2027H",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "Müh. 2031H",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. 2035",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. 2019H",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. B1029H",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "Müh. 2027H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. 2019H",
+            "period": "3.",
+            "startTime": "11:30",
+            "endTime": "13:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. 2019H",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "13",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. 2025H",
+            "period": "3.",
+            "startTime": "11:30",
+            "endTime": "13:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. 2025H",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. B1029H",
+            "period": "3.",
+            "startTime": "11:30",
+            "endTime": "13:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "Müh. 2029Ö",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "15",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. 2027H",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "Müh. B1015H",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "16",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. 2025H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. 2029Ö",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "17",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. 2025H",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Cuma",
+            "classroom": "Müh. 2023H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "18",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "FEF G14",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "FEF G14",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "19",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "FEF G14",
+            "period": "3.",
+            "startTime": "11:30",
+            "endTime": "13:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Pazartesi",
+            "classroom": "FEF G14",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "20",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "İşletme Z02 RB",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "14:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "İşletme Z02 RB",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "14:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "21",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "İşletme Z01 RB",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "İşletme Z01 RB",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "14:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "22",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "İşletme Z01 RB",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "İşletme Z02 RB",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "23",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "İşletme Z03 RB",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "14:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Cuma",
+            "classroom": "İşletme Z01 RB",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "27",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. 2019H",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. 2019H",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "28",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. 2025H",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. 2025H",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "29",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "Sağlık Bil. 331",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. 2031H",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "30",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "Sağlık Bil. 332",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. 2035",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ENG122",
+    "name": "ENG122",
+    "sections": [
+      {
+        "id": "02",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "İşletme Z09 RB",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "14:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "İşletme Z03 RB",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "İşletme Z02 RB",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "İşletme Z01 RB",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "04",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "İşletme Z09 İB",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "İşletme Z02 RB",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "14:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "05",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "B1033H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Çarşamba",
+            "classroom": "B1033H",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "06",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "B1035",
+            "period": "3.",
+            "startTime": "11:30",
+            "endTime": "13:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Çarşamba",
+            "classroom": "B1035",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "07",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "B1033H",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "14:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Çarşamba",
+            "classroom": "B1033H",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "08",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "B1035",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "B1033H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "09",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "B1033H",
+            "period": "3.",
+            "startTime": "11:30",
+            "endTime": "13:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "B1035",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Sağlık Bil. 331",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "16:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. 2029Ö",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "UZAKTAN",
+            "period": "10.",
+            "startTime": "18:30",
+            "endTime": "20:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ENG202",
+    "name": "ENG202",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Müh. 2019H",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Müh. 2025H",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Müh. 2027H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "04",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. B1029H",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "17:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "05",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. 2027H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "06",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Müh. 2023H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "07",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Müh. 2019H",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "17:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "08",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Müh. B1015H",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "17:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "09",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Müh. 2025H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Müh. 2025H",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Müh. B1015H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "Müh. 2029Ö",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "13",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "Müh. 2027H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "Müh. 2025H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "15",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Müh. 2019H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "16",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Müh. B1029H",
+            "period": "3.",
+            "startTime": "11:30",
+            "endTime": "14:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "17",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Müh. 2023H",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "17:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "18",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "FEF G14",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "19",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "FEF G14",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "20",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "İşletme Z03 RB",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "21",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "İşletme Z10 RB",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "22",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "İşletme Z03 RB",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "23",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "İşletme Z03 RB",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "27",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "İşletme Z01 RB",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "17:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "28",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "İşletme Z02 RB",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "17:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "29",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "İşletme Z03 RB",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "17:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "30",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "İşletme Z15 İB",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "31",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "Müh. 2031H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ENG222",
+    "name": "ENG222",
+    "sections": [
+      {
+        "id": "02",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "İşletme Z02 RB",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "İşletme Z03 RB",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "04",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "İşletme Z02 RB",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "05",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "B1035",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "17:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "06",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "D1",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "07",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "B1033H",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "08",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "B1033H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "09",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "3004",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Sağlık Bil. 332",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "UZAKTAN",
+            "period": "10.",
+            "startTime": "18:30",
+            "endTime": "20:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ENG302",
+    "name": "ENG302",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Müh. 2027H",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. 2023H",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "17:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. 2029Ö",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "04",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "Müh. 2019H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "05",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "Müh. B1015H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "06",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "Müh. B1029H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "07",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Müh. 2025H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "08",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Müh. 2019H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "09",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. 2029Ö",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. B1015H",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "17:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. 2029Ö",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Müh. B1029H",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "17:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "13",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. 2023H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Müh. 2027H",
+            "period": "3.",
+            "startTime": "11:30",
+            "endTime": "14:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "15",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. 2019H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "16",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Müh. 2029Ö",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "17",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "FEF G14",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "18",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "İşletme 115 RB",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "17:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "19",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "İşletme Z01 RB",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "20",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "İşletme Z01 RB",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "24",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "İşletme Z10 RB",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "17:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "25",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "İşletme 113 RB",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "17:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "26",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "İşletme 114 RB",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "17:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "27",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Sağlık Bil. 330",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "28",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "İşletme Z15 İB",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "29",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "Sağlık Bil. 330",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ENG322",
+    "name": "ENG322",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "UZAKTAN",
+            "period": "10.",
+            "startTime": "18:30",
+            "endTime": "20:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "İşletme Z02 RB",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "17:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "İşletme Z02 RB",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "04",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "B1033H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "05",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "B1033H",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "17:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "06",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "B1033H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "07",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "B1035",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "MATH102",
     "name": "Calculus for Management and Economics Students",
     "sections": [
@@ -4224,6 +6276,124 @@
     ]
   },
   {
+    "id": "CHE105 LAB",
+    "name": "CHE105 LAB",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "Genel Kimya Labı",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "18:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Genel Kimya Labı",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "18:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "Genel Kimya Labı",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "04",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Genel Kimya Labı",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "05",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Genel Kimya Labı",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "06",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Genel Kimya Labı",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "18:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "07",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Genel Kimya Labı",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "18:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "PHYS101",
     "name": "Physics I",
     "sections": [
@@ -4500,6 +6670,194 @@
     ]
   },
   {
+    "id": "PHYS102 LAB",
+    "name": "PHYS102 LAB",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "B2016",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "18:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "B2016",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "18:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "B2016",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "04",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "B2016",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "05",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "B2016",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "18:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "06",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "B2016",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "08",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "B2016",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "07",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "B2016",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PHYS101 LAB",
+    "name": "PHYS101 LAB",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "B2014",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "18:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "B2014",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "18:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "B2014",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "18:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "CMPE105",
     "name": "Introduction to Computers and Information Systems",
     "sections": [
@@ -4563,6 +6921,84 @@
             "period": "1.",
             "startTime": "09:30",
             "endTime": "10:20",
+            "duration": "1 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "REZERV İnsan Kaynakları",
+    "name": "REZERV İnsan Kaynakları",
+    "sections": [
+      {
+        "id": "Unknown SectionID",
+        "teacher": {
+          "name": "REZERV"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "İşletme LAB 207",
+            "period": "8.",
+            "startTime": "16:30",
+            "endTime": "17:20",
+            "duration": "1 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "İşletme LAB 115 ",
+            "period": "8.",
+            "startTime": "16:30",
+            "endTime": "17:20",
+            "duration": "1 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "İşletme LAB 207",
+            "period": "8.",
+            "startTime": "16:30",
+            "endTime": "17:20",
+            "duration": "1 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "İşletme LAB 115 ",
+            "period": "8.",
+            "startTime": "16:30",
+            "endTime": "17:20",
+            "duration": "1 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "İşletme LAB 115 ",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "16:20",
+            "duration": "1 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "İşletme LAB 115 ",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "16:20",
+            "duration": "1 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "İşletme LAB 115 ",
+            "period": "9.",
+            "startTime": "17:30",
+            "endTime": "18:20",
+            "duration": "1 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "İşletme LAB 115 ",
+            "period": "9.",
+            "startTime": "17:30",
+            "endTime": "18:20",
             "duration": "1 period(s)"
           }
         ]
@@ -5748,6 +8184,160 @@
             "startTime": "12:30",
             "endTime": "14:20",
             "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CMPE525",
+    "name": "CMPE525",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Erhan Gokcay"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Müh. B1025Ö",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ISE552",
+    "name": "ISE552",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Sacip Toker"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Müh. B1027Ö",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SE559",
+    "name": "SE559",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Kadir Herkiloğlu"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Müh. B1025Ö",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ISE514",
+    "name": "ISE514",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Murat Koyuncu"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Müh. B1019Ö",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SE554",
+    "name": "SE554",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Selma Nazlıoğlu"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. B1025Ö",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SE654",
+    "name": "SE654",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Selma Nazlıoğlu"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. 1019 H",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CMPE578",
+    "name": "CMPE578",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Arda Sezen"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. B1027Ö",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
+            "duration": "3 period(s)"
           }
         ]
       }
@@ -8502,6 +11092,30 @@
             "duration": "4 period(s)"
           }
         ]
+      },
+      {
+        "id": "406",
+        "teacher": {
+          "name": "Kamil Dermirberk Unlu"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Information Systems Lab.",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "18:20",
+            "duration": "9 period(s)"
+          },
+          {
+            "day": "Çarşamba",
+            "classroom": "Information Systems Lab.",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "18:20",
+            "duration": "9 period(s)"
+          }
+        ]
       }
     ]
   },
@@ -8779,6 +11393,22 @@
         "schedules": [
           {
             "day": "Perşembe",
+            "classroom": "B4015",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "teacher": {
+          "name": "Sedat Sünter"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
             "classroom": "B4015",
             "period": "7.",
             "startTime": "15:30",
@@ -14970,6 +17600,50 @@
     ]
   },
   {
+    "id": "ELIT106",
+    "name": "ELIT106",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Konf.Sal. Cengiz Yenerim",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ELIT104",
+    "name": "ELIT104",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Konf.Sal. Cengiz Yenerim",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "MED182",
     "name": "Alana Özel Fizyoloji",
     "sections": [
@@ -17490,6 +20164,28 @@
     ]
   },
   {
+    "id": "ME425",
+    "name": "ME425",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "Müh. 2017H",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "IE442",
     "name": "Statistical Applications in Industrial Engineering",
     "sections": [
@@ -18489,6 +21185,28 @@
             "period": "3.",
             "startTime": "11:30",
             "endTime": "13:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "APM326",
+    "name": "APM326",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "ERDENİZ UMMAN"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Müh. 2035",
+            "period": "8.",
+            "startTime": "16:30",
+            "endTime": "18:20",
             "duration": "2 period(s)"
           }
         ]
@@ -19547,6 +22265,50 @@
             "period": "8.",
             "startTime": "16:30",
             "endTime": "19:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PHYS108",
+    "name": "PHYS108",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "İREM YILMAZ"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Müh. B1043-IIÖ",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EUT322",
+    "name": "EUT322",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Konf.Sal. 1022",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
             "duration": "3 period(s)"
           }
         ]
