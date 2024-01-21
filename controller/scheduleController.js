@@ -11,30 +11,38 @@ function generateAllSchedules(courses) {
 }
 
 function generateSchedulesHelper(courses, index, currentSchedule, schedules) {
-    // If we have processed all courses, add the current schedule to the list
     if (index === courses.length) {
-        schedules.push([...currentSchedule]);
+        // Clone the currentSchedule to avoid reference issues
+        schedules.push(currentSchedule.map(item => ({ ...item })));
         return;
     }
 
     const currentCourse = courses[index];
 
-    // Try each section of the current course
     for (const section of currentCourse.sections) {
-        // Check for time conflicts with the current schedule
         if (!hasConflict(currentSchedule, section)) {
-            currentSchedule.push(section);
+            // Include course ID and name with the section
+            const scheduleItem = {
+                courseId: currentCourse.id,
+                courseName: currentCourse.name,
+                section: { ...section } // Clone the section to avoid reference issues
+            };
+
+            currentSchedule.push(scheduleItem);
             generateSchedulesHelper(courses, index + 1, currentSchedule, schedules);
             currentSchedule.pop();
         }
     }
 }
 
-function hasConflict(schedule, section) {
-    for (const scheduledSection of schedule) {
+
+function hasConflict(schedule, sectionToAdd) {
+    for (const item of schedule) {
+        const scheduledSection = item.section; // Get the section from the schedule item
+
         for (const scheduledSchedule of scheduledSection.schedules) {
-            for (const schedule of section.schedules) {
-                if (overlaps(scheduledSchedule, schedule)) {
+            for (const scheduleToAdd of sectionToAdd.schedules) {
+                if (overlaps(scheduledSchedule, scheduleToAdd)) {
                     return true;
                 }
             }
@@ -43,6 +51,7 @@ function hasConflict(schedule, section) {
 
     return false;
 }
+
 
 function overlaps(s1, s2) {
     // Convert the Turkish day names to English
