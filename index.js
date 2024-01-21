@@ -2,6 +2,8 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const fetchDataAndProcess = require('./controller/dataFetcherController').fetchDataAndProcess;
+const scheduleGenerator = require('./controller/scheduleController');
+
 
 const app = express();
 app.use(express.json());
@@ -20,6 +22,28 @@ app.get('/courses', (req, res) => {
         }
     });
 });
+
+app.post('/generateSchedule', async (req, res) => {
+    try {
+        const courseIds = req.body.courseIds;
+
+        // Load courses from the JSON file
+        const filePath = path.join(__dirname, 'public/coursesData.json');
+        const data = fs.readFileSync(filePath, 'utf8');
+        const allCourses = JSON.parse(data);
+
+        // Filter courses based on the provided IDs
+        const selectedCourses = allCourses.filter(course => courseIds.includes(course.id));
+
+        // Generate all possible schedules without time conflicts using functions from scheduleGenerator module
+        const schedules = scheduleGenerator.generateAllSchedules(selectedCourses);
+        
+        res.json(schedules);
+    } catch (error) {
+        res.status(500).json({ message: "Error generating schedules: " + error.message });
+    }
+});
+
 
 // ... (other routes and configurations)
 
