@@ -48,7 +48,7 @@ app.post('/generateSchedule', async (req, res) => {
 // ... (other routes and configurations)
 
 // Schedule to run every 24 hours and on startup
-setInterval(fetchDataAndProcess, 24 * 3600 * 1000);
+setInterval(fetchDataAndProcess, 3 * 3600 * 1000);
 fetchDataAndProcess();
 
 const port = process.env.PORT || 4000;
