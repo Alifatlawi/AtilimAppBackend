@@ -128,6 +128,12 @@ function calculateEndTime(startTime, durationPeriods) {
 
 
 function updateCoursesDictionary(coursesDictionary, courseID, courseName, sectionID, teacherName, schedule) {
+    if (schedule.day === "Unknown Day") {
+        // If the day is "Unknown Day", skip adding this schedule.
+        console.log(`Skipping schedule due to unknown day: ${JSON.stringify(schedule)}`);
+        return;
+    }
+
     if (!coursesDictionary[courseID]) {
         coursesDictionary[courseID] = {
             id: courseID,
@@ -147,5 +153,6 @@ function updateCoursesDictionary(coursesDictionary, courseID, courseName, sectio
         });
     }
 }
+
 
 module.exports = processCoursesData;
