@@ -79,16 +79,22 @@ function extractSubjectInfo(lessonRow, subjectsTable) {
 
 
 
-function extractDayName(card, daysDefsTable) {
-    const daysEncoded = card.days; // Assuming this is a string like '000100'
+function extractDayName(card) {
+    const daysEncoded = card.days; // Assuming this is a string like '001000'
 
-    // Find the day entry where its 'vals' array contains the 'daysEncoded' value
-    const dayRow = daysDefsTable.data_rows.find(day => 
-        day.vals && day.vals.includes(daysEncoded)
-    );
+    // Define the day names in the order they appear in the 'daysEncoded' string
+    const dayNames = ['Pazartesi', 'Salı', 'Çarşamba', 'Perşembe', 'Cuma', 'Cumartesi', 'Pazar'];
 
-    return dayRow ? dayRow.name : "Unknown Day";
+    // Find the index of the first '1' in the 'daysEncoded' string
+    const dayIndex = daysEncoded.indexOf('1');
+
+    if (dayIndex !== -1 && dayIndex < dayNames.length) {
+        return dayNames[dayIndex];
+    }
+
+    return "Unknown Day";
 }
+
 
 
 function createSchedule(dayName, classroomNames, periodRow, lessonRow) {
@@ -128,12 +134,6 @@ function calculateEndTime(startTime, durationPeriods) {
 
 
 function updateCoursesDictionary(coursesDictionary, courseID, courseName, sectionID, teacherName, schedule) {
-    if (schedule.day === "Unknown Day") {
-        // If the day is "Unknown Day", skip adding this schedule.
-        console.log(`Skipping schedule due to unknown day: ${JSON.stringify(schedule)}`);
-        return;
-    }
-
     if (!coursesDictionary[courseID]) {
         coursesDictionary[courseID] = {
             id: courseID,
@@ -153,6 +153,5 @@ function updateCoursesDictionary(coursesDictionary, courseID, courseName, sectio
         });
     }
 }
-
 
 module.exports = processCoursesData;
