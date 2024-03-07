@@ -282,6 +282,22 @@
             "duration": "3 period(s)"
           }
         ]
+      },
+      {
+        "id": "05",
+        "teacher": {
+          "name": "Hazal Saral Barbaros"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "UZAKTAN",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "18:20",
+            "duration": "3 period(s)"
+          }
+        ]
       }
     ]
   },
@@ -394,7 +410,7 @@
       {
         "id": "04",
         "teacher": {
-          "name": "Gönenç Tuzcu"
+          "name": "Gokce Ulus"
         },
         "schedules": [
           {
@@ -1331,7 +1347,7 @@
           },
           {
             "day": "Cuma",
-            "classroom": "S7",
+            "classroom": "Müh. 2003H",
             "period": "4.",
             "startTime": "12:30",
             "endTime": "14:20",
@@ -2373,7 +2389,7 @@
         "schedules": [
           {
             "day": "Perşembe",
-            "classroom": "İşletme Z01 RB",
+            "classroom": "İşletme Z09 İB",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "12:20",
@@ -2389,7 +2405,7 @@
         "schedules": [
           {
             "day": "Çarşamba",
-            "classroom": "İşletme Z01 RB",
+            "classroom": "YDYO C-608/C-609",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "16:20",
@@ -2485,7 +2501,7 @@
         "schedules": [
           {
             "day": "Pazartesi",
-            "classroom": "İşletme Z15 İB",
+            "classroom": "İşletme 209 İB",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "16:20",
@@ -2667,7 +2683,7 @@
         "schedules": [
           {
             "day": "Pazartesi",
-            "classroom": "B1004",
+            "classroom": "YDYO C-610",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "12:20",
@@ -2754,11 +2770,11 @@
         },
         "schedules": [
           {
-            "day": "Perşembe",
-            "classroom": "İşletme Z14 İB",
-            "period": "4.",
-            "startTime": "12:30",
-            "endTime": "14:20",
+            "day": "Çarşamba",
+            "classroom": "İşletme Z02 RB",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
             "duration": "2 period(s)"
           }
         ]
@@ -2794,9 +2810,9 @@
           {
             "day": "Cuma",
             "classroom": "Müh. B1006H",
-            "period": "3.",
-            "startTime": "11:30",
-            "endTime": "13:20",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
             "duration": "2 period(s)"
           }
         ]
@@ -2816,7 +2832,7 @@
             "duration": "2 period(s)"
           },
           {
-            "day": "Perşembe",
+            "day": "Cuma",
             "classroom": "Müh. B1006H",
             "period": "3.",
             "startTime": "11:30",
@@ -2824,8 +2840,8 @@
             "duration": "2 period(s)"
           },
           {
-            "day": "Cuma",
-            "classroom": "Müh. B1008H",
+            "day": "Perşembe",
+            "classroom": "Müh. B1006H",
             "period": "3.",
             "startTime": "11:30",
             "endTime": "13:20",
@@ -3554,9 +3570,9 @@
           {
             "day": "Çarşamba",
             "classroom": "İşletme Z13İB",
-            "period": "5.",
-            "startTime": "13:30",
-            "endTime": "16:20",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
             "duration": "3 period(s)"
           }
         ]
@@ -4404,11 +4420,11 @@
         },
         "schedules": [
           {
-            "day": "Pazartesi",
-            "classroom": "İşletme Z09 RB",
-            "period": "7.",
-            "startTime": "15:30",
-            "endTime": "18:20",
+            "day": "Perşembe",
+            "classroom": "İşletme Z02 RB",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
             "duration": "3 period(s)"
           }
         ]
@@ -4427,10 +4443,10 @@
         "schedules": [
           {
             "day": "Çarşamba",
-            "classroom": "Konf.Sal. Cengiz Yenerim",
-            "period": "5.",
-            "startTime": "13:30",
-            "endTime": "16:20",
+            "classroom": "İşletme 211 İB",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
             "duration": "3 period(s)"
           }
         ]
@@ -4471,7 +4487,7 @@
         "schedules": [
           {
             "day": "Pazartesi",
-            "classroom": "İşletme 209 İB",
+            "classroom": "İşletme Z15 İB",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "16:20",
@@ -4515,7 +4531,7 @@
         "schedules": [
           {
             "day": "Çarşamba",
-            "classroom": "İşletme 113 RB",
+            "classroom": "İşletme Z15 İB",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "16:20",
@@ -4537,7 +4553,7 @@
         "schedules": [
           {
             "day": "Perşembe",
-            "classroom": "İşletme 113 İB",
+            "classroom": "İşletme 211 İB",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "12:20",
@@ -4702,28 +4718,6 @@
     ]
   },
   {
-    "id": "KAM413",
-    "name": "Kalkınma Politikaları",
-    "sections": [
-      {
-        "id": "01",
-        "teacher": {
-          "name": "Üzeyir Tekin"
-        },
-        "schedules": [
-          {
-            "day": "Pazartesi",
-            "classroom": "İşletme Z09 İB",
-            "period": "7.",
-            "startTime": "15:30",
-            "endTime": "18:20",
-            "duration": "3 period(s)"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "KAM417",
     "name": "Çağdaş Türk Düşünce Tarihi",
     "sections": [
@@ -4845,7 +4839,7 @@
         "schedules": [
           {
             "day": "Çarşamba",
-            "classroom": "İşletme Z15 İB",
+            "classroom": "İşletme 113 RB",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "16:20",
@@ -5351,7 +5345,7 @@
         "schedules": [
           {
             "day": "Salı",
-            "classroom": "İşletme 112 İB",
+            "classroom": "Hukuk K4",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "12:20",
@@ -5368,15 +5362,15 @@
       {
         "id": "01",
         "teacher": {
-          "name": "Staff"
+          "name": "Serdar Hizir"
         },
         "schedules": [
           {
-            "day": "Cuma",
-            "classroom": "İşletme Z10 İB",
-            "period": "4.",
-            "startTime": "12:30",
-            "endTime": "15:20",
+            "day": "Perşembe",
+            "classroom": "Hukuk A4 AMFİSİ ",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "17:20",
             "duration": "3 period(s)"
           }
         ]
@@ -5461,11 +5455,19 @@
         "schedules": [
           {
             "day": "Salı",
-            "classroom": "İşletme Z03 RB",
-            "period": "1.",
-            "startTime": "09:30",
+            "classroom": "İşletme 209 İB",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "14:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "İşletme Z14 İB",
+            "period": "3.",
+            "startTime": "11:30",
             "endTime": "12:20",
-            "duration": "3 period(s)"
+            "duration": "1 period(s)"
           }
         ]
       }
@@ -5505,7 +5507,7 @@
         "schedules": [
           {
             "day": "Salı",
-            "classroom": "İşletme 211 İB",
+            "classroom": "Hukuk K1",
             "period": "7.",
             "startTime": "15:30",
             "endTime": "18:20",
@@ -5550,50 +5552,6 @@
           {
             "day": "Cuma",
             "classroom": "İşletme Z15 İB",
-            "period": "4.",
-            "startTime": "12:30",
-            "endTime": "15:20",
-            "duration": "3 period(s)"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "MLY315",
-    "name": "Kamu Finansmanı, Hazine İşlemleri ve Borçlanma Teknikleri",
-    "sections": [
-      {
-        "id": "01",
-        "teacher": {
-          "name": "Duran Bulbul"
-        },
-        "schedules": [
-          {
-            "day": "Perşembe",
-            "classroom": "İşletme Z09 İB",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "12:20",
-            "duration": "3 period(s)"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "MLY324",
-    "name": "Yerel Yönetimler Maliyesi",
-    "sections": [
-      {
-        "id": "01",
-        "teacher": {
-          "name": "Duran Bulbul"
-        },
-        "schedules": [
-          {
-            "day": "Perşembe",
-            "classroom": "İşletme Z09 İB",
             "period": "4.",
             "startTime": "12:30",
             "endTime": "15:20",
@@ -5934,28 +5892,6 @@
     ]
   },
   {
-    "id": "PR234",
-    "name": "News Writing",
-    "sections": [
-      {
-        "id": "01",
-        "teacher": {
-          "name": "Barbaros Gurcay"
-        },
-        "schedules": [
-          {
-            "day": "Perşembe",
-            "classroom": "İşletme LAB 207",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "12:20",
-            "duration": "3 period(s)"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "PR438",
     "name": "Video Production Applications II",
     "sections": [
@@ -6033,7 +5969,7 @@
         "schedules": [
           {
             "day": "Çarşamba",
-            "classroom": "İşletme Z15 İB",
+            "classroom": "İşletme Z14 İB",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "12:20",
@@ -6165,10 +6101,10 @@
         "schedules": [
           {
             "day": "Pazartesi",
-            "classroom": "Konf.Sal. Cengiz Yenerim",
-            "period": "5.",
-            "startTime": "13:30",
-            "endTime": "16:20",
+            "classroom": "İşletme Z01 RB",
+            "period": "3.",
+            "startTime": "11:30",
+            "endTime": "14:20",
             "duration": "3 period(s)"
           }
         ]
@@ -7188,7 +7124,7 @@
         ]
       },
       {
-        "id": "03",
+        "id": "04",
         "teacher": {
           "name": "Saman Aminbakhsh"
         },
@@ -7199,22 +7135,6 @@
             "period": "2.",
             "startTime": "10:30",
             "endTime": "11:20",
-            "duration": "1 period(s)"
-          }
-        ]
-      },
-      {
-        "id": "04",
-        "teacher": {
-          "name": "Saman Aminbakhsh"
-        },
-        "schedules": [
-          {
-            "day": "Çarşamba",
-            "classroom": "İşletme LAB 115 ",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "10:20",
             "duration": "1 period(s)"
           }
         ]
@@ -7668,33 +7588,9 @@
         ]
       },
       {
-        "id": "02",
-        "teacher": {
-          "name": "Staff"
-        },
-        "schedules": [
-          {
-            "day": "Çarşamba",
-            "classroom": "L 1006",
-            "period": "7.",
-            "startTime": "15:30",
-            "endTime": "17:20",
-            "duration": "2 period(s)"
-          },
-          {
-            "day": "Cuma",
-            "classroom": "L 1006",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "11:20",
-            "duration": "2 period(s)"
-          }
-        ]
-      },
-      {
         "id": "04",
         "teacher": {
-          "name": "Staff"
+          "name": "RAMAZAN HAKKI NAMLU"
         },
         "schedules": [
           {
@@ -7824,30 +7720,6 @@
     "name": "Computer Programming",
     "sections": [
       {
-        "id": "01",
-        "teacher": {
-          "name": "KEREM AY"
-        },
-        "schedules": [
-          {
-            "day": "Çarşamba",
-            "classroom": "L 1006",
-            "period": "5.",
-            "startTime": "13:30",
-            "endTime": "15:20",
-            "duration": "2 period(s)"
-          },
-          {
-            "day": "Çarşamba",
-            "classroom": "L 1012",
-            "period": "5.",
-            "startTime": "13:30",
-            "endTime": "15:20",
-            "duration": "2 period(s)"
-          }
-        ]
-      },
-      {
         "id": "02",
         "teacher": {
           "name": "KEREM AY"
@@ -7867,30 +7739,6 @@
             "period": "7.",
             "startTime": "15:30",
             "endTime": "17:20",
-            "duration": "2 period(s)"
-          }
-        ]
-      },
-      {
-        "id": "03",
-        "teacher": {
-          "name": "Mehmet Ali Çinici"
-        },
-        "schedules": [
-          {
-            "day": "Perşembe",
-            "classroom": "L 1010",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "11:20",
-            "duration": "2 period(s)"
-          },
-          {
-            "day": "Perşembe",
-            "classroom": "L 1012",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "11:20",
             "duration": "2 period(s)"
           }
         ]
@@ -7920,6 +7768,38 @@
         ]
       },
       {
+        "id": "01",
+        "teacher": {
+          "name": "KEREM AY"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "LAB Z1030",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "teacher": {
+          "name": "Mehmet Ali Çinici"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "LAB Z1030",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
         "id": "05",
         "teacher": {
           "name": "Tuncay Bayrak"
@@ -7927,15 +7807,7 @@
         "schedules": [
           {
             "day": "Salı",
-            "classroom": "L 1006",
-            "period": "7.",
-            "startTime": "15:30",
-            "endTime": "17:20",
-            "duration": "2 period(s)"
-          },
-          {
-            "day": "Salı",
-            "classroom": "L 1010",
+            "classroom": "LAB Z1030",
             "period": "7.",
             "startTime": "15:30",
             "endTime": "17:20",
@@ -7951,15 +7823,7 @@
         "schedules": [
           {
             "day": "Pazartesi",
-            "classroom": "L 1010",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "11:20",
-            "duration": "2 period(s)"
-          },
-          {
-            "day": "Pazartesi",
-            "classroom": "L 1012",
+            "classroom": "LAB Z1030",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "11:20",
@@ -8028,19 +7892,19 @@
         },
         "schedules": [
           {
-            "day": "Pazartesi",
-            "classroom": "Müh. 2009H",
-            "period": "7.",
-            "startTime": "15:30",
-            "endTime": "17:20",
+            "day": "Salı",
+            "classroom": "Müh. 1023H",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "14:20",
             "duration": "2 period(s)"
           },
           {
-            "day": "Salı",
-            "classroom": "Müh. 2025H",
-            "period": "6.",
-            "startTime": "14:30",
-            "endTime": "15:20",
+            "day": "Perşembe",
+            "classroom": "Müh. 2003H",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "13:20",
             "duration": "1 period(s)"
           }
         ]
@@ -8077,10 +7941,10 @@
         "schedules": [
           {
             "day": "Salı",
-            "classroom": "Müh. 2015H",
-            "period": "7.",
-            "startTime": "15:30",
-            "endTime": "17:20",
+            "classroom": "Müh. 1027H",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "16:20",
             "duration": "2 period(s)"
           },
           {
@@ -8182,14 +8046,6 @@
             "startTime": "12:30",
             "endTime": "14:20",
             "duration": "2 period(s)"
-          },
-          {
-            "day": "Salı",
-            "classroom": "Operating System Lab.",
-            "period": "4.",
-            "startTime": "12:30",
-            "endTime": "14:20",
-            "duration": "2 period(s)"
           }
         ]
       },
@@ -8201,39 +8057,15 @@
         "schedules": [
           {
             "day": "Çarşamba",
-            "classroom": "Operating System Lab.",
-            "period": "3.",
-            "startTime": "11:30",
-            "endTime": "13:20",
-            "duration": "2 period(s)"
-          },
-          {
-            "day": "Çarşamba",
-            "classroom": "Multimedia Lab.",
-            "period": "3.",
-            "startTime": "11:30",
-            "endTime": "13:20",
-            "duration": "2 period(s)"
-          }
-        ]
-      },
-      {
-        "id": "03",
-        "teacher": {
-          "name": "Tuncay Terzioğlu"
-        },
-        "schedules": [
-          {
-            "day": "Cuma",
-            "classroom": "Information Systems Lab.",
+            "classroom": "LAB Z1030",
             "period": "7.",
             "startTime": "15:30",
             "endTime": "17:20",
             "duration": "2 period(s)"
           },
           {
-            "day": "Cuma",
-            "classroom": "Multimedia Lab.",
+            "day": "Çarşamba",
+            "classroom": "LAB Z1030",
             "period": "7.",
             "startTime": "15:30",
             "endTime": "17:20",
@@ -8258,6 +8090,22 @@
           {
             "day": "Perşembe",
             "classroom": "Computer Network Lab.",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "teacher": {
+          "name": "Tuncay Terzioğlu"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "Multimedia Lab.",
             "period": "7.",
             "startTime": "15:30",
             "endTime": "17:20",
@@ -8320,30 +8168,6 @@
         ]
       },
       {
-        "id": "03",
-        "teacher": {
-          "name": "Tuncay Terzioğlu"
-        },
-        "schedules": [
-          {
-            "day": "Perşembe",
-            "classroom": "Multimedia Lab.",
-            "period": "5.",
-            "startTime": "13:30",
-            "endTime": "15:20",
-            "duration": "2 period(s)"
-          },
-          {
-            "day": "Perşembe",
-            "classroom": "Computer Network Lab.",
-            "period": "5.",
-            "startTime": "13:30",
-            "endTime": "15:20",
-            "duration": "2 period(s)"
-          }
-        ]
-      },
-      {
         "id": "04",
         "teacher": {
           "name": "Mehtap Tufan"
@@ -8375,18 +8199,26 @@
         "schedules": [
           {
             "day": "Perşembe",
-            "classroom": "Software Engineering Teaching Lab.",
+            "classroom": "LAB Z1030",
             "period": "4.",
             "startTime": "12:30",
             "endTime": "14:20",
             "duration": "2 period(s)"
-          },
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "teacher": {
+          "name": "Tuncay Terzioğlu"
+        },
+        "schedules": [
           {
-            "day": "Perşembe",
-            "classroom": "Information Systems Lab.",
-            "period": "4.",
-            "startTime": "12:30",
-            "endTime": "14:20",
+            "day": "Cuma",
+            "classroom": "LAB Z1030",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
             "duration": "2 period(s)"
           }
         ]
@@ -8545,7 +8377,7 @@
         "schedules": [
           {
             "day": "Salı",
-            "classroom": "Müh. B1023Ö",
+            "classroom": "Software Engineering Teaching Lab.",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "16:20",
@@ -8567,7 +8399,7 @@
         "schedules": [
           {
             "day": "Çarşamba",
-            "classroom": "Müh. B1025Ö",
+            "classroom": "Müh. B1017H",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "12:20",
@@ -8589,7 +8421,7 @@
         "schedules": [
           {
             "day": "Çarşamba",
-            "classroom": "Müh. 1019 H",
+            "classroom": "Müh. B1027Ö",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "16:20",
@@ -9028,9 +8860,9 @@
           {
             "day": "Cuma",
             "classroom": "Information Systems Lab.",
-            "period": "2.",
-            "startTime": "10:30",
-            "endTime": "11:20",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "10:20",
             "duration": "1 period(s)"
           }
         ]
@@ -9044,9 +8876,9 @@
           {
             "day": "Cuma",
             "classroom": "Information Systems Lab.",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "10:20",
+            "period": "2.",
+            "startTime": "10:30",
+            "endTime": "11:20",
             "duration": "1 period(s)"
           }
         ]
@@ -9217,19 +9049,11 @@
         "schedules": [
           {
             "day": "Çarşamba",
-            "classroom": "Müh. B1007H",
-            "period": "7.",
-            "startTime": "15:30",
-            "endTime": "17:20",
-            "duration": "2 period(s)"
-          },
-          {
-            "day": "Çarşamba",
-            "classroom": "Müh. B1007H",
+            "classroom": "Müh. 1026IIH",
             "period": "6.",
             "startTime": "14:30",
-            "endTime": "15:20",
-            "duration": "1 period(s)"
+            "endTime": "17:20",
+            "duration": "3 period(s)"
           }
         ]
       }
@@ -9310,24 +9134,16 @@
       {
         "id": "02",
         "teacher": {
-          "name": "Staff"
+          "name": "Mehmet Bulut"
         },
         "schedules": [
           {
-            "day": "Salı",
-            "classroom": "Müh. 1015 H",
-            "period": "7.",
-            "startTime": "15:30",
-            "endTime": "17:20",
-            "duration": "2 period(s)"
-          },
-          {
-            "day": "Perşembe",
-            "classroom": "Müh. 1025H",
-            "period": "3.",
-            "startTime": "11:30",
+            "day": "Pazartesi",
+            "classroom": "Müh. B1037H",
+            "period": "1.",
+            "startTime": "09:30",
             "endTime": "12:20",
-            "duration": "1 period(s)"
+            "duration": "3 period(s)"
           }
         ]
       },
@@ -9370,9 +9186,9 @@
           {
             "day": "Pazartesi",
             "classroom": "Müh. 1025H",
-            "period": "6.",
-            "startTime": "14:30",
-            "endTime": "17:20",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
             "duration": "3 period(s)"
           }
         ]
@@ -9403,6 +9219,14 @@
             "period": "7.",
             "startTime": "15:30",
             "endTime": "17:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Çarşamba",
+            "classroom": "B2013 (Elektronik ve Haberleşme Lab.)",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
             "duration": "2 period(s)"
           }
         ]
@@ -9475,7 +9299,7 @@
         "schedules": [
           {
             "day": "Çarşamba",
-            "classroom": "B2014",
+            "classroom": "B2015 (Elektronik ve Sayısal Tasarım Lab.)",
             "period": "3.",
             "startTime": "11:30",
             "endTime": "13:20",
@@ -9506,7 +9330,7 @@
         },
         "schedules": [
           {
-            "day": "Pazartesi",
+            "day": "Çarşamba",
             "classroom": "B2015 (Elektronik ve Sayısal Tasarım Lab.)",
             "period": "1.",
             "startTime": "09:30",
@@ -9545,7 +9369,7 @@
         "schedules": [
           {
             "day": "Cuma",
-            "classroom": "B2013 (Elektronik ve Haberleşme Lab.)",
+            "classroom": "MECE LAB B3009",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "15:20",
@@ -9614,6 +9438,30 @@
           {
             "day": "Çarşamba",
             "classroom": "Müh. 1026IIH",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "teacher": {
+          "name": "RAMAZAN HAKKI NAMLU"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Konf.Sal. 1020",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. 2019H",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "11:20",
@@ -9691,6 +9539,22 @@
           },
           {
             "day": "Pazartesi",
+            "classroom": "Müh. 1029H",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "14:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "Unknown SectionID",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
             "classroom": "Müh. 1029H",
             "period": "4.",
             "startTime": "12:30",
@@ -9879,7 +9743,7 @@
         "schedules": [
           {
             "day": "Perşembe",
-            "classroom": "Müh. B1019Ö",
+            "classroom": "Müh. B1015H",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "16:20",
@@ -10080,8 +9944,8 @@
         },
         "schedules": [
           {
-            "day": "Çarşamba",
-            "classroom": "Müh. 1026IIH",
+            "day": "Perşembe",
+            "classroom": "Müh. B1015H",
             "period": "3.",
             "startTime": "11:30",
             "endTime": "13:20",
@@ -10102,12 +9966,20 @@
         },
         "schedules": [
           {
+            "day": "Perşembe",
+            "classroom": "B4028 Otomotiv  Lab",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "14:20",
+            "duration": "1 period(s)"
+          },
+          {
             "day": "Cuma",
             "classroom": "B4028 Otomotiv  Lab",
             "period": "7.",
             "startTime": "15:30",
-            "endTime": "17:20",
-            "duration": "2 period(s)"
+            "endTime": "16:20",
+            "duration": "1 period(s)"
           }
         ]
       }
@@ -10409,7 +10281,7 @@
         "schedules": [
           {
             "day": "Çarşamba",
-            "classroom": "Müh. B1003H",
+            "classroom": "Müh. B1006H",
             "period": "6.",
             "startTime": "14:30",
             "endTime": "16:20",
@@ -10672,11 +10544,11 @@
         },
         "schedules": [
           {
-            "day": "Salı",
-            "classroom": "Müh. 1027H",
-            "period": "6.",
-            "startTime": "14:30",
-            "endTime": "17:20",
+            "day": "Pazartesi",
+            "classroom": "Müh. 2003H",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
             "duration": "3 period(s)"
           }
         ]
@@ -10770,50 +10642,34 @@
     "name": "Makine Elemanları",
     "sections": [
       {
-        "id": "02",
-        "teacher": {
-          "name": "Hakan Kalkan"
-        },
-        "schedules": [
-          {
-            "day": "Salı",
-            "classroom": "Müh. 1029H",
-            "period": "3.",
-            "startTime": "11:30",
-            "endTime": "13:20",
-            "duration": "2 period(s)"
-          },
-          {
-            "day": "Pazartesi",
-            "classroom": "Müh. 1029H",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "11:20",
-            "duration": "2 period(s)"
-          }
-        ]
-      },
-      {
         "id": "01",
         "teacher": {
           "name": "Fuat Tinis"
         },
         "schedules": [
           {
-            "day": "Salı",
-            "classroom": "Müh. 1026IIH",
-            "period": "3.",
-            "startTime": "11:30",
-            "endTime": "13:20",
-            "duration": "2 period(s)"
-          },
-          {
             "day": "Pazartesi",
-            "classroom": "Müh. 1019 H",
+            "classroom": "Müh. 1029H",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "11:20",
             "duration": "2 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "Müh. 1029H",
+            "period": "3.",
+            "startTime": "11:30",
+            "endTime": "12:20",
+            "duration": "1 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "L 1006",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "13:20",
+            "duration": "1 period(s)"
           }
         ]
       },
@@ -10907,7 +10763,7 @@
         "schedules": [
           {
             "day": "Pazartesi",
-            "classroom": "Müh. B1019Ö",
+            "classroom": "Müh. B1029H",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "16:20",
@@ -11003,10 +10859,10 @@
         "schedules": [
           {
             "day": "Cuma",
-            "classroom": "Müh. B1010H",
-            "period": "6.",
-            "startTime": "14:30",
-            "endTime": "16:20",
+            "classroom": "Müh. B1037H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
             "duration": "2 period(s)"
           },
           {
@@ -11240,6 +11096,14 @@
             "startTime": "13:30",
             "endTime": "16:20",
             "duration": "3 period(s)"
+          },
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. 2031H",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "14:20",
+            "duration": "2 period(s)"
           }
         ]
       }
@@ -11562,7 +11426,7 @@
       {
         "id": "01",
         "teacher": {
-          "name": "Yaser Dalveren"
+          "name": "Hakan Tora"
         },
         "schedules": [
           {
@@ -11571,6 +11435,14 @@
             "period": "7.",
             "startTime": "15:30",
             "endTime": "17:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Cuma",
+            "classroom": "B2013 (Elektronik ve Haberleşme Lab.)",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
             "duration": "2 period(s)"
           }
         ]
@@ -11596,7 +11468,7 @@
             "duration": "2 period(s)"
           },
           {
-            "day": "Cuma",
+            "day": "Perşembe",
             "classroom": "B2013 (Elektronik ve Haberleşme Lab.)",
             "period": "1.",
             "startTime": "09:30",
@@ -11656,8 +11528,8 @@
         },
         "schedules": [
           {
-            "day": "Çarşamba",
-            "classroom": "Müh. B1025Ö",
+            "day": "Perşembe",
+            "classroom": "Müh. 1026IÖ",
             "period": "6.",
             "startTime": "14:30",
             "endTime": "17:20",
@@ -12541,7 +12413,7 @@
         "schedules": [
           {
             "day": "Cuma",
-            "classroom": "Müh. 1025H",
+            "classroom": "Müh. 1003 H",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "15:20",
@@ -12689,7 +12561,7 @@
         "schedules": [
           {
             "day": "Cuma",
-            "classroom": "Müh. 1025H",
+            "classroom": "Müh. 1003 H",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "15:20",
@@ -12711,7 +12583,7 @@
         "schedules": [
           {
             "day": "Cuma",
-            "classroom": "Müh. 1025H",
+            "classroom": "Müh. 1003 H",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "15:20",
@@ -13029,10 +12901,10 @@
         "schedules": [
           {
             "day": "Çarşamba",
-            "classroom": "Müh. 2031H",
-            "period": "4.",
-            "startTime": "12:30",
-            "endTime": "15:20",
+            "classroom": "Software Engineering Teaching Lab.",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
             "duration": "3 period(s)"
           }
         ]
@@ -13864,12 +13736,20 @@
         },
         "schedules": [
           {
-            "day": "Salı",
-            "classroom": "Müh. B1019Ö",
-            "period": "6.",
-            "startTime": "14:30",
-            "endTime": "17:20",
-            "duration": "3 period(s)"
+            "day": "Pazartesi",
+            "classroom": "Müh. 1017H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Pazartesi",
+            "classroom": "İnşaat Müh.Toplantı Sal. NO:CE410",
+            "period": "3.",
+            "startTime": "11:30",
+            "endTime": "12:20",
+            "duration": "1 period(s)"
           }
         ]
       }
@@ -13987,7 +13867,7 @@
         "schedules": [
           {
             "day": "Salı",
-            "classroom": "L 1012",
+            "classroom": "L 1010",
             "period": "4.",
             "startTime": "12:30",
             "endTime": "13:20",
@@ -14097,7 +13977,7 @@
         "schedules": [
           {
             "day": "Çarşamba",
-            "classroom": "Müh. B1006H",
+            "classroom": "Müh. B1003H",
             "period": "6.",
             "startTime": "14:30",
             "endTime": "17:20",
@@ -14118,11 +13998,11 @@
         },
         "schedules": [
           {
-            "day": "Perşembe",
+            "day": "Salı",
             "classroom": "L 1010",
-            "period": "4.",
-            "startTime": "12:30",
-            "endTime": "13:20",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "14:20",
             "duration": "1 period(s)"
           }
         ]
@@ -14470,10 +14350,18 @@
           {
             "day": "Perşembe",
             "classroom": "Müh. 2035",
-            "period": "2.",
-            "startTime": "10:30",
+            "period": "1.",
+            "startTime": "09:30",
             "endTime": "12:20",
-            "duration": "2 period(s)"
+            "duration": "3 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. 2019H",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "13:20",
+            "duration": "1 period(s)"
           }
         ]
       },
@@ -14891,7 +14779,7 @@
         "schedules": [
           {
             "day": "Perşembe",
-            "classroom": "Müh. B1015H",
+            "classroom": "Müh. B1019Ö",
             "period": "6.",
             "startTime": "14:30",
             "endTime": "17:20",
@@ -15102,30 +14990,16 @@
             "classroom": "Müh. 2009H",
             "period": "1.",
             "startTime": "09:30",
-            "endTime": "12:20",
-            "duration": "3 period(s)"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "ME481",
-    "name": "Nanoimalat",
-    "sections": [
-      {
-        "id": "01",
-        "teacher": {
-          "name": "Baybars Oral"
-        },
-        "schedules": [
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          },
           {
-            "day": "Perşembe",
-            "classroom": "Müh. 1017H",
-            "period": "1.",
-            "startTime": "09:30",
+            "day": "Çarşamba",
+            "classroom": "Müh. 2009H",
+            "period": "3.",
+            "startTime": "11:30",
             "endTime": "12:20",
-            "duration": "3 period(s)"
+            "duration": "1 period(s)"
           }
         ]
       }
@@ -15425,33 +15299,11 @@
         "schedules": [
           {
             "day": "Salı",
-            "classroom": "Müh. B1025Ö",
+            "classroom": "Müh. 1017H",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "16:20",
             "duration": "3 period(s)"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "EE402",
-    "name": "Kablosuz Haberlesme",
-    "sections": [
-      {
-        "id": "01",
-        "teacher": {
-          "name": "Yaser Dalveren"
-        },
-        "schedules": [
-          {
-            "day": "Pazartesi",
-            "classroom": "Müh. B1003H",
-            "period": "7.",
-            "startTime": "15:30",
-            "endTime": "17:20",
-            "duration": "2 period(s)"
           }
         ]
       }
@@ -15774,36 +15626,6 @@
     ]
   },
   {
-    "id": "CEAC505",
-    "name": "Advanced Physical Chemistry",
-    "sections": [
-      {
-        "id": "01",
-        "teacher": {
-          "name": "Seha Tirkes"
-        },
-        "schedules": [
-          {
-            "day": "Cuma",
-            "classroom": "Müh. B1019Ö",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "12:20",
-            "duration": "3 period(s)"
-          },
-          {
-            "day": "Perşembe",
-            "classroom": "Müh. B1019Ö",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "12:20",
-            "duration": "3 period(s)"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "CEAC578",
     "name": "Endüstriyel Tesis Yatırımları",
     "sections": [
@@ -15819,6 +15641,28 @@
             "period": "1.",
             "startTime": "09:30",
             "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CEAC505",
+    "name": "Advanced Physical Chemistry",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Seha Tirkes"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Müh. B1027Ö",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "18:20",
             "duration": "3 period(s)"
           }
         ]
@@ -15881,7 +15725,7 @@
         "schedules": [
           {
             "day": "Salı",
-            "classroom": "Müh. 1017H",
+            "classroom": "Müh. B1025Ö",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "16:20",
@@ -16140,7 +15984,7 @@
     "name": "Yönetime Giriş",
     "sections": [
       {
-        "id": "02",
+        "id": "01",
         "teacher": {
           "name": "Burcu Tosun"
         },
@@ -16156,7 +16000,7 @@
         ]
       },
       {
-        "id": "01",
+        "id": "02",
         "teacher": {
           "name": "Burcu Tosun"
         },
@@ -16415,7 +16259,7 @@
         "schedules": [
           {
             "day": "Perşembe",
-            "classroom": "İşletme 210 İB",
+            "classroom": "İşletme LAB 207",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "12:20",
@@ -16441,28 +16285,6 @@
             "period": "4.",
             "startTime": "12:30",
             "endTime": "15:20",
-            "duration": "3 period(s)"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "MAN374",
-    "name": "Dijital Çağ ve Endüstri 4.0.",
-    "sections": [
-      {
-        "id": "01",
-        "teacher": {
-          "name": "Oğuzhan Yavuz"
-        },
-        "schedules": [
-          {
-            "day": "Çarşamba",
-            "classroom": "İşletme 212 İB",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "12:20",
             "duration": "3 period(s)"
           }
         ]
@@ -16547,7 +16369,7 @@
         "schedules": [
           {
             "day": "Perşembe",
-            "classroom": "İşletme 211 İB",
+            "classroom": "İşletme 113 İB",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "16:20",
@@ -16630,12 +16452,12 @@
       {
         "id": "01",
         "teacher": {
-          "name": "Staff"
+          "name": "Umut Acun"
         },
         "schedules": [
           {
             "day": "Çarşamba",
-            "classroom": "İşletme Z03 RB",
+            "classroom": "Hukuk A1 AMFİSİ ",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "12:20",
@@ -16760,11 +16582,11 @@
         },
         "schedules": [
           {
-            "day": "Cuma",
+            "day": "Perşembe",
             "classroom": "İşletme LAB 115 ",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "12:20",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "18:20",
             "duration": "3 period(s)"
           }
         ]
@@ -16915,33 +16737,11 @@
         "schedules": [
           {
             "day": "Çarşamba",
-            "classroom": "İşletme 112 İB",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "12:20",
-            "duration": "3 period(s)"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "ISL374",
-    "name": "Dijital Çağ ve Endüstri 4.0.",
-    "sections": [
-      {
-        "id": "01",
-        "teacher": {
-          "name": "Oğuzhan Yavuz"
-        },
-        "schedules": [
-          {
-            "day": "Çarşamba",
-            "classroom": "İşletme 211 İB",
-            "period": "4.",
-            "startTime": "12:30",
-            "endTime": "15:20",
-            "duration": "3 period(s)"
+            "classroom": "İşletme 114 RB",
+            "period": "3.",
+            "startTime": "11:30",
+            "endTime": "13:20",
+            "duration": "2 period(s)"
           }
         ]
       }
@@ -16981,7 +16781,7 @@
         "schedules": [
           {
             "day": "Salı",
-            "classroom": "İşletme Z02 RB",
+            "classroom": "İşletme 112 İB",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "12:20",
@@ -17003,7 +16803,7 @@
         "schedules": [
           {
             "day": "Perşembe",
-            "classroom": "İşletme 211 İB",
+            "classroom": "İşletme 113 İB",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "12:20",
@@ -17069,10 +16869,10 @@
         "schedules": [
           {
             "day": "Salı",
-            "classroom": "İşletme LAB 115 ",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "12:20",
+            "classroom": "İşletme LAB 207",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
             "duration": "3 period(s)"
           }
         ]
@@ -17112,8 +16912,8 @@
         },
         "schedules": [
           {
-            "day": "Çarşamba",
-            "classroom": "İşletme 115 RB",
+            "day": "Salı",
+            "classroom": "İşletme Z03 RB",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "16:20",
@@ -17206,28 +17006,6 @@
     ]
   },
   {
-    "id": "KAM451",
-    "name": "Bölge Çalışmaları I",
-    "sections": [
-      {
-        "id": "01",
-        "teacher": {
-          "name": "Zelal Özdemir"
-        },
-        "schedules": [
-          {
-            "day": "Salı",
-            "classroom": "İşletme Z09 RB",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "12:20",
-            "duration": "3 period(s)"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "LOG444",
     "name": "Practical Training in International Trade and Logistics",
     "sections": [
@@ -17239,7 +17017,7 @@
         "schedules": [
           {
             "day": "Pazartesi",
-            "classroom": "İşletme Z01 RB",
+            "classroom": "Ofis Saati",
             "period": "3.",
             "startTime": "11:30",
             "endTime": "14:20",
@@ -17261,7 +17039,7 @@
         "schedules": [
           {
             "day": "Çarşamba",
-            "classroom": "Konf.Sal. Cengiz Yenerim",
+            "classroom": "İşletme 212 İB",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "12:20",
@@ -17283,7 +17061,7 @@
         "schedules": [
           {
             "day": "Perşembe",
-            "classroom": "Konf.Sal. Cengiz Yenerim",
+            "classroom": "İşletme Z10 İB",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "12:20",
@@ -17305,7 +17083,7 @@
         "schedules": [
           {
             "day": "Cuma",
-            "classroom": "Konf.Sal. Cengiz Yenerim",
+            "classroom": "İşletme Z15 İB",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "12:20",
@@ -17327,7 +17105,7 @@
         "schedules": [
           {
             "day": "Salı",
-            "classroom": "Konf.Sal. Cengiz Yenerim",
+            "classroom": "İşletme Z15 İB",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "16:20",
@@ -17370,7 +17148,7 @@
         },
         "schedules": [
           {
-            "day": "Perşembe",
+            "day": "Salı",
             "classroom": "Sağlık Bil. Toplantı Salonu",
             "period": "1.",
             "startTime": "09:30",
@@ -17393,7 +17171,7 @@
         "schedules": [
           {
             "day": "Pazartesi",
-            "classroom": "Sağlık Bil. Toplantı Salonu",
+            "classroom": "Sağlık Bil. Z03",
             "period": "4.",
             "startTime": "12:30",
             "endTime": "14:20",
@@ -17503,7 +17281,7 @@
         "schedules": [
           {
             "day": "Pazartesi",
-            "classroom": "Sağlık Bil. Toplantı Salonu",
+            "classroom": "Sağlık Bil. Z03",
             "period": "6.",
             "startTime": "14:30",
             "endTime": "17:20",
@@ -17525,7 +17303,7 @@
         "schedules": [
           {
             "day": "Pazartesi",
-            "classroom": "Sağlık Bil. Toplantı Salonu",
+            "classroom": "Sağlık Bil. Z02",
             "period": "2.",
             "startTime": "10:30",
             "endTime": "12:20",
@@ -17569,7 +17347,7 @@
         "schedules": [
           {
             "day": "Salı",
-            "classroom": "İşletme Z15 İB",
+            "classroom": "İşletme 209 İB",
             "period": "6.",
             "startTime": "14:30",
             "endTime": "17:20",
@@ -17768,9 +17546,9 @@
           {
             "day": "Pazartesi",
             "classroom": "Sağlık Bil. Z03",
-            "period": "5.",
-            "startTime": "13:30",
-            "endTime": "15:20",
+            "period": "2.",
+            "startTime": "10:30",
+            "endTime": "12:20",
             "duration": "2 period(s)"
           }
         ]
@@ -17863,40 +17641,10 @@
           },
           {
             "day": "Çarşamba",
-            "classroom": "FEF 113",
+            "classroom": "İşletme Z15 İB",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "12:20",
-            "duration": "3 period(s)"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "ELIT104",
-    "name": "ELIT104",
-    "sections": [
-      {
-        "id": "01",
-        "teacher": {
-          "name": "Staff"
-        },
-        "schedules": [
-          {
-            "day": "Perşembe",
-            "classroom": "Konf.Sal. Cengiz Yenerim",
-            "period": "5.",
-            "startTime": "13:30",
-            "endTime": "16:20",
-            "duration": "3 period(s)"
-          },
-          {
-            "day": "Perşembe",
-            "classroom": "FEF 112",
-            "period": "5.",
-            "startTime": "13:30",
-            "endTime": "16:20",
             "duration": "3 period(s)"
           }
         ]
@@ -18218,8 +17966,8 @@
             "classroom": "Sağlık Bil. 329",
             "period": "5.",
             "startTime": "13:30",
-            "endTime": "17:20",
-            "duration": "4 period(s)"
+            "endTime": "16:20",
+            "duration": "3 period(s)"
           }
         ]
       }
@@ -18412,11 +18160,11 @@
         },
         "schedules": [
           {
-            "day": "Salı",
-            "classroom": "Sağlık Bil. Z03",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "12:20",
+            "day": "Çarşamba",
+            "classroom": "Sağlık Bil. 330",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
             "duration": "3 period(s)"
           }
         ]
@@ -18466,9 +18214,9 @@
           {
             "day": "Perşembe",
             "classroom": "Sağlık Bil. Z03",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "12:20",
+            "period": "3.",
+            "startTime": "11:30",
+            "endTime": "14:20",
             "duration": "3 period(s)"
           }
         ]
@@ -18486,11 +18234,11 @@
         },
         "schedules": [
           {
-            "day": "Perşembe",
-            "classroom": "İşletme Z15 İB",
-            "period": "5.",
-            "startTime": "13:30",
-            "endTime": "16:20",
+            "day": "Cuma",
+            "classroom": "Sağlık Bil. AMFİ 104",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "18:20",
             "duration": "3 period(s)"
           }
         ]
@@ -19006,7 +18754,7 @@
       {
         "id": "01",
         "teacher": {
-          "name": "Duygu ERGÜN TAKAN"
+          "name": "Beyza Tokgoz"
         },
         "schedules": [
           {
@@ -19071,7 +18819,7 @@
         "schedules": [
           {
             "day": "Cuma",
-            "classroom": "Müh. B1014H",
+            "classroom": "YDYO C-615/C-616",
             "period": "7.",
             "startTime": "15:30",
             "endTime": "18:20",
@@ -20523,7 +20271,7 @@
         "schedules": [
           {
             "day": "Perşembe",
-            "classroom": "Müh. 1026IÖ",
+            "classroom": "Müh. 2017H",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "12:20",
@@ -20655,7 +20403,7 @@
         "schedules": [
           {
             "day": "Çarşamba",
-            "classroom": "Müh. 1026IÖ",
+            "classroom": "Konf.Sal. 1020",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "16:20",
@@ -20699,7 +20447,7 @@
         "schedules": [
           {
             "day": "Çarşamba",
-            "classroom": "Müh. B1017H",
+            "classroom": "İşletme Z03 RB",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "12:20",
@@ -20779,22 +20527,6 @@
     "id": "AVM420",
     "name": "Havayolu İşletmelerinde Stratejik Yönetim",
     "sections": [
-      {
-        "id": "01",
-        "teacher": {
-          "name": "Esra Çınar"
-        },
-        "schedules": [
-          {
-            "day": "Çarşamba",
-            "classroom": "Müh. B1043-IIÖ",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "12:20",
-            "duration": "3 period(s)"
-          }
-        ]
-      },
       {
         "id": "02",
         "teacher": {
@@ -21400,8 +21132,8 @@
             "duration": "2 period(s)"
           },
           {
-            "day": "Çarşamba",
-            "classroom": "3035",
+            "day": "Perşembe",
+            "classroom": "3029",
             "period": "7.",
             "startTime": "15:30",
             "endTime": "17:20",
@@ -21520,8 +21252,8 @@
         },
         "schedules": [
           {
-            "day": "Perşembe",
-            "classroom": "Müh. B1003H",
+            "day": "Çarşamba",
+            "classroom": "3035",
             "period": "7.",
             "startTime": "15:30",
             "endTime": "17:20",
@@ -21538,9 +21270,9 @@
           {
             "day": "Pazartesi",
             "classroom": "Müh. B1019Ö",
-            "period": "8.",
-            "startTime": "16:30",
-            "endTime": "18:20",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
             "duration": "2 period(s)"
           }
         ]
@@ -21778,8 +21510,16 @@
             "classroom": "B3046",
             "period": "3.",
             "startTime": "11:30",
-            "endTime": "18:20",
-            "duration": "7 period(s)"
+            "endTime": "16:20",
+            "duration": "5 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "B2029",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
           }
         ]
       },
@@ -21972,12 +21712,20 @@
         },
         "schedules": [
           {
-            "day": "Çarşamba",
-            "classroom": "3029",
-            "period": "5.",
-            "startTime": "13:30",
+            "day": "Cuma",
+            "classroom": "Müh. 2029Ö",
+            "period": "6.",
+            "startTime": "14:30",
             "endTime": "17:20",
-            "duration": "4 period(s)"
+            "duration": "3 period(s)"
+          },
+          {
+            "day": "Cuma",
+            "classroom": "Müh. B1043-IIÖ",
+            "period": "3.",
+            "startTime": "11:30",
+            "endTime": "12:20",
+            "duration": "1 period(s)"
           }
         ]
       }
@@ -22116,6 +21864,30 @@
             "duration": "4 period(s)"
           }
         ]
+      },
+      {
+        "id": "02",
+        "teacher": {
+          "name": "Mehmet Argun"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. B1003H",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "18:20",
+            "duration": "3 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. 2025H",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "15:20",
+            "duration": "1 period(s)"
+          }
+        ]
       }
     ]
   },
@@ -22131,10 +21903,26 @@
         "schedules": [
           {
             "day": "Çarşamba",
-            "classroom": "Müh. 1026IIH",
+            "classroom": "Müh. B1007H",
             "period": "6.",
             "startTime": "14:30",
             "endTime": "17:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "teacher": {
+          "name": "Hakan Türköz"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "Müh. B1015H",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "18:20",
             "duration": "3 period(s)"
           }
         ]
@@ -22168,6 +21956,22 @@
             "duration": "1 period(s)"
           }
         ]
+      },
+      {
+        "id": "02",
+        "teacher": {
+          "name": "Mehmet Argun"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Müh. B1019Ö",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "14:20",
+            "duration": "5 period(s)"
+          }
+        ]
       }
     ]
   },
@@ -22187,6 +21991,22 @@
             "period": "6.",
             "startTime": "14:30",
             "endTime": "16:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "teacher": {
+          "name": "Gürkan Açıkel"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "3029",
+            "period": "8.",
+            "startTime": "16:30",
+            "endTime": "18:20",
             "duration": "2 period(s)"
           }
         ]
@@ -22212,6 +22032,22 @@
             "duration": "2 period(s)"
           }
         ]
+      },
+      {
+        "id": "02",
+        "teacher": {
+          "name": "İBRAHİM SARAÇ"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Müh. B1023Ö",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "16:20",
+            "duration": "2 period(s)"
+          }
+        ]
       }
     ]
   },
@@ -22228,6 +22064,22 @@
           {
             "day": "Pazartesi",
             "classroom": "Müh. B1007H",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "14:20",
+            "duration": "5 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "teacher": {
+          "name": "Murat Beltan"
+        },
+        "schedules": [
+          {
+            "day": "Cumartesi",
+            "classroom": "3035",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "14:20",
@@ -22252,8 +22104,24 @@
             "classroom": "Müh. 1023H",
             "period": "1.",
             "startTime": "09:30",
-            "endTime": "14:20",
-            "duration": "5 period(s)"
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "teacher": {
+          "name": "Mehmet Erkan"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "Müh. 1019 H",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
+            "duration": "3 period(s)"
           }
         ]
       }
@@ -22312,6 +22180,30 @@
           {
             "day": "Cuma",
             "classroom": "3035",
+            "period": "9.",
+            "startTime": "17:30",
+            "endTime": "19:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "teacher": {
+          "name": "Umit Keles"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "3041",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "14:20",
+            "duration": "5 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "3029",
             "period": "9.",
             "startTime": "17:30",
             "endTime": "19:20",
@@ -22668,6 +22560,28 @@
     ]
   },
   {
+    "id": "PLT404",
+    "name": "Ekip Kaynak Yönetimi",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Ayşe Aslı YILMAZ"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "UZAKTAN",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "PLT413",
     "name": "Havacılık Psikolojisi",
     "sections": [
@@ -22683,6 +22597,28 @@
             "period": "8.",
             "startTime": "16:30",
             "endTime": "19:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PLT421",
+    "name": "Kaza Kırımları Analizleri",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Ayşe Aslı YILMAZ"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "UZAKTAN",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
             "duration": "3 period(s)"
           }
         ]
@@ -22860,36 +22796,6 @@
     ]
   },
   {
-    "id": "ENE408",
-    "name": "ENE408",
-    "sections": [
-      {
-        "id": "01",
-        "teacher": {
-          "name": "Huseyin Oymak"
-        },
-        "schedules": [
-          {
-            "day": "Pazartesi",
-            "classroom": "Müh. 2015H",
-            "period": "6.",
-            "startTime": "14:30",
-            "endTime": "16:20",
-            "duration": "2 period(s)"
-          },
-          {
-            "day": "Çarşamba",
-            "classroom": "Müh. 2023H",
-            "period": "7.",
-            "startTime": "15:30",
-            "endTime": "17:20",
-            "duration": "2 period(s)"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "MATH112",
     "name": "MATH112",
     "sections": [
@@ -23030,9 +22936,9 @@
           {
             "day": "Perşembe",
             "classroom": "FEF G 13",
-            "period": "5.",
-            "startTime": "13:30",
-            "endTime": "16:20",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "17:20",
             "duration": "3 period(s)"
           },
           {
@@ -23201,7 +23107,7 @@
         "schedules": [
           {
             "day": "Perşembe",
-            "classroom": "FEF406",
+            "classroom": "İşletme Z09 RB",
             "period": "4.",
             "startTime": "12:30",
             "endTime": "14:20",
@@ -24298,9 +24204,9 @@
           {
             "day": "Salı",
             "classroom": "L1",
-            "period": "4.",
-            "startTime": "12:30",
-            "endTime": "15:20",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
             "duration": "3 period(s)"
           }
         ]
@@ -24406,11 +24312,11 @@
         },
         "schedules": [
           {
-            "day": "Çarşamba",
-            "classroom": "Sağlık Bil. 330",
-            "period": "5.",
-            "startTime": "13:30",
-            "endTime": "15:20",
+            "day": "Salı",
+            "classroom": "Sağlık Bil. Z03",
+            "period": "2.",
+            "startTime": "10:30",
+            "endTime": "12:20",
             "duration": "2 period(s)"
           }
         ]
@@ -24520,7 +24426,7 @@
     "name": "Sanat Tarihi",
     "sections": [
       {
-        "id": "01",
+        "id": "02",
         "teacher": {
           "name": "Sule Pfeiffer"
         },
@@ -25308,22 +25214,22 @@
     ]
   },
   {
-    "id": "8 Şubat CMPE/ISE/SE494",
-    "name": "8 Şubat CMPE/ISE/SE494",
+    "id": "ELIT104",
+    "name": "ELIT104",
     "sections": [
       {
-        "id": "Unknown SectionID",
+        "id": "01",
         "teacher": {
           "name": "Staff"
         },
         "schedules": [
           {
             "day": "Perşembe",
-            "classroom": "Müh. 1029H",
-            "period": "8.",
-            "startTime": "16:30",
-            "endTime": "17:20",
-            "duration": "1 period(s)"
+            "classroom": "İşletme Z15 İB",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
+            "duration": "3 period(s)"
           }
         ]
       }
@@ -26242,8 +26148,16 @@
             "classroom": "Müh. B1014H",
             "period": "1.",
             "startTime": "09:30",
-            "endTime": "12:20",
-            "duration": "3 period(s)"
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "B2015 (Elektronik ve Sayısal Tasarım Lab.)",
+            "period": "3.",
+            "startTime": "11:30",
+            "endTime": "13:20",
+            "duration": "2 period(s)"
           }
         ]
       }
@@ -26442,9 +26356,9 @@
           {
             "day": "Cuma",
             "classroom": "FEF G15 ",
-            "period": "6.",
-            "startTime": "14:30",
-            "endTime": "16:20",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
             "duration": "2 period(s)"
           },
           {
@@ -26480,9 +26394,9 @@
           {
             "day": "Cuma",
             "classroom": "FEF G15 ",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "11:20",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
             "duration": "2 period(s)"
           }
         ]
@@ -26530,11 +26444,11 @@
         },
         "schedules": [
           {
-            "day": "Perşembe",
+            "day": "Pazartesi",
             "classroom": "FEF G15 ",
-            "period": "4.",
-            "startTime": "12:30",
-            "endTime": "14:20",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
             "duration": "2 period(s)"
           },
           {
@@ -26560,11 +26474,11 @@
         },
         "schedules": [
           {
-            "day": "Salı",
+            "day": "Cuma",
             "classroom": "FEF LAB",
-            "period": "2.",
-            "startTime": "10:30",
-            "endTime": "12:20",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
             "duration": "2 period(s)"
           },
           {
@@ -26574,36 +26488,6 @@
             "startTime": "12:30",
             "endTime": "14:20",
             "duration": "2 period(s)"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "PSY327",
-    "name": "Culture and Social Behavior",
-    "sections": [
-      {
-        "id": "01",
-        "teacher": {
-          "name": "Irem Metin Orta"
-        },
-        "schedules": [
-          {
-            "day": "Salı",
-            "classroom": "FEF 311",
-            "period": "5.",
-            "startTime": "13:30",
-            "endTime": "15:20",
-            "duration": "2 period(s)"
-          },
-          {
-            "day": "Cuma",
-            "classroom": "FEF 311",
-            "period": "4.",
-            "startTime": "12:30",
-            "endTime": "13:20",
-            "duration": "1 period(s)"
           }
         ]
       }
@@ -26630,9 +26514,9 @@
           {
             "day": "Perşembe",
             "classroom": "FEF 311",
-            "period": "6.",
-            "startTime": "14:30",
-            "endTime": "16:20",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
             "duration": "2 period(s)"
           }
         ]
@@ -26681,7 +26565,7 @@
         "schedules": [
           {
             "day": "Salı",
-            "classroom": "Derslik Atanacak",
+            "classroom": "Hukuk K3",
             "period": "6.",
             "startTime": "14:30",
             "endTime": "17:20",
@@ -26747,10 +26631,10 @@
         "schedules": [
           {
             "day": "Çarşamba",
-            "classroom": "Derslik Atanacak",
-            "period": "6.",
-            "startTime": "14:30",
-            "endTime": "17:20",
+            "classroom": "İşletme 212 İB",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "18:20",
             "duration": "3 period(s)"
           }
         ]
@@ -26813,7 +26697,7 @@
         "schedules": [
           {
             "day": "Çarşamba",
-            "classroom": "Derslik Atanacak",
+            "classroom": "İşletme 115 RB",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "16:20",
@@ -26952,11 +26836,11 @@
         },
         "schedules": [
           {
-            "day": "Perşembe",
+            "day": "Salı",
             "classroom": "FEF 311",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "11:20",
+            "period": "2.",
+            "startTime": "10:30",
+            "endTime": "12:20",
             "duration": "2 period(s)"
           }
         ]
@@ -27370,6 +27254,132 @@
     ]
   },
   {
+    "id": "LAW308",
+    "name": "İDARİ YARGI",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Metin Günday  "
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Hukuk A3 (Nami Çağan) AMFİSİ",
+            "period": "2.",
+            "startTime": "10:30",
+            "endTime": "12:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Pazartesi",
+            "classroom": "Hukuk A3 (Nami Çağan) AMFİSİ",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "14:20",
+            "duration": "1 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW332",
+    "name": "AVUKATLIK VE NOTERLİK HUKUKU",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Mustafa Köseoğlu    "
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Hukuk A3 (Nami Çağan) AMFİSİ",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "16:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW314",
+    "name": "İDARİ YAPTIRIMLAR HUKUKU",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Pınar Yaşar  "
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Hukuk K3",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "16:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW356",
+    "name": "SEMİNER II",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Çiğdem Sever  "
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Hukuk K3",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW302",
+    "name": "EŞYA HUKUKU",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Mehmet Istemi"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Hukuk A3 (Nami Çağan) AMFİSİ",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "14:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "Hukuk A2 AMFİSİ ",
+            "period": "3.",
+            "startTime": "11:30",
+            "endTime": "13:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "FRE202",
     "name": "FRE202",
     "sections": [
@@ -27381,7 +27391,7 @@
         "schedules": [
           {
             "day": "Cuma",
-            "classroom": "İşletme 115 RB",
+            "classroom": "İşletme 208 İB",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "16:20",
@@ -27403,7 +27413,7 @@
         "schedules": [
           {
             "day": "Cuma",
-            "classroom": "İşletme 114 RB",
+            "classroom": "İşletme 113 İB",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "16:20",
@@ -27508,15 +27518,839 @@
       {
         "id": "01",
         "teacher": {
+          "name": "Umut Acun"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Hukuk K3",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PSY332",
+    "name": "Attitude Measurement",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Irem Metin Orta"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "FEF 311",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
+            "duration": "3 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "FEF 311",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EE402",
+    "name": "Kablosuz Haberlesme",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Yaser Dalveren"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Müh. B1025Ö",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW342",
+    "name": "EŞYA HUKUKU - II",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Mehmet Istemi"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Hukuk A3 (Nami Çağan) AMFİSİ",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "16:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "Hukuk A3 (Nami Çağan) AMFİSİ",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "15:20",
+            "duration": "1 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW338",
+    "name": "MALİ SUÇLAR",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Dogan Cansızlar"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Hukuk K1",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW312",
+    "name": "ŞİRKETLER HUKUKU",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Aynur Yongalık  "
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Hukuk A3 (Nami Çağan) AMFİSİ",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW310",
+    "name": "ANAYASA MAHKEMESİNE BİREYSEL BAŞVURU",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Ozan Ergül       "
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Hukuk A3 (Nami Çağan) AMFİSİ",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "14:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW304",
+    "name": "MEDENİ USUL HUKUKU II",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Cengiz Kulaksız  "
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Hukuk K1",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Cuma",
+            "classroom": "Hukuk K1",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "13:20",
+            "duration": "1 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW322",
+    "name": "VERGİ HUKUKU",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Zeynep Müftüoğlu  "
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Hukuk A3 (Nami Çağan) AMFİSİ",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Cuma",
+            "classroom": "Hukuk A3 (Nami Çağan) AMFİSİ",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW330",
+    "name": "SERMAYE PİYASASI HUKUKU",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Damla Songur"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Hukuk A3 (Nami Çağan) AMFİSİ",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW344",
+    "name": "CEZA HUKUKU ÖZEL HÜKÜMLER II",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Timuçin Köprülü"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "Hukuk K2",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW434",
+    "name": "AVRUPA BİRLİĞİ HUKUKU",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Füsun Arsava     "
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Hukuk A4 AMFİSİ ",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW412",
+    "name": "ULUSLARARASI ÖZEL HUKUK",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Esra Dardağan Kibar     "
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Hukuk A4 AMFİSİ ",
+            "period": "3.",
+            "startTime": "11:30",
+            "endTime": "13:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Çarşamba",
+            "classroom": "Hukuk A4 AMFİSİ ",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW416",
+    "name": "ULUSLARARASI ÖZEL HUKUK - II",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Esra Dardağan Kibar     "
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Hukuk A4 AMFİSİ ",
+            "period": "3.",
+            "startTime": "11:30",
+            "endTime": "13:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Çarşamba",
+            "classroom": "Hukuk A4 AMFİSİ ",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW414",
+    "name": "SOSYAL GÜVENLİK HUKUKU",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Mehmet Ali Şuğle"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "Hukuk A4 AMFİSİ ",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW408",
+    "name": "KIYMETLİ EVRAK HUKUKU",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Celal Göle "
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Hukuk A4 AMFİSİ ",
+            "period": "2.",
+            "startTime": "10:30",
+            "endTime": "12:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "Hukuk A4 AMFİSİ ",
+            "period": "2.",
+            "startTime": "10:30",
+            "endTime": "11:20",
+            "duration": "1 period(s)"
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "teacher": {
+          "name": "Sabih Arkan "
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Hukuk A3 (Nami Çağan) AMFİSİ",
+            "period": "2.",
+            "startTime": "10:30",
+            "endTime": "12:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "Hukuk A3 (Nami Çağan) AMFİSİ",
+            "period": "3.",
+            "startTime": "11:30",
+            "endTime": "12:20",
+            "duration": "1 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW436",
+    "name": "HUKUK FELSEFESİ VE SOSYOLOJİSİ",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Serdar Hoş     "
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Hukuk A4 AMFİSİ ",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "16:20",
+            "duration": "4 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW406",
+    "name": "CEZA USUL HUKUKU II",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Timuçin Köprülü"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Hukuk A4 AMFİSİ ",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW424",
+    "name": "SİGORTA HUKUKU",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Serdar Hizir"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "Hukuk K1",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW420",
+    "name": "İCRA VE İFLAS HUKUKU",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Cengiz Kulaksız  "
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "Hukuk A4 AMFİSİ ",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LOG401",
+    "name": "LOG401",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Hande Emin Benli"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "İşletme Z14 İB",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CHL 13 ŞUBAT",
+    "name": "CHL 13 ŞUBAT",
+    "sections": [
+      {
+        "id": "Unknown SectionID",
+        "teacher": {
           "name": "Staff"
         },
         "schedules": [
           {
             "day": "Salı",
-            "classroom": "İşletme Z14 İB",
+            "classroom": "İşletme Z09 RB",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "22 MART",
+    "name": "MATH275",
+    "sections": [
+      {
+        "id": "3 MAYIS",
+        "teacher": {
+          "name": "Staff"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "Müh. 1029H",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "14:20",
+            "duration": "2 period(s)"
+          },
+          {
+            "day": "Cuma",
+            "classroom": "Müh. B1017H",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "14:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LOG405",
+    "name": "LOG405",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Nevzat Saygilioglu"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "İşletme Z09 İB",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "APM444",
+    "name": "APM444",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Erk Inger"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "Konf.Sal. 1022",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PSY505",
+    "name": "Field Practice",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Nese Alkan"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "BOYLAM",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "17:20",
+            "duration": "8 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PSY535",
+    "name": "Supervision",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Nese Alkan"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "FEF 326",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PSY507",
+    "name": "Psychological Assessment I",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Dilek Demirtepe Saygili"
+        },
+        "schedules": [
+          {
+            "day": "Salı",
+            "classroom": "FEF 215",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PSY508",
+    "name": "Adult Psychotherapies",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Nese Alkan"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "FEF 326",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "FEF 326",
+            "period": "7.",
+            "startTime": "15:30",
+            "endTime": "17:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PSY510",
+    "name": "Psychological Assessment II",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Dilek Demirtepe Saygili"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "FEF 326",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "FEF 326",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "15:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PSY511",
+    "name": "Adult Psychopathology",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Ertuğrul KÖROĞLU"
+        },
+        "schedules": [
+          {
+            "day": "Cuma",
+            "classroom": "BOYLAM",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "17:20",
+            "duration": "8 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PSY520",
+    "name": "Special Topics in Clinical Psychology",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Nese Alkan"
+        },
+        "schedules": [
+          {
+            "day": "Perşembe",
+            "classroom": "FEF 326",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "FEF 326",
+            "period": "1.",
+            "startTime": "09:30",
+            "endTime": "11:20",
+            "duration": "2 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PSY522",
+    "name": "Special Topics in Psychopathology",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Nese Alkan"
+        },
+        "schedules": [
+          {
+            "day": "Pazartesi",
+            "classroom": "FEF 326",
+            "period": "6.",
+            "startTime": "14:30",
+            "endTime": "17:20",
+            "duration": "3 period(s)"
+          },
+          {
+            "day": "Perşembe",
+            "classroom": "FEF 326",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "16:20",
             "duration": "3 period(s)"
           }
         ]

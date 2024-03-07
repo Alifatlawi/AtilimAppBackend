@@ -1,0 +1,332 @@
+[
+  {
+    "courseCode": "ENG102",
+    "date": "23.03.2024",
+    "time": "10:00-10:50"
+  },
+  {
+    "courseCode": "ENG122 /\n  ENG222 / ENG322",
+    "date": "23.03.2024",
+    "time": "11:30-12:20"
+  },
+  {
+    "courseCode": "Matematik Servis Dersleri 2023-2024 Bahar Dönemi 1. ve 2.\n  Arasınav Tarihleri",
+    "date": "",
+    "time": ""
+  },
+  {
+    "courseCode": "MATH102-106 I. MIDTERM",
+    "date": "22.03.2024",
+    "time": "16:30-17:30"
+  },
+  {
+    "courseCode": "MATH102-106\n  II. MIDTERM",
+    "date": "03.05.2024",
+    "time": "16:30-17:30"
+  },
+  {
+    "courseCode": "MATH108 I.\n  MIDTERM",
+    "date": "14.03.2024",
+    "time": "16:30-17:30"
+  },
+  {
+    "courseCode": "MATH108 II.\n  MIDTERM",
+    "date": "18.04.2024",
+    "time": "16:30-17:30"
+  },
+  {
+    "courseCode": "MATH110 I.\n  MIDTERM",
+    "date": "20.03.2024",
+    "time": "16:30-17:30"
+  },
+  {
+    "courseCode": "MATH110 II.\n  MIDTERM",
+    "date": "17.04.2024",
+    "time": "16:30-17:30"
+  },
+  {
+    "courseCode": "MATH151 I.\n  MIDTERM",
+    "date": "28.03.2024",
+    "time": "16:30"
+  },
+  {
+    "courseCode": "MATH151 II.\n  MIDTERM",
+    "date": "04.05.2024",
+    "time": "09:30-11:30"
+  },
+  {
+    "courseCode": "MATH152 I.\n  MIDTERM",
+    "date": "23.03.2024",
+    "time": "14:10"
+  },
+  {
+    "courseCode": "MATH152 II.\n  MIDTERM",
+    "date": "27.04.2024",
+    "time": "14:10"
+  },
+  {
+    "courseCode": "MATH275 I.\n  MIDTERM",
+    "date": "22.03.2024",
+    "time": "12:30-14:00"
+  },
+  {
+    "courseCode": "MATH275 II.\n  MIDTERM",
+    "date": "03.05.2024",
+    "time": "12:30-14:00"
+  },
+  {
+    "courseCode": "MATH276 I.\n  MIDTERM",
+    "date": "23.03.2024",
+    "time": "16:00"
+  },
+  {
+    "courseCode": "MATH276 II.\n  MIDTERM",
+    "date": "04.05.2024",
+    "time": "12:00-14:00"
+  },
+  {
+    "courseCode": "MATH292-294 I.\n  MIDTERM",
+    "date": "14.03.2024",
+    "time": "16:30-17:30"
+  },
+  {
+    "courseCode": "MATH292-294\n  II. MIDTERM",
+    "date": "18.04.2024",
+    "time": "16:30-17:30"
+  },
+  {
+    "courseCode": "MATH380 I.\n  MIDTERM",
+    "date": "20.03.2024",
+    "time": "16:30-18:00"
+  },
+  {
+    "courseCode": "MATH380 II. MIDTERM",
+    "date": "02.05.2024",
+    "time": "16:30-18:00"
+  },
+  {
+    "courseCode": "SBOD Dersleri 2023-2024 Bahar Dönemi Arasınav Tarihleri",
+    "date": "",
+    "time": ""
+  },
+  {
+    "courseCode": "HIST102-\n  01-03",
+    "date": "25.03.2024",
+    "time": "19.00-19.30"
+  },
+  {
+    "courseCode": "HIST102- 02- 04",
+    "date": "25.03.2024",
+    "time": "19.45-20.15"
+  },
+  {
+    "courseCode": "HIST101- 01",
+    "date": "25.03.2024",
+    "time": "20.30-21.00"
+  },
+  {
+    "courseCode": "HIST112- 01- 05",
+    "date": "26.03.2024",
+    "time": "19.00-19.30"
+  },
+  {
+    "courseCode": "HIST112- 02- 04",
+    "date": "26.03.2024",
+    "time": "19.45-20.15"
+  },
+  {
+    "courseCode": "HIST112- 03",
+    "date": "26.03.2024",
+    "time": "20.30-21.00"
+  },
+  {
+    "courseCode": "HIST201- 01",
+    "date": "27.03.2024",
+    "time": "19.00-19.20"
+  },
+  {
+    "courseCode": "HIST201- 02",
+    "date": "27.03.2024",
+    "time": "19.00-19.30"
+  },
+  {
+    "courseCode": "HIST221- 01- 02- 03",
+    "date": "27.03.2024",
+    "time": "19.45-20.05"
+  },
+  {
+    "courseCode": "HIST221- 04- 05",
+    "date": "27.03.2024",
+    "time": "20.30-21.00"
+  },
+  {
+    "courseCode": "TURK402- 03",
+    "date": "28.03.2024",
+    "time": "19.00-19.30"
+  },
+  {
+    "courseCode": "TURK402- 05",
+    "date": "28.03.2024",
+    "time": "19.45-20.15"
+  },
+  {
+    "courseCode": "TURK401- 01-",
+    "date": "28.03.2024",
+    "time": "20.30-21.00"
+  },
+  {
+    "courseCode": "TURK402- 02- 04-",
+    "date": "29.03.2024",
+    "time": "19.00-19.30"
+  },
+  {
+    "courseCode": "TURK402- 01",
+    "date": "29.03.2024",
+    "time": "19.45-20.15"
+  },
+  {
+    "courseCode": "HIST111- 01-",
+    "date": "29.03.2024",
+    "time": "20.30-21.00"
+  },
+  {
+    "courseCode": "TURK202- 01-",
+    "date": "25.03.2024",
+    "time": "09.30-10.15"
+  },
+  {
+    "courseCode": "TURK202- 02-",
+    "date": "28.03.2024",
+    "time": "10:30-12:15"
+  },
+  {
+    "courseCode": "TURK202- 03-",
+    "date": "26.03.2024",
+    "time": "14:30-16:15"
+  },
+  {
+    "courseCode": "TURK202- 04-",
+    "date": "26.03.2024",
+    "time": "09:30-11:15"
+  },
+  {
+    "courseCode": "Fizik Grubu Servis Dersleri 2023-2024 Bahar Dönemi 1. ve 2.\n  Arasınav Tarihleri",
+    "date": "",
+    "time": ""
+  },
+  {
+    "courseCode": "PHYS101 I. MIDTERM",
+    "date": "09.03.2024",
+    "time": "13:00"
+  },
+  {
+    "courseCode": "PHYS102 I.\n  MIDTERM",
+    "date": "09.03.2024",
+    "time": "10:00-12:00"
+  },
+  {
+    "courseCode": "PHYS101 II.\n  MIDTERM",
+    "date": "20.04.2024",
+    "time": "13:00"
+  },
+  {
+    "courseCode": "PHYS102 II.\n  MIDTERM",
+    "date": "20.04.2024",
+    "time": "10:00-12:00"
+  },
+  {
+    "courseCode": "Kimya Grubu Servis Dersleri 2023-2024 Bahar Dönemi 1. ve 2.\n  Arasınav Tarihleri",
+    "date": "",
+    "time": ""
+  },
+  {
+    "courseCode": "CHE105 I. MIDTERM",
+    "date": "16.03.2024",
+    "time": "10:00"
+  },
+  {
+    "courseCode": "CHE105 II.\n  MIDTERM",
+    "date": "27.04.2024",
+    "time": "10:00"
+  },
+  {
+    "courseCode": "Mühendislik Fakültesi Servis Dersleri 2023-2024 Bahar Dönemi\n  Arasınav Tarihleri",
+    "date": "",
+    "time": ""
+  },
+  {
+    "courseCode": "CMPE102 I. MIDTERM",
+    "date": "03.04.2024",
+    "time": "16:30"
+  },
+  {
+    "courseCode": "CMPE102 II.\n  MIDTERM",
+    "date": "24.04.2024",
+    "time": "16:30"
+  },
+  {
+    "courseCode": "IE220 I.\n  MIDTERM",
+    "date": "18.03.2024",
+    "time": "16:30"
+  },
+  {
+    "courseCode": "IE220 II.\n  MIDTERM",
+    "date": "22.04.2024",
+    "time": "16:30"
+  },
+  {
+    "courseCode": "IE305",
+    "date": "17.04.2024",
+    "time": "16:30"
+  },
+  {
+    "courseCode": "MECE204 I.\n  MIDTERM",
+    "date": "16.03.2024",
+    "time": "12:00"
+  },
+  {
+    "courseCode": "MECE204 II.\n  MIDTERM",
+    "date": "20.04.2024",
+    "time": "15:00"
+  },
+  {
+    "courseCode": "MATE207 I.\n  MIDTERM",
+    "date": "14.03.2024",
+    "time": "16:30"
+  },
+  {
+    "courseCode": "MATE207 II.\n  MIDTERM",
+    "date": "18.04.2024",
+    "time": "16:30"
+  },
+  {
+    "courseCode": "ME210-01-02-03\n  I. MIDTERM",
+    "date": "23.03.2024",
+    "time": "12:30-14:00"
+  },
+  {
+    "courseCode": "ME210-01-02-03\n  II. MIDTERM",
+    "date": "27.04.2024",
+    "time": "12:00-14:00"
+  },
+  {
+    "courseCode": "ME210-01-02-03\n  III. MIDTERM",
+    "date": "11.05.2024",
+    "time": "10:30-12:30"
+  },
+  {
+    "courseCode": "ME211 I.\n  MIDTERM",
+    "date": "23.03.2024",
+    "time": "12:30-14:00"
+  },
+  {
+    "courseCode": "ME211 II.\n  MIDTERM",
+    "date": "27.04.2024",
+    "time": "12:00-14:00"
+  },
+  {
+    "courseCode": "ME211 III.\n  MIDTERM",
+    "date": "11.05.2024",
+    "time": "10:30-12:30"
+  }
+]

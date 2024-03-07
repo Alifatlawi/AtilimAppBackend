@@ -3,6 +3,8 @@ const fs = require('fs');
 const path = require('path');
 const fetchDataAndProcess = require('./controller/dataFetcherController').fetchDataAndProcess;
 const scheduleGenerator = require('./controller/scheduleController');
+const { fetchMidExams } = require('./controller/examsFetchController');
+const { fetchGeneralCoursesExams } = require('./controller/examsFetchController')
 
 
 const app = express();
@@ -22,6 +24,29 @@ app.get('/courses', (req, res) => {
         }
     });
 });
+
+app.get('/EngMidExams', (req, res) => {
+    const filePath = path.join(__dirname, 'public/EngMidExams.json');
+    fs.readFile(filePath, 'utf8', (err, data) => {
+        if (err) {
+            res.status(500).json({ message: "Error reading exam data file" });
+        } else {
+            res.json(JSON.parse(data));
+        }
+    });
+});
+
+app.get('/GeneralMidExams', (req, res) => {
+    const filePath = path.join(__dirname, 'public/GenCoursesExams.json');
+    fs.readFile(filePath, 'utf8', (err, data) => {
+        if (err){
+            res.status(500).json({message: "Error reading exam data file"});
+        } else {
+            res.json(JSON.parse(data));
+        }
+    });
+});
+
 
 app.post('/generateSchedule', async (req, res) => {
     try {
@@ -47,9 +72,20 @@ app.post('/generateSchedule', async (req, res) => {
 
 // ... (other routes and configurations)
 
-// Schedule to run every 24 hours and on startup
+
+// Schedule fetchDataAndProcess to run every 3 hours
 setInterval(fetchDataAndProcess, 3 * 3600 * 1000);
+
+// Schedule fetchMidExams to run every 3 hours
+setInterval(fetchMidExams, 3 * 3600 * 1000);
+
+setInterval(fetchGeneralCoursesExams, 3 * 3600 * 1000);
+
+// Initial fetch on startup for both functions
 fetchDataAndProcess();
+fetchMidExams();
+fetchGeneralCoursesExams();
+
 
 const port = process.env.PORT || 4000;
 app.listen(port, () => {
