@@ -3,8 +3,8 @@ const fs = require('fs');
 const path = require('path');
 const fetchDataAndProcess = require('./controller/dataFetcherController').fetchDataAndProcess;
 const scheduleGenerator = require('./controller/scheduleController');
-const { fetchMidExams } = require('./controller/examsFetchController');
-const { fetchGeneralCoursesExams } = require('./controller/examsFetchController')
+const { fetchMidExams, fetchBussMidExams, fetchAviMidExams, fetchfefMidExams, fetchgsodMidExams } = require('./controller/examsFetchController');
+const { fetchGeneralCoursesExams } = require('./controller/examsFetchController');
 
 
 const app = express();
@@ -47,6 +47,50 @@ app.get('/GeneralMidExams', (req, res) => {
     });
 });
 
+app.get('/bussMidExams', (req, res) => {
+    const filePath = path.join(__dirname, 'public/BussCoursesExams.json');
+    fs.readFile(filePath, 'utf8', (err, data) => {
+        if (err){
+            res.status(500).json({message: "Error reading exam data file"});
+        } else {
+            res.json(JSON.parse(data));
+        }
+    });
+});
+
+app.get('/AviMidExams', (req, res) => {
+    const filePath = path.join(__dirname, 'public/CavCoursesExams.json');
+    fs.readFile(filePath, 'utf8', (err, data) => {
+        if (err){
+            res.status(500).json({message: "Error reading exam data file"});
+        } else {
+            res.json(JSON.parse(data));
+        }
+    });
+});
+
+app.get('/artsAndSinMidExams', (req, res) => {
+    const filePath = path.join(__dirname, 'public/fefCoursesExams.json');
+    fs.readFile(filePath, 'utf8', (err, data) => {
+        if (err){
+            res.status(500).json({message: "Error reading exam data file"});
+        } else {
+            res.json(JSON.parse(data));
+        }
+    });
+});
+
+app.get('/fineartsMidExams', (req, res) => {
+    const filePath = path.join(__dirname, 'public/gsodCoursesExams.json');
+    fs.readFile(filePath, 'utf8', (err, data) => {
+        if (err){
+            res.status(500).json({message: "Error reading exam data file"});
+        } else {
+            res.json(JSON.parse(data));
+        }
+    });
+});
+
 
 app.post('/generateSchedule', async (req, res) => {
     try {
@@ -74,17 +118,33 @@ app.post('/generateSchedule', async (req, res) => {
 
 
 // Schedule fetchDataAndProcess to run every 3 hours
-setInterval(fetchDataAndProcess, 3 * 3600 * 1000);
+setInterval(fetchDataAndProcess, 24 * 3600 * 1000);
 
 // Schedule fetchMidExams to run every 3 hours
-setInterval(fetchMidExams, 3 * 3600 * 1000);
+setInterval(fetchMidExams, 24 * 3600 * 1000);
 
-setInterval(fetchGeneralCoursesExams, 3 * 3600 * 1000);
+setInterval(fetchGeneralCoursesExams, 24 * 3600 * 1000);
+
+setInterval(fetchBussMidExams, 24 * 3600 * 1000);
+
+setInterval(fetchAviMidExams, 24 * 3600 * 1000);
+
+setInterval(fetchfefMidExams, 24 * 3600 * 1000);
+
+setInterval(fetchgsodMidExams, 24 * 3600 * 1000);
+
+
+
 
 // Initial fetch on startup for both functions
 fetchDataAndProcess();
 fetchMidExams();
 fetchGeneralCoursesExams();
+fetchBussMidExams();
+fetchAviMidExams();
+fetchfefMidExams();
+fetchgsodMidExams();
+
 
 
 const port = process.env.PORT || 4000;

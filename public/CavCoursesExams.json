@@ -1,0 +1,442 @@
+[
+  {
+    "courseCode": "AEE104",
+    "date": "1017",
+    "time": "29-Mar-24"
+  },
+  {
+    "courseCode": "AEE104-SEC-01",
+    "date": "26.04.2024",
+    "time": "10:30-11:20"
+  },
+  {
+    "courseCode": "AEE106-SEC-01",
+    "date": "3.04.2024",
+    "time": "10:00-11:30"
+  },
+  {
+    "courseCode": "AEE205-SEC-01",
+    "date": "4.04.2024",
+    "time": "14:30-15:20"
+  },
+  {
+    "courseCode": "AEE210-SEC-01",
+    "date": "26.03.2024",
+    "time": "11:30-12:20"
+  },
+  {
+    "courseCode": "AEE212-SEC-01",
+    "date": "18.03.2024",
+    "time": "09:30-10:00"
+  },
+  {
+    "courseCode": "AEE216-SEC-01",
+    "date": "25.03.2024",
+    "time": "13:30-14:20"
+  },
+  {
+    "courseCode": "AEE216-SEC-02",
+    "date": "29.03.2024",
+    "time": "11:30-12:20"
+  },
+  {
+    "courseCode": "AEE220-SEC-01",
+    "date": "29.03.2024",
+    "time": "10:30-12:00"
+  },
+  {
+    "courseCode": "AEE312-SEC-01",
+    "date": "29.03.2024",
+    "time": "15:30-16:20"
+  },
+  {
+    "courseCode": "AEE314-SEC-01",
+    "date": "19.03.2024",
+    "time": "16:30-18:20"
+  },
+  {
+    "courseCode": "AEE316-SEC-01",
+    "date": "1.04.2024",
+    "time": "14:30-15:20"
+  },
+  {
+    "courseCode": "AEE318-SEC-01",
+    "date": "25.03.2024",
+    "time": "16:30-17:20"
+  },
+  {
+    "courseCode": "AEE320-SEC-01",
+    "date": "18.03.2024",
+    "time": "10:00-11:00"
+  },
+  {
+    "courseCode": "AEE322-SEC-01",
+    "date": "22.03.2024",
+    "time": "09:30-10:00"
+  },
+  {
+    "courseCode": "AEE322-SEC-02",
+    "date": "22.02.2024",
+    "time": "14:00-14:30"
+  },
+  {
+    "courseCode": "AEE324-SEC-01",
+    "date": "4.04.2024",
+    "time": "16:30-17:20"
+  },
+  {
+    "courseCode": "AEE405-SEC-01",
+    "date": "27.03.2024",
+    "time": "10:30-11:20"
+  },
+  {
+    "courseCode": "AEE408-SEC-01",
+    "date": "21.03.2024",
+    "time": "14:30-15:00"
+  },
+  {
+    "courseCode": "AEE408-SEC-02",
+    "date": "18.03.2024",
+    "time": "11:30-12:00"
+  },
+  {
+    "courseCode": "AEE410-SEC-01",
+    "date": "28.03.2024",
+    "time": "10:30-12:20"
+  },
+  {
+    "courseCode": "AEE410-SEC-02",
+    "date": "27.03.2024",
+    "time": "14:30-16:20"
+  },
+  {
+    "courseCode": "AEE412-SEC-01",
+    "date": "29.03.2024",
+    "time": "10:30-12:20"
+  },
+  {
+    "courseCode": "AEE414-SEC-01",
+    "date": "25.03.2028",
+    "time": "09:30-10:20"
+  },
+  {
+    "courseCode": "AEE414-SEC-02",
+    "date": "28.03.2024",
+    "time": "14:30-15:20"
+  },
+  {
+    "courseCode": "AEE416-SEC-01",
+    "date": "20.03.2024",
+    "time": "14:30-15:20"
+  },
+  {
+    "courseCode": "AEE416-SEC-02",
+    "date": "21.03.2024",
+    "time": "13:30-14:00"
+  },
+  {
+    "courseCode": "AEE418-SEC-01",
+    "date": "5.04.2024",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "AEE418-SEC-02",
+    "date": "2.04.2024",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "PHYS108-SEC-01",
+    "date": "26.03.2024",
+    "time": "10:30-11:20"
+  },
+  {
+    "courseCode": "APM106-SEC-01",
+    "date": "25.03.2024",
+    "time": "12:30-13:20"
+  },
+  {
+    "courseCode": "APM108-SEC-01",
+    "date": "3.04.2024",
+    "time": "17:30-18:20"
+  },
+  {
+    "courseCode": "APM110-SEC-01",
+    "date": "17.04.2024",
+    "time": "11:30-12:20"
+  },
+  {
+    "courseCode": "APM110-SEC-01",
+    "date": "8.05.2024",
+    "time": "11:30-12:20"
+  },
+  {
+    "courseCode": "APM112-SEC-01",
+    "date": "1.04.2024",
+    "time": "12:30-13:20"
+  },
+  {
+    "courseCode": "APM114-SEC-01",
+    "date": "28.03.2024",
+    "time": "13:30-14:20"
+  },
+  {
+    "courseCode": "APM212-SEC-01",
+    "date": "29.03.2024",
+    "time": "14:30-16:20"
+  },
+  {
+    "courseCode": "APM214-SEC-01",
+    "date": "26.03.2024",
+    "time": "15:30-17:20"
+  },
+  {
+    "courseCode": "APM216-SEC-01",
+    "date": "18.04.2024",
+    "time": "12:30-13:20"
+  },
+  {
+    "courseCode": "APM216-SEC-02",
+    "date": "9.05.2024",
+    "time": "09:30-10:30"
+  },
+  {
+    "courseCode": "APM218-SEC-01",
+    "date": "2.04.2024",
+    "time": "09:30-16:30"
+  },
+  {
+    "courseCode": "APM220-SEC-01",
+    "date": "20.03.2024",
+    "time": "13:30-14:20"
+  },
+  {
+    "courseCode": "APM222-SEC-01",
+    "date": "26.03.2024",
+    "time": "09:30-10:20"
+  },
+  {
+    "courseCode": "APM228-SEC-01",
+    "date": "27.03.2024",
+    "time": "11:30-12:20"
+  },
+  {
+    "courseCode": "APM314-SEC-01",
+    "date": "28.03.2024",
+    "time": "10:30-11:20"
+  },
+  {
+    "courseCode": "APM316-SEC-01",
+    "date": "26.03.2024",
+    "time": "12:30-13:20"
+  },
+  {
+    "courseCode": "APM318-SEC-01",
+    "date": "4.04.2024",
+    "time": "15:30-16:20"
+  },
+  {
+    "courseCode": "APM320-SEC-01",
+    "date": "27.03.2024",
+    "time": "11:30-12:20"
+  },
+  {
+    "courseCode": "APM322-SEC-01",
+    "date": "22.04.2024",
+    "time": "12:30-13:20"
+  },
+  {
+    "courseCode": "APM322-SEC-01",
+    "date": "6.05.2024",
+    "time": "12:30-13:20"
+  },
+  {
+    "courseCode": "APM324-SEC-01",
+    "date": "27.03.2024",
+    "time": "13:30-14:20"
+  },
+  {
+    "courseCode": "APM324-SEC-02",
+    "date": "2.03.2024",
+    "time": "11:30-12:20"
+  },
+  {
+    "courseCode": "APM326-SEC-01",
+    "date": "27.03.2024",
+    "time": "15:30-16:20"
+  },
+  {
+    "courseCode": "APM326-SEC-02",
+    "date": "25.03.2024",
+    "time": "13:30-14:20"
+  },
+  {
+    "courseCode": "APM410-SEC-01",
+    "date": "25.03.2024",
+    "time": "14:30-15:20"
+  },
+  {
+    "courseCode": "APM410-SEC-02",
+    "date": "27.03.2024",
+    "time": "15:30-16:20"
+  },
+  {
+    "courseCode": "APM412-SEC-01",
+    "date": "28.03.2024",
+    "time": "10:00-13:20"
+  },
+  {
+    "courseCode": "APM412-SEC-02",
+    "date": "28.03.2024",
+    "time": "13:30-17:20"
+  },
+  {
+    "courseCode": "APM414-SEC-01",
+    "date": "27.03.2024",
+    "time": "09:30-10:20"
+  },
+  {
+    "courseCode": "APM414-SEC-02",
+    "date": "25.03.2024",
+    "time": "09:30-10:20"
+  },
+  {
+    "courseCode": "APM416-SEC-01",
+    "date": "28.03.2024",
+    "time": "17:30-18:20"
+  },
+  {
+    "courseCode": "APM418-SEC-01",
+    "date": "26.03.2024",
+    "time": "09:30-10:20"
+  },
+  {
+    "courseCode": "APM418-SEC-02",
+    "date": "29.03.2024",
+    "time": "09:30-10:20"
+  },
+  {
+    "courseCode": "APM420-SEC-01",
+    "date": "25.03.2024",
+    "time": "13:30-14:20"
+  },
+  {
+    "courseCode": "APM422-SEC-01",
+    "date": "27.03.2024",
+    "time": "10:30-12:20"
+  },
+  {
+    "courseCode": "APM422-SEC-02",
+    "date": "25.03.2024",
+    "time": "10:30-12:20"
+  },
+  {
+    "courseCode": "AVM102-SEC-01",
+    "date": "18:03.2024",
+    "time": "09:30-10:20"
+  },
+  {
+    "courseCode": "AVM104-SEC-01",
+    "date": "4.04.2024",
+    "time": "09:30-10:20"
+  },
+  {
+    "courseCode": "AVM202-SEC-01",
+    "date": "26.03.2024",
+    "time": "15:30-16:20"
+  },
+  {
+    "courseCode": "AVM206-SEC-01",
+    "date": "26.03.2024",
+    "time": "10:30-11:20"
+  },
+  {
+    "courseCode": "AVM208-SEC-01",
+    "date": "29.03.2024",
+    "time": "13:30-14:20"
+  },
+  {
+    "courseCode": "AVM210-SEC-01",
+    "date": "22.03.2024",
+    "time": "09:30-10:20"
+  },
+  {
+    "courseCode": "AVM212-SEC-01",
+    "date": "4.04.2024",
+    "time": "13:30-14:20"
+  },
+  {
+    "courseCode": "AVM214-SEC-01",
+    "date": "20.03.2024",
+    "time": "13:30-14:20"
+  },
+  {
+    "courseCode": "AVM306-SEC-01",
+    "date": "25.03.2024",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "AVM310-SEC-01",
+    "date": "27.03.2024",
+    "time": "09:30-10:20"
+  },
+  {
+    "courseCode": "AVM404-SEC-01",
+    "date": "2.04.2024",
+    "time": "11:30-12:20"
+  },
+  {
+    "courseCode": "AVM418-SEC-01",
+    "date": "3.04.2024",
+    "time": "13:30-14:20"
+  },
+  {
+    "courseCode": "AVM420-SEC-02",
+    "date": "21.03.2024",
+    "time": "09:30-10:20"
+  },
+  {
+    "courseCode": "AVM425-SEC-01",
+    "date": "5.04.2024",
+    "time": "15:30-16:20"
+  },
+  {
+    "courseCode": "AVM427-SEC-01",
+    "date": "28.03.2024",
+    "time": "12:30-13:20"
+  },
+  {
+    "courseCode": "AVM428-SEC-01",
+    "date": "25.03.2024",
+    "time": "13:30-14:20"
+  },
+  {
+    "courseCode": "AVM430-SEC-01",
+    "date": "29.03.2024",
+    "time": "09:30-10:20"
+  },
+  {
+    "courseCode": "AVM432-SEC-01",
+    "date": "29.03.2024",
+    "time": "10:30-11:20"
+  },
+  {
+    "courseCode": "PLT402-SEC-01",
+    "date": "27.03.2024",
+    "time": "13:30-14:20"
+  },
+  {
+    "courseCode": "PLT404-SEC-01",
+    "date": "2.04.2024",
+    "time": "09:30-10:20"
+  },
+  {
+    "courseCode": "PLT413-SEC-01",
+    "date": "2.04.2024",
+    "time": "16:30-17:20"
+  },
+  {
+    "courseCode": "PLT421-SEC-01",
+    "date": "3.04.2024",
+    "time": "09:30-10:20"
+  }
+]

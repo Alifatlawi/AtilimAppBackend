@@ -1,0 +1,632 @@
+[
+  {
+    "courseCode": "DERS\n  KODU/              COURSE CODE",
+    "date": "TARİH",
+    "time": "SAAT/ TIME"
+  },
+  {
+    "courseCode": "PR434",
+    "date": "12.03.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "PR334",
+    "date": "12.03.24",
+    "time": "10:00"
+  },
+  {
+    "courseCode": "ECON324",
+    "date": "13.03.24",
+    "time": "10:00"
+  },
+  {
+    "courseCode": "IKT324",
+    "date": "13.03.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "IR110",
+    "date": "15.03.24",
+    "time": "13:30-15:00"
+  },
+  {
+    "courseCode": "KAM102",
+    "date": "18.03.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "KAM314",
+    "date": "18.03.24",
+    "time": "10:00"
+  },
+  {
+    "courseCode": "IKT210",
+    "date": "18.03.24",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "IKT102",
+    "date": "18.03.24",
+    "time": "16:30"
+  },
+  {
+    "courseCode": "LOG212",
+    "date": "18.03.24",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "PR128",
+    "date": "18.03.24",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "IKT208",
+    "date": "19.03.24",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "MLY104",
+    "date": "19.03.24",
+    "time": "09:30-13:30"
+  },
+  {
+    "courseCode": "IR334",
+    "date": "19.03.24",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "LOG102",
+    "date": "19.03.24",
+    "time": "14:00"
+  },
+  {
+    "courseCode": "MAN364",
+    "date": "19.03.24",
+    "time": "12:30"
+  },
+  {
+    "courseCode": "MAN438",
+    "date": "19.03.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "ISL448",
+    "date": "19.03.24",
+    "time": "10:00"
+  },
+  {
+    "courseCode": "IR112",
+    "date": "19.03.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "PR122",
+    "date": "19.03.24",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "PR328",
+    "date": "19.03.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "MLY212/KAM306",
+    "date": "19.03.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "ECON208",
+    "date": "20.03.24",
+    "time": "09:30-12:20"
+  },
+  {
+    "courseCode": "MLY420/LAW338",
+    "date": "20.03.24",
+    "time": "11:30"
+  },
+  {
+    "courseCode": "IR424",
+    "date": "20.03.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "IR422",
+    "date": "20.03.24",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "IR310",
+    "date": "20.03.24",
+    "time": "12:30"
+  },
+  {
+    "courseCode": "ISL102",
+    "date": "20.03.24",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "MAN402",
+    "date": "20.03.24",
+    "time": "12:30-13:20"
+  },
+  {
+    "courseCode": "KAM417",
+    "date": "21.03.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "IR302",
+    "date": "21.03.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "KAM208",
+    "date": "22.03.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "KAM420",
+    "date": "22.03.24",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "MLY202",
+    "date": "22.03.24",
+    "time": "10.00-11.00"
+  },
+  {
+    "courseCode": "MLY409",
+    "date": "22.03.24",
+    "time": "12.30-13.30"
+  },
+  {
+    "courseCode": "KAM104",
+    "date": "25.03.24",
+    "time": "10:00"
+  },
+  {
+    "courseCode": "IKT312",
+    "date": "25.03.24",
+    "time": "12:30-15:20"
+  },
+  {
+    "courseCode": "ECON312",
+    "date": "25.03.24",
+    "time": "09:30-12:20"
+  },
+  {
+    "courseCode": "ECON210",
+    "date": "25.03.24",
+    "time": "10:00-12:00"
+  },
+  {
+    "courseCode": "IR214",
+    "date": "25.03.24",
+    "time": "11:30"
+  },
+  {
+    "courseCode": "IR304",
+    "date": "25.03.24",
+    "time": "10:30-11:30"
+  },
+  {
+    "courseCode": "LOG204",
+    "date": "25.03.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "LOG408",
+    "date": "25.03.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "ISL292",
+    "date": "25.03.24",
+    "time": "13:30-14:45"
+  },
+  {
+    "courseCode": "MAN292",
+    "date": "25.03.24",
+    "time": "10:00-11:15"
+  },
+  {
+    "courseCode": "ISL413",
+    "date": "25.03.24",
+    "time": "10:30"
+  },
+  {
+    "courseCode": "ISL308-MAN308",
+    "date": "25.03.24",
+    "time": "16:30-18:00"
+  },
+  {
+    "courseCode": "MAN112-01-02",
+    "date": "25.03.24",
+    "time": "16:30"
+  },
+  {
+    "courseCode": "KAM416",
+    "date": "26.03.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "MLY214",
+    "date": "26.03.24",
+    "time": "10.00"
+  },
+  {
+    "courseCode": "MLY306",
+    "date": "26.03.24",
+    "time": "11.00 - 12.15"
+  },
+  {
+    "courseCode": "IR204",
+    "date": "26.03.24",
+    "time": "13:30-15:30"
+  },
+  {
+    "courseCode": "LOG322",
+    "date": "26.03.24",
+    "time": "10:00"
+  },
+  {
+    "courseCode": "LOG404",
+    "date": "26.03.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "ISL112",
+    "date": "26.03.24",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "ISL242",
+    "date": "26.03.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "IR320",
+    "date": "26.03.24",
+    "time": "12:30"
+  },
+  {
+    "courseCode": "MAN204-01-02",
+    "date": "26.03.24",
+    "time": "16:30-18:00"
+  },
+  {
+    "courseCode": "KAM424",
+    "date": "27.03.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "KAM206",
+    "date": "27.03.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "KAM142",
+    "date": "27.03.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "IKT302-ECON302",
+    "date": "27.03.24",
+    "time": "14:30"
+  },
+  {
+    "courseCode": "MLY302",
+    "date": "27.03.24",
+    "time": "10:30"
+  },
+  {
+    "courseCode": "MLY412",
+    "date": "27.03.24",
+    "time": "12.30 - 13.15"
+  },
+  {
+    "courseCode": "LOG308",
+    "date": "27.03.24",
+    "time": "12:30"
+  },
+  {
+    "courseCode": "LOG409",
+    "date": "27.03.24",
+    "time": "10:00"
+  },
+  {
+    "courseCode": "ISL402",
+    "date": "27.03.24",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "ISL122 -\n  MAN122-01-02",
+    "date": "27.03.24",
+    "time": "16:30"
+  },
+  {
+    "courseCode": "MAN441",
+    "date": "27.03.24",
+    "time": "15:30-16:30"
+  },
+  {
+    "courseCode": "ISL206- MAN206",
+    "date": "27.03.24",
+    "time": "16:30"
+  },
+  {
+    "courseCode": "PR102",
+    "date": "27.03.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "PR420",
+    "date": "27.03.24",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "PR120",
+    "date": "27.03.24",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "ISL364",
+    "date": "27.03.24",
+    "time": "11:30"
+  },
+  {
+    "courseCode": "KAM304",
+    "date": "28.03.24",
+    "time": "12:30"
+  },
+  {
+    "courseCode": "KAM404",
+    "date": "28.03.24",
+    "time": "11:00-13:00"
+  },
+  {
+    "courseCode": "KAM204",
+    "date": "28.03.24",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "MLY208",
+    "date": "28.03.24",
+    "time": "15.00"
+  },
+  {
+    "courseCode": "MLY304",
+    "date": "28.03.24",
+    "time": "16:30"
+  },
+  {
+    "courseCode": "IR212",
+    "date": "28.03.24",
+    "time": "10:30-11:30"
+  },
+  {
+    "courseCode": "IR420",
+    "date": "28.03.24",
+    "time": "10.00-11.00"
+  },
+  {
+    "courseCode": "LOG316",
+    "date": "28.03.24",
+    "time": "16:00"
+  },
+  {
+    "courseCode": "LOG406",
+    "date": "28.03.24",
+    "time": "13:00"
+  },
+  {
+    "courseCode": "MAN242",
+    "date": "28.03.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "PR320",
+    "date": "28.03.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "KAM441",
+    "date": "29.03.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "TOUR110",
+    "date": "29.03.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "MLY102",
+    "date": "29.03.24",
+    "time": "15.30-16.30"
+  },
+  {
+    "courseCode": "LOG306",
+    "date": "29.03.24",
+    "time": "12:30-14:20"
+  },
+  {
+    "courseCode": "MAN428",
+    "date": "29.03.24",
+    "time": "16:30"
+  },
+  {
+    "courseCode": "MAN448",
+    "date": "29.03.24",
+    "time": "12:30-14:20"
+  },
+  {
+    "courseCode": "ISL204-01-02",
+    "date": "29.03.24",
+    "time": "16:30"
+  },
+  {
+    "courseCode": "PR126",
+    "date": "29.03.24",
+    "time": "10:00"
+  },
+  {
+    "courseCode": "TOUR418",
+    "date": "01.04.24",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "TOUR108",
+    "date": "01.04.24",
+    "time": "14:30"
+  },
+  {
+    "courseCode": "TOUR208",
+    "date": "01.04.24",
+    "time": "12:00"
+  },
+  {
+    "courseCode": "MAN304",
+    "date": "01.04.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "ECON316",
+    "date": "02.04.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "TOUR114",
+    "date": "02.04.24",
+    "time": "12:30"
+  },
+  {
+    "courseCode": "MLY402",
+    "date": "02.04.24",
+    "time": "12:00-14:20"
+  },
+  {
+    "courseCode": "MAN414",
+    "date": "02.04.24",
+    "time": "13:30-14:20"
+  },
+  {
+    "courseCode": "ISL414",
+    "date": "02.04.24",
+    "time": "10:00"
+  },
+  {
+    "courseCode": "TOUR312",
+    "date": "02.04.24",
+    "time": "12:30"
+  },
+  {
+    "courseCode": "TOUR406",
+    "date": "03.04.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "TOUR112",
+    "date": "03.04.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "IR216",
+    "date": "03.04.24",
+    "time": "13:30-15:30"
+  },
+  {
+    "courseCode": "TOUR310",
+    "date": "03.04.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "LOG206",
+    "date": "03.04.24",
+    "time": "12:30-14:10"
+  },
+  {
+    "courseCode": "KAM210",
+    "date": "04.04.24",
+    "time": "13:00"
+  },
+  {
+    "courseCode": "IKT316",
+    "date": "04.04.24",
+    "time": "10:30"
+  },
+  {
+    "courseCode": "TOUR308",
+    "date": "04.04.24",
+    "time": "10:30"
+  },
+  {
+    "courseCode": "IR232",
+    "date": "04.04.24",
+    "time": "13:30-14:30"
+  },
+  {
+    "courseCode": "LOG210",
+    "date": "04.04.24",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "LOG303",
+    "date": "04.04.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "ISL214",
+    "date": "04.04.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "KAM412",
+    "date": "04.04.24",
+    "time": "14:30-16:00"
+  },
+  {
+    "courseCode": "IKT126-ECON126",
+    "date": "05.04.24",
+    "time": "16:30"
+  },
+  {
+    "courseCode": "MAN214",
+    "date": "05.04.24",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "ISL304",
+    "date": "05.04.24",
+    "time": "10:30"
+  },
+  {
+    "courseCode": "TOUR316",
+    "date": "15.04.24",
+    "time": "10:00"
+  },
+  {
+    "courseCode": "MAN313",
+    "date": "16.04.24",
+    "time": "10:00"
+  },
+  {
+    "courseCode": "PR414",
+    "date": "16.04.24",
+    "time": "10:30"
+  },
+  {
+    "courseCode": "MAN408",
+    "date": "17.04.24",
+    "time": "10:00"
+  },
+  {
+    "courseCode": "ISL313",
+    "date": "18.04.24",
+    "time": "10:00"
+  },
+  {
+    "courseCode": "ECON102",
+    "date": "19.04.24",
+    "time": "16:30"
+  }
+]

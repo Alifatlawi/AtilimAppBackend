@@ -1,0 +1,317 @@
+[
+  {
+    "courseCode": "ELIT102",
+    "date": "5.04.2024",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "ELIT104",
+    "date": "28.03.2024",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "ELIT106",
+    "date": "17.04.2024",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "ELIT108",
+    "date": "25.03.2024",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "ELIT204",
+    "date": "18.04.2024",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "ELIT206",
+    "date": "15.04.2024",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "ELIT208",
+    "date": "3.04.2024",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "ELIT210",
+    "date": "30.04.2024",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "ELIT211",
+    "date": "16.04.2024",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "ELIT302",
+    "date": "2.04.2024",
+    "time": "10:30"
+  },
+  {
+    "courseCode": "ELIT304",
+    "date": "4.04.2024",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "ELIT316",
+    "date": "17.04.2024",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "ELIT321",
+    "date": "19.04.2024",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "ELIT336",
+    "date": "15.04.2024",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "ELIT402",
+    "date": "15.04.2024",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "ELIT404",
+    "date": "26.03.2024",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "ELIT406",
+    "date": "27.03.2024",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "ELIT430",
+    "date": "18.04.2024",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "ELIT619",
+    "date": "4.04.2024",
+    "time": "10:30"
+  },
+  {
+    "courseCode": "ELIT520",
+    "date": "3.04.2024",
+    "time": "10:30"
+  },
+  {
+    "courseCode": "ELIT513",
+    "date": "4.04.2024",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "ELIT509",
+    "date": "3.04.2024",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "ELIT500 &MAN\n  555",
+    "date": "4.04.2024",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "ETI102",
+    "date": "27.03.2024",
+    "time": "10:00-12:00"
+  },
+  {
+    "courseCode": "ETI106",
+    "date": "28.03.2024",
+    "time": "10:00-11:00"
+  },
+  {
+    "courseCode": "ETI110",
+    "date": "25.03.2024",
+    "time": "13.30-15.30"
+  },
+  {
+    "courseCode": "ETI112",
+    "date": "2.04.2024",
+    "time": "13:30-17:30"
+  },
+  {
+    "courseCode": "ETI172",
+    "date": "5.04.2024",
+    "time": "10:30-11:30"
+  },
+  {
+    "courseCode": "ETI200",
+    "date": "4.04.2024",
+    "time": "13:30-14:30"
+  },
+  {
+    "courseCode": "ETI206",
+    "date": "25.03.2024",
+    "time": "10:00-11:00"
+  },
+  {
+    "courseCode": "ETI212",
+    "date": "26.03.2024",
+    "time": "10:00-11:00"
+  },
+  {
+    "courseCode": "ETI220",
+    "date": "1.04.2024",
+    "time": "13:30-14:30"
+  },
+  {
+    "courseCode": "ETI224",
+    "date": "3.04.2024",
+    "time": "10:00-11:00"
+  },
+  {
+    "courseCode": "ETI272",
+    "date": "5.04.2024",
+    "time": "13:30-14:30"
+  },
+  {
+    "courseCode": "ETI308",
+    "date": "28.03.2024",
+    "time": "10:00-11:00"
+  },
+  {
+    "courseCode": "ETI310",
+    "date": "29.03.2024",
+    "time": "12:30-13:30"
+  },
+  {
+    "courseCode": "ETI312",
+    "date": "26.03.2024",
+    "time": "13:30-14:30"
+  },
+  {
+    "courseCode": "ETI314",
+    "date": "25.03.2024",
+    "time": "12:15-13:15"
+  },
+  {
+    "courseCode": "ETI318",
+    "date": "27.03.2024",
+    "time": "10:00-11:00"
+  },
+  {
+    "courseCode": "ETI372",
+    "date": "4.04.2024",
+    "time": "09:30-10:30"
+  },
+  {
+    "courseCode": "ETI402",
+    "date": "5.04.2024",
+    "time": "10:00-11:30"
+  },
+  {
+    "courseCode": "ETI408",
+    "date": "25.03.2024",
+    "time": "10:30-11:30"
+  },
+  {
+    "courseCode": "ETI410",
+    "date": "STAJ",
+    "time": ""
+  },
+  {
+    "courseCode": "ETI412",
+    "date": "3.04.2024",
+    "time": "10:00-12:00"
+  },
+  {
+    "courseCode": "ETI414",
+    "date": "2.04.2024",
+    "time": "13:30-14:30"
+  },
+  {
+    "courseCode": "ETI416",
+    "date": "26.03.2024",
+    "time": "10:00-11:00"
+  },
+  {
+    "courseCode": "ETI420",
+    "date": "28.03.2024",
+    "time": "13:30-15:00"
+  },
+  {
+    "courseCode": "ETI430",
+    "date": "25.03.2024",
+    "time": "09:30-22:00"
+  },
+  {
+    "courseCode": "ETI472",
+    "date": "4.04.2024",
+    "time": "11:00-12:00"
+  },
+  {
+    "courseCode": "ETI482",
+    "date": "4.04.2024",
+    "time": "09:30-10:30"
+  },
+  {
+    "courseCode": "PSY402",
+    "date": "5.03.2024",
+    "time": "15:30-16:30"
+  },
+  {
+    "courseCode": "PSY101",
+    "date": "18.03.2024",
+    "time": "15:30-16:30"
+  },
+  {
+    "courseCode": "PSY102",
+    "date": "13.03.2024",
+    "time": "11:30-12:30"
+  },
+  {
+    "courseCode": "PSY111",
+    "date": "20.03.2024",
+    "time": "15:30-17:30"
+  },
+  {
+    "courseCode": "PSY202",
+    "date": "12.03.2024",
+    "time": "09:30-10:30"
+  },
+  {
+    "courseCode": "PSY204",
+    "date": "13.03.2024",
+    "time": "09:30-10:30"
+  },
+  {
+    "courseCode": "PSY214",
+    "date": "26.03.2024",
+    "time": "13:30-15:00"
+  },
+  {
+    "courseCode": "PSY222",
+    "date": "19.03.2024",
+    "time": "10:30-12:30"
+  },
+  {
+    "courseCode": "PSY302",
+    "date": "22.03.2024",
+    "time": "15:30-16:30"
+  },
+  {
+    "courseCode": "PSY304",
+    "date": "20.03.2024",
+    "time": "13:30-14:30"
+  },
+  {
+    "courseCode": "PSY308",
+    "date": "29.03.2024",
+    "time": "11:30-12:20"
+  },
+  {
+    "courseCode": "PSY324",
+    "date": "4.04.2024",
+    "time": "11:30-12:20"
+  },
+  {
+    "courseCode": "PSY332",
+    "date": "2.04.2024",
+    "time": "13:30-14:30"
+  }
+]

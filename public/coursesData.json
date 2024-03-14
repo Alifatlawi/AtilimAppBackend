@@ -1753,7 +1753,7 @@
         "schedules": [
           {
             "day": "Cuma",
-            "classroom": "İşletme Z01 RB",
+            "classroom": "İşletme 115 RB",
             "period": "5.",
             "startTime": "13:30",
             "endTime": "16:20",
@@ -6188,11 +6188,11 @@
         },
         "schedules": [
           {
-            "day": "Cuma",
-            "classroom": "İşletme 210 İB",
-            "period": "1.",
-            "startTime": "09:30",
-            "endTime": "12:20",
+            "day": "Salı",
+            "classroom": "İşletme Toplantı Sal. 208İB",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "15:20",
             "duration": "3 period(s)"
           }
         ]
@@ -21664,8 +21664,16 @@
             "classroom": "Müh. 1017H",
             "period": "1.",
             "startTime": "09:30",
+            "endTime": "12:20",
+            "duration": "3 period(s)"
+          },
+          {
+            "day": "Cuma",
+            "classroom": "3041",
+            "period": "4.",
+            "startTime": "12:30",
             "endTime": "13:20",
-            "duration": "4 period(s)"
+            "duration": "1 period(s)"
           }
         ]
       }
@@ -21720,11 +21728,11 @@
             "duration": "3 period(s)"
           },
           {
-            "day": "Cuma",
-            "classroom": "Müh. B1043-IIÖ",
-            "period": "3.",
-            "startTime": "11:30",
-            "endTime": "12:20",
+            "day": "Salı",
+            "classroom": "3041",
+            "period": "9.",
+            "startTime": "17:30",
+            "endTime": "18:20",
             "duration": "1 period(s)"
           }
         ]
@@ -21744,10 +21752,18 @@
           {
             "day": "Salı",
             "classroom": "Müh. B1007H",
+            "period": "4.",
+            "startTime": "12:30",
+            "endTime": "16:20",
+            "duration": "4 period(s)"
+          },
+          {
+            "day": "Salı",
+            "classroom": "3041",
             "period": "3.",
             "startTime": "11:30",
-            "endTime": "16:20",
-            "duration": "5 period(s)"
+            "endTime": "12:20",
+            "duration": "1 period(s)"
           }
         ]
       }
@@ -21948,11 +21964,11 @@
             "duration": "4 period(s)"
           },
           {
-            "day": "Salı",
-            "classroom": "İşletme Z01 RB",
-            "period": "9.",
-            "startTime": "17:30",
-            "endTime": "18:20",
+            "day": "Cuma",
+            "classroom": "3041",
+            "period": "5.",
+            "startTime": "13:30",
+            "endTime": "14:20",
             "duration": "1 period(s)"
           }
         ]

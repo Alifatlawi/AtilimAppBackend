@@ -73,8 +73,133 @@ async function fetchGeneralCoursesExams() {
     }
 }
 
+async function fetchBussMidExams(){
+    try {
+        // Adjust the URL to the one containing general courses exams
+        const url = 'https://dersprogramiyukle.atilim.edu.tr/20232024arasinavbahar/isletme/index_files/sheet001.htm';
+        let response = await axios.get(url);
+        const html = response.data;
+        const $ = cheerio.load(html);
+        const courses = [];
+        $('tr').each((i, el) => {
+            if (i > 0) { // Assuming you want to skip the first row/header
+                // Adjust these selectors if the table structure is different for general courses
+                const courseCode = $(el).find('td').eq(2).text().trim();
+                const date = $(el).find('td').eq(4).text().trim(); 
+                const time = $(el).find('td').eq(6).text().trim();
+
+                if(courseCode && courseCode != "DERS KODU/ COURSE CODE" && courseCode != 'DERS KODU/                      \n  COURSE CODE' && courseCode != 'ATILIM ÜNİVERSİTESİ') {
+                    courses.push({ courseCode, date, time });
+                }
+            }
+        });
+
+        // Adjust the file path/name as needed for general courses
+        const filePath = './public/BussCoursesExams.json'; 
+        saveDataToFile(courses, filePath);
+    } catch (error) {
+        console.error(error);
+        throw error; // Throw the error to be caught by the caller
+    }
+}
+
+
+async function fetchAviMidExams(){
+    try {
+        // Adjust the URL to the one containing general courses exams
+        const url = 'https://dersprogramiyukle.atilim.edu.tr/20232024arasinavbahar/cav/index_files/sheet001.htm';
+        let response = await axios.get(url);
+        const html = response.data;
+        const $ = cheerio.load(html);
+        const courses = [];
+        $('tr').each((i, el) => {
+            if (i > 0) { // Assuming you want to skip the first row/header
+                // Adjust these selectors if the table structure is different for general courses
+                const courseCode = $(el).find('td').eq(1).text().trim();
+                const date = $(el).find('td').eq(3).text().trim(); 
+                const time = $(el).find('td').eq(5).text().trim();
+
+                if(courseCode && courseCode != "DERS KODU/ COURSE CODE" && courseCode != "DERS\n  KODU/              COURSE CODE" && courseCode != 'ATILIM ÜNİVERSİTESİ' && courseCode != "SİVİL HAVACILIK YÜKSEK OKULU/ SCHOOL OF CIVIL\n  AVIATION" && time != "") {
+                    courses.push({ courseCode, date, time });
+                }
+            }
+        });
+
+        // Adjust the file path/name as needed for general courses
+        const filePath = './public/CavCoursesExams.json'; 
+        saveDataToFile(courses, filePath);
+    } catch (error) {
+        console.error(error);
+        throw error; // Throw the error to be caught by the caller
+    }
+}
+
+async function fetchfefMidExams(){
+    try {
+        // Adjust the URL to the one containing general courses exams
+        const url = 'https://dersprogramiyukle.atilim.edu.tr/20232024arasinavbahar/fef/index_files/sheet001.htm';
+        let response = await axios.get(url);
+        const html = response.data;
+        const $ = cheerio.load(html);
+        const courses = [];
+        $('tr').each((i, el) => {
+            if (i > 0) { // Assuming you want to skip the first row/header
+                // Adjust these selectors if the table structure is different for general courses
+                const courseCode = $(el).find('td').eq(2).text().trim();
+                const date = $(el).find('td').eq(4).text().trim(); 
+                const time = $(el).find('td').eq(6).text().trim();
+
+                if(courseCode && courseCode != "DERS KODU/ COURSE CODE" && courseCode != "DERS\n  KODU/              COURSE CODE" && courseCode != 'ATILIM ÜNİVERSİTESİ') {
+                    courses.push({ courseCode, date, time });
+                }
+            }
+        });
+
+        // Adjust the file path/name as needed for general courses
+        const filePath = './public/fefCoursesExams.json'; 
+        saveDataToFile(courses, filePath);
+    } catch (error) {
+        console.error(error);
+        throw error; // Throw the error to be caught by the caller
+    }
+}
+
+
+async function fetchgsodMidExams(){
+    try {
+        // Adjust the URL to the one containing general courses exams
+        const url = 'https://dersprogramiyukle.atilim.edu.tr/20232024arasinavbahar/gsod/index_files/sheet001.htm';
+        let response = await axios.get(url);
+        const html = response.data;
+        const $ = cheerio.load(html);
+        const courses = [];
+        $('tr').each((i, el) => {
+            if (i > 0) { // Assuming you want to skip the first row/header
+                // Adjust these selectors if the table structure is different for general courses
+                const courseCode = $(el).find('td').eq(2).text().trim();
+                const date = $(el).find('td').eq(4).text().trim(); 
+                const time = $(el).find('td').eq(6).text().trim();
+
+                if(courseCode && courseCode != "DERS KODU/ COURSE CODE" && courseCode != "DERS\n  KODU/              COURSE CODE" && courseCode != 'ATILIM ÜNİVERSİTESİ' && time != "") {
+                    courses.push({ courseCode, date, time });
+                }
+            }
+        });
+
+        // Adjust the file path/name as needed for general courses
+        const filePath = './public/gsodCoursesExams.json'; 
+        saveDataToFile(courses, filePath);
+    } catch (error) {
+        console.error(error);
+        throw error; // Throw the error to be caught by the caller
+    }
+}
 
 module.exports = {
     fetchMidExams,
-    fetchGeneralCoursesExams
+    fetchGeneralCoursesExams,
+    fetchBussMidExams,
+    fetchAviMidExams,
+    fetchfefMidExams,
+    fetchgsodMidExams
 }

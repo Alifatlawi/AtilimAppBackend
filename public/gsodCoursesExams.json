@@ -1,0 +1,177 @@
+[
+  {
+    "courseCode": "ART201",
+    "date": "29.03.2024",
+    "time": "15.30-16.10\n  (Yazılı Sınav)"
+  },
+  {
+    "courseCode": "ART221-1",
+    "date": "20.03.2024",
+    "time": "12.30-13.30\n  (Yazılı Sınav)"
+  },
+  {
+    "courseCode": "ART221-2",
+    "date": "28.03.2024",
+    "time": "14.00-15.00\n  (Yazılı Sınav)"
+  },
+  {
+    "courseCode": "ART222",
+    "date": "18.03.2024",
+    "time": "09.30-12.20\n  (Elden ve Moodle Üzerinden Ödev Teslimi)"
+  },
+  {
+    "courseCode": "ART223",
+    "date": "26.03.2024",
+    "time": "15.30-16.30\n  (Yazılı Sınav)"
+  },
+  {
+    "courseCode": "ART225",
+    "date": "18.03.2024",
+    "time": "12.30-15.20\n  (Elden ve Moodle Üzerinden Ödev Teslimi)"
+  },
+  {
+    "courseCode": "ART226",
+    "date": "29.03.2024",
+    "time": "14.30-15.20\n  (Yazılı Sınav)"
+  },
+  {
+    "courseCode": "ART227",
+    "date": "25.03.2024",
+    "time": "15.30-16.20\n  (Yazılı Sınav)"
+  },
+  {
+    "courseCode": "ART228-1",
+    "date": "25.03.2024",
+    "time": "14.30-15.20\n  (Yazılı Sınav)"
+  },
+  {
+    "courseCode": "ART228-2",
+    "date": "29.03.2024",
+    "time": "15.30-16.20\n  (Yazılı Sınav)"
+  },
+  {
+    "courseCode": "ART251",
+    "date": "22.03.2024",
+    "time": "12.30-15.20\n  (Elden ve Moodle Üzerinden Ödev Teslimi)"
+  },
+  {
+    "courseCode": "ART252",
+    "date": "19.03.2024",
+    "time": "09.30-12.20\n  (Moodle Üzerinden Uygulama Teslimi)"
+  },
+  {
+    "courseCode": "ART262",
+    "date": "19.03.2024",
+    "time": "12.30-15.20\n  (Moodle Üzerinden Uygulama Teslimi)"
+  },
+  {
+    "courseCode": "ART265-3",
+    "date": "22.03.2024",
+    "time": "09.30-12.20\n  (Yazılı Sınav)"
+  },
+  {
+    "courseCode": "ART265-4",
+    "date": "22.03.2024",
+    "time": "12.30-15.20\n  (Yazılı Sınav)"
+  },
+  {
+    "courseCode": "ART265-5",
+    "date": "22.03.2024",
+    "time": "15.30-18.20\n  (Yazılı Sınav)"
+  },
+  {
+    "courseCode": "ART266",
+    "date": "22.03.2024",
+    "time": "12.30-15.20\n  (Elden ve Moodle Üzerinden Ödev Teslimi)"
+  },
+  {
+    "courseCode": "ART268-1",
+    "date": "18.03.2024",
+    "time": "12.30-15.20\n  (Sunum ve Moodle Üzerinden Teslim)"
+  },
+  {
+    "courseCode": "ART268-2",
+    "date": "18.03.2024",
+    "time": "15.30-18.20\n  (Sunum ve Moodle Üzerinden Teslim)"
+  },
+  {
+    "courseCode": "ART268-3",
+    "date": "19.03.2024",
+    "time": "12.30-15.20\n  (Sunum ve Moodle Üzerinden Teslim)"
+  },
+  {
+    "courseCode": "ART281",
+    "date": "25.03.2024",
+    "time": "09.30-12.20\n  (Elden ve Moodle Üzerinden Ödev Teslimi)"
+  },
+  {
+    "courseCode": "ART283",
+    "date": "22.03.2024",
+    "time": "12.30-15.20\n  (Elden ve Moodle Üzerinden Ödev Teslimi)"
+  },
+  {
+    "courseCode": "ART285",
+    "date": "22.03.2024",
+    "time": "15.30-18.20\n  (Elden ve Moodle Üzerinden Ödev Teslimi)"
+  },
+  {
+    "courseCode": "ART286-1",
+    "date": "19.03.2024",
+    "time": "15.30-18.20\n  (Elden ve Moodle Üzerinden Uygulama Teslimi)"
+  },
+  {
+    "courseCode": "ART286-2",
+    "date": "20.03.2024",
+    "time": "09.30-12.20\n  (Elden ve Moodle Üzerinden Uygulama Teslimi)"
+  },
+  {
+    "courseCode": "ART289",
+    "date": "20.03.2024",
+    "time": "15.30-18.20\n  (Elden ve Moodle Üzerinden Uygulama Teslimi)"
+  },
+  {
+    "courseCode": "ART291-1",
+    "date": "21.03.2024",
+    "time": "14.00-15.00\n  (Yazılı Sınav)"
+  },
+  {
+    "courseCode": "ART291-2",
+    "date": "22.03.2024",
+    "time": "14.00-15.00\n  (Yazılı Sınav)"
+  },
+  {
+    "courseCode": "ART291-3",
+    "date": "22.03.2024",
+    "time": "15.30-16.30\n  (Yazılı Sınav)"
+  },
+  {
+    "courseCode": "ART292-1",
+    "date": "21.03.2024",
+    "time": "09.30-12.20\n  (Yazılı Sınav)"
+  },
+  {
+    "courseCode": "ART292-2",
+    "date": "21.03.2024",
+    "time": "12.30-15.20\n  (Yazılı Sınav)"
+  },
+  {
+    "courseCode": "ART293",
+    "date": "27.03.2024",
+    "time": "15.30-16.10\n  (Yazılı Sınav)"
+  },
+  {
+    "courseCode": "ART295",
+    "date": "27.03.2024",
+    "time": "15.30-18.20\n  (Elden ve Moodle Üzerinden Ödev Teslimi)"
+  },
+  {
+    "courseCode": "ART296",
+    "date": "22.03.2024",
+    "time": "15.30-18.20\n  (Sunum ve Moodle Üzerinden Teslim)"
+  },
+  {
+    "courseCode": "ART297",
+    "date": "21.03.2024",
+    "time": "12.30-15.20\n  (Sınav)"
+  }
+]
