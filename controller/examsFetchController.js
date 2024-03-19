@@ -54,11 +54,14 @@ async function fetchGeneralCoursesExams() {
         $('tr').each((i, el) => {
             if (i > 0) { // Assuming you want to skip the first row/header
                 // Adjust these selectors if the table structure is different for general courses
-                const courseCode = $(el).find('td').eq(0).text().trim();
+                let courseCode = $(el).find('td').eq(0).text().trim();
                 const date = $(el).find('td').eq(2).text().trim(); 
                 const time = $(el).find('td').eq(4).text().trim();
 
-                if(courseCode && courseCode != "DERS KODU/ COURSE CODE" && courseCode != 'DERS KODU/                      \n  COURSE CODE' && courseCode != 'ATILIM ÜNİVERSİTESİ') {
+                // Replace multiple spaces (including newlines and tabs) with a single space
+                courseCode = courseCode.replace(/\s\s+/g, ' ');
+
+                if(courseCode && courseCode != "DERS KODU/ COURSE CODE" && courseCode != 'DERS KODU/                      COURSE CODE' && courseCode != 'ATILIM ÜNİVERSİTESİ') {
                     courses.push({ courseCode, date, time });
                 }
             }
@@ -72,6 +75,39 @@ async function fetchGeneralCoursesExams() {
         throw error; // Throw the error to be caught by the caller
     }
 }
+async function fetchGeneralCoursesExams() {
+    try {
+        // Adjust the URL to the one containing general courses exams
+        const url = 'https://dersprogramiyukle.atilim.edu.tr/20232024arasinavbahar/servis/index_files/sheet001.htm';
+        let response = await axios.get(url);
+        const html = response.data;
+        const $ = cheerio.load(html);
+        const courses = [];
+        $('tr').each((i, el) => {
+            if (i > 0) { // Assuming you want to skip the first row/header
+                // Adjust these selectors if the table structure is different for general courses
+                let courseCode = $(el).find('td').eq(0).text().trim();
+                const date = $(el).find('td').eq(2).text().trim(); 
+                const time = $(el).find('td').eq(4).text().trim();
+
+                // Replace multiple spaces (including newlines and tabs) with a single space
+                courseCode = courseCode.replace(/\s\s+/g, ' ');
+
+                if(courseCode && courseCode != "DERS KODU/ COURSE CODE" && courseCode != 'DERS KODU/                      COURSE CODE' && courseCode != 'ATILIM ÜNİVERSİTESİ') {
+                    courses.push({ courseCode, date, time });
+                }
+            }
+        });
+
+        // Adjust the file path/name as needed for general courses
+        const filePath = './public/GenCoursesExams.json'; 
+        saveDataToFile(courses, filePath);
+    } catch (error) {
+        console.error(error);
+        throw error; // Throw the error to be caught by the caller
+    }
+}
+
 
 async function fetchBussMidExams(){
     try {
@@ -88,7 +124,7 @@ async function fetchBussMidExams(){
                 const date = $(el).find('td').eq(4).text().trim(); 
                 const time = $(el).find('td').eq(6).text().trim();
 
-                if(courseCode && courseCode != "DERS KODU/ COURSE CODE" && courseCode != 'DERS KODU/                      \n  COURSE CODE' && courseCode != 'ATILIM ÜNİVERSİTESİ') {
+                if(courseCode && courseCode != "DERS KODU/ COURSE CODE" && courseCode != 'DERS\n  KODU/              COURSE CODE' && courseCode != 'ATILIM ÜNİVERSİTESİ') {
                     courses.push({ courseCode, date, time });
                 }
             }

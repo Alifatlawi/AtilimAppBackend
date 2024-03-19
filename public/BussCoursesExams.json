@@ -1,10 +1,5 @@
 [
   {
-    "courseCode": "DERS\n  KODU/              COURSE CODE",
-    "date": "TARİH",
-    "time": "SAAT/ TIME"
-  },
-  {
     "courseCode": "PR434",
     "date": "12.03.24",
     "time": "13:30"
@@ -372,7 +367,7 @@
   {
     "courseCode": "ISL364",
     "date": "27.03.24",
-    "time": "11:30"
+    "time": "12:30-13:20"
   },
   {
     "courseCode": "KAM304",
@@ -617,12 +612,12 @@
   {
     "courseCode": "MAN408",
     "date": "17.04.24",
-    "time": "10:00"
+    "time": "12:30-13:20"
   },
   {
     "courseCode": "ISL313",
     "date": "18.04.24",
-    "time": "10:00"
+    "time": "09:30-10:20"
   },
   {
     "courseCode": "ECON102",

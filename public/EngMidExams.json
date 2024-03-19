@@ -235,6 +235,16 @@
     "time": "10:00"
   },
   {
+    "courseCode": "ME412-1",
+    "date": "20.03.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "ME412-2",
+    "date": "07.05.24",
+    "time": "13:30-15:30"
+  },
+  {
     "courseCode": "IE426",
     "date": "21.03.24",
     "time": "14:30"
@@ -247,7 +257,7 @@
   {
     "courseCode": "CMPE225",
     "date": "21.03.24",
-    "time": "16:30"
+    "time": "16:30-18:00"
   },
   {
     "courseCode": "CHE208-1",
@@ -565,16 +575,6 @@
     "time": "12:00"
   },
   {
-    "courseCode": "ME412-1",
-    "date": "26.03.24",
-    "time": "13:30-15:20"
-  },
-  {
-    "courseCode": "ME412-2",
-    "date": "07.05.24",
-    "time": "13:30-15:30"
-  },
-  {
     "courseCode": "CHE/CEAC304-1",
     "date": "26.03.24",
     "time": "14:30-16:20"
@@ -737,12 +737,12 @@
   {
     "courseCode": "CMPE236-1",
     "date": "28.03.24",
-    "time": "16:30"
+    "time": "16:30-17:45"
   },
   {
     "courseCode": "CMPE236-2",
     "date": "18.04.24",
-    "time": "16:30"
+    "time": "16:30-17:45"
   },
   {
     "courseCode": "ME414",
@@ -897,7 +897,7 @@
   {
     "courseCode": "CMPE113",
     "date": "02.04.24",
-    "time": "17:30"
+    "time": "17:30-18:30"
   },
   {
     "courseCode": "CMPE341",
@@ -972,7 +972,7 @@
   {
     "courseCode": "CMPE114 LAB\n  SINAVI",
     "date": "03.04.24",
-    "time": "17:30"
+    "time": "17:30-18:30"
   },
   {
     "courseCode": "MECE228",
@@ -1107,7 +1107,7 @@
   {
     "courseCode": "CMPE114",
     "date": "05.04.24",
-    "time": "16:30"
+    "time": "16:30-18:00"
   },
   {
     "courseCode": "IE324",
