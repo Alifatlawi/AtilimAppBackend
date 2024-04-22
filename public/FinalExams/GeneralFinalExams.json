@@ -1,0 +1,267 @@
+[
+  {
+    "courseCode": "ENG102",
+    "date": "22.05.2024",
+    "time": "09:30-10:20"
+  },
+  {
+    "courseCode": "ENG122 / ENG222 / ENG322",
+    "date": "22.05.2024",
+    "time": "11:00-11:50"
+  },
+  {
+    "courseCode": "MATH102-106",
+    "date": "23.05.2024",
+    "time": "9:30"
+  },
+  {
+    "courseCode": "MATH108",
+    "date": "20.05.2024",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "MATH110",
+    "date": "23.05.2024",
+    "time": "9:30"
+  },
+  {
+    "courseCode": "MATH151",
+    "date": "28.05.2024",
+    "time": "9:30"
+  },
+  {
+    "courseCode": "MATH152",
+    "date": "21.05.2024",
+    "time": "9:30"
+  },
+  {
+    "courseCode": "MATH275",
+    "date": "28.05.2024",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "MATH276",
+    "date": "23.05.2024",
+    "time": "9:30"
+  },
+  {
+    "courseCode": "MATH292-294",
+    "date": "20.05.2024",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "MATH380",
+    "date": "27.05.2024",
+    "time": "13:30"
+  },
+  {
+    "courseCode": "HIST102-01",
+    "date": "20.05.2024",
+    "time": "09:30-10:00"
+  },
+  {
+    "courseCode": "HIST102-02",
+    "date": "20.05.2024",
+    "time": "09:30-10:00"
+  },
+  {
+    "courseCode": "HIST102-03",
+    "date": "20.05.2024",
+    "time": "09:30-10:00"
+  },
+  {
+    "courseCode": "HIST102-03",
+    "date": "20.05.2024",
+    "time": "10:30-11:00"
+  },
+  {
+    "courseCode": "HIST102-04",
+    "date": "20.05.2024",
+    "time": "10:30-11:00"
+  },
+  {
+    "courseCode": "HIST111-01",
+    "date": "20.05.2024",
+    "time": "10:30-11:00"
+  },
+  {
+    "courseCode": "HIST112-01",
+    "date": "20.05.2024",
+    "time": "11:30-12:00"
+  },
+  {
+    "courseCode": "HIST112-02",
+    "date": "20.05.2024",
+    "time": "11:30-12:00"
+  },
+  {
+    "courseCode": "HIST112-03",
+    "date": "20.05.2024",
+    "time": "11:30-12:00"
+  },
+  {
+    "courseCode": "HIST112-03",
+    "date": "20.05.2024",
+    "time": "12:30-13:00"
+  },
+  {
+    "courseCode": "HIST112-04",
+    "date": "20.05.2024",
+    "time": "12:30-13:00"
+  },
+  {
+    "courseCode": "HIST112-05",
+    "date": "20.05.2024",
+    "time": "12:30-13:00"
+  },
+  {
+    "courseCode": "HIST221-01",
+    "date": "21.05.2024",
+    "time": "13:00-13:30"
+  },
+  {
+    "courseCode": "HIST221-02",
+    "date": "21.05.2024",
+    "time": "13:00-13:30"
+  },
+  {
+    "courseCode": "HIST221-03",
+    "date": "21.05.2024",
+    "time": "13:00-13:30"
+  },
+  {
+    "courseCode": "HIST221-04",
+    "date": "21.05.2024",
+    "time": "14:00-14:30"
+  },
+  {
+    "courseCode": "HIST221-05",
+    "date": "21.05.2024",
+    "time": "14:00-14:30"
+  },
+  {
+    "courseCode": "HIST201-01",
+    "date": "21.05.2024",
+    "time": "15:00-15:30"
+  },
+  {
+    "courseCode": "HIST201-02",
+    "date": "21.05.2024",
+    "time": "15:00-15:30"
+  },
+  {
+    "courseCode": "TURK402-01",
+    "date": "21.05.2024",
+    "time": "16:00-16:30"
+  },
+  {
+    "courseCode": "TURK402-02",
+    "date": "21.05.2024",
+    "time": "16:00-16:30"
+  },
+  {
+    "courseCode": "TURK402-02",
+    "date": "21.05.2024",
+    "time": "17:00-17:30"
+  },
+  {
+    "courseCode": "TURK402-04",
+    "date": "21.05.2024",
+    "time": "17:00-17:30"
+  },
+  {
+    "courseCode": "TURK402-03",
+    "date": "22.05.2024",
+    "time": "15:00-15:30"
+  },
+  {
+    "courseCode": "TURK402-05",
+    "date": "22.05.2024",
+    "time": "15:00-15:30"
+  },
+  {
+    "courseCode": "TURK401-01",
+    "date": "22.05.2024",
+    "time": "16:00-16:30"
+  },
+  {
+    "courseCode": "HIST101-01",
+    "date": "22.05.2024",
+    "time": "17:00-17:30"
+  },
+  {
+    "courseCode": "TURK202-01",
+    "date": "20.05.2024",
+    "time": "13:30-14:00"
+  },
+  {
+    "courseCode": "TURK202-02",
+    "date": "20.05.2024",
+    "time": "13:30-14:00"
+  },
+  {
+    "courseCode": "TURK202-03",
+    "date": "20.05.2024",
+    "time": "13:30-14:00"
+  },
+  {
+    "courseCode": "TURK202-04",
+    "date": "20.05.2024",
+    "time": "13:30-14:00"
+  },
+  {
+    "courseCode": "PHYS101",
+    "date": "24.05.2024",
+    "time": "11:30"
+  },
+  {
+    "courseCode": "PHYS102",
+    "date": "24.05.2024",
+    "time": "9:30"
+  },
+  {
+    "courseCode": "CHE105",
+    "date": "27.05.2024",
+    "time": "9:30"
+  },
+  {
+    "courseCode": "CMPE102",
+    "date": "29.05.2024",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "CMPE102 LAB",
+    "date": "31.05.2024",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "IE220",
+    "date": "30.05.2024",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "IE305",
+    "date": "20.05.2024",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "MECE204",
+    "date": "29.05.2024",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "MATE207",
+    "date": "01.06.2024",
+    "time": "10:30"
+  },
+  {
+    "courseCode": "ME210-01-02-03",
+    "date": "25.05.2024",
+    "time": "10:30"
+  },
+  {
+    "courseCode": "ME211",
+    "date": "25.05.2024",
+    "time": "10:30"
+  }
+]

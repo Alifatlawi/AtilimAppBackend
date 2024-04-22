@@ -61,8 +61,8 @@
   },
   {
     "courseCode": "CHE104-2",
-    "date": "27.04.24",
-    "time": "10:00"
+    "date": "30.04.24",
+    "time": "15:30"
   },
   {
     "courseCode": "MECE204-1",
@@ -233,16 +233,6 @@
     "courseCode": "ENE306",
     "date": "20.03.24",
     "time": "10:00"
-  },
-  {
-    "courseCode": "ME412-1",
-    "date": "20.03.24",
-    "time": "13:30-15:20"
-  },
-  {
-    "courseCode": "ME412-2",
-    "date": "07.05.24",
-    "time": "13:30-15:30"
   },
   {
     "courseCode": "IE426",
@@ -547,7 +537,7 @@
   {
     "courseCode": "CE201-2",
     "date": "22.04.24",
-    "time": "09:30-11:20"
+    "time": "16:30-18:30"
   },
   {
     "courseCode": "CE450",
@@ -573,6 +563,16 @@
     "courseCode": "SE470",
     "date": "26.03.24",
     "time": "12:00"
+  },
+  {
+    "courseCode": "ME412-1",
+    "date": "26.03.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "ME412-2",
+    "date": "07.05.24",
+    "time": "13:30-15:30"
   },
   {
     "courseCode": "CHE/CEAC304-1",
@@ -700,11 +700,6 @@
     "time": "15:30-17:00"
   },
   {
-    "courseCode": "EE234-01-02-03",
-    "date": "27.03.24",
-    "time": "16:30"
-  },
-  {
     "courseCode": "EE402",
     "date": "27.03.24",
     "time": "15:30"
@@ -781,13 +776,23 @@
   },
   {
     "courseCode": "EE352-01-02-2",
-    "date": "02.05.24",
+    "date": "03.05.24",
     "time": "15:30"
   },
   {
     "courseCode": "ENE203-01",
     "date": "28.03.24",
     "time": "15:30"
+  },
+  {
+    "courseCode": "EE234-01-02-03-1",
+    "date": "28.03.24",
+    "time": "17:30-19:00"
+  },
+  {
+    "courseCode": "EE234-01-02-03-2",
+    "date": "09.05.24",
+    "time": "17:30"
   },
   {
     "courseCode": "IE326",
@@ -910,6 +915,11 @@
     "time": "16:30"
   },
   {
+    "courseCode": "ME418",
+    "date": "02.04.24",
+    "time": "10:00"
+  },
+  {
     "courseCode": "MATE410",
     "date": "02.04.24",
     "time": ""
@@ -948,16 +958,6 @@
     "courseCode": "CHE108-2",
     "date": "08.05.24",
     "time": "09:30-10:50"
-  },
-  {
-    "courseCode": "CHE202-1",
-    "date": "03.04.24",
-    "time": "11:00-12:20"
-  },
-  {
-    "courseCode": "CHE202-2",
-    "date": "08.05.24",
-    "time": "11:00-12:20"
   },
   {
     "courseCode": "MATE314",
@@ -1075,6 +1075,21 @@
     "time": "16:30"
   },
   {
+    "courseCode": "CHE202-1",
+    "date": "04.04.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "CHE202-2",
+    "date": "08.05.24",
+    "time": "11:00-12:20"
+  },
+  {
+    "courseCode": "CHE202-3",
+    "date": "09.05.24",
+    "time": "09:30-11:20"
+  },
+  {
     "courseCode": "IE206-01-02",
     "date": "05.04.24",
     "time": "14:30"
@@ -1145,6 +1160,16 @@
     "time": "09:45-11:45"
   },
   {
+    "courseCode": "EE306-1",
+    "date": "16.04.24",
+    "time": "16:30"
+  },
+  {
+    "courseCode": "EE306-2",
+    "date": "14.05.24",
+    "time": "16:30"
+  },
+  {
     "courseCode": "IE122",
     "date": "17.04.24",
     "time": "10:00-11:20"
@@ -1168,11 +1193,6 @@
     "courseCode": "CE344",
     "date": "18.04.24",
     "time": "15:30-17:20"
-  },
-  {
-    "courseCode": "ME422",
-    "date": "18.04.24",
-    "time": "15:30"
   },
   {
     "courseCode": "ENE428",
@@ -1210,9 +1230,19 @@
     "time": "11:30-12:20"
   },
   {
+    "courseCode": "ME422",
+    "date": "25.04.24",
+    "time": "15:30"
+  },
+  {
     "courseCode": "MDES600-02",
     "date": "26.04.24",
     "time": "10:30-12:00"
+  },
+  {
+    "courseCode": "CMPE431 LAB SINAVI",
+    "date": "29.04.24",
+    "time": "14:30-16:00"
   },
   {
     "courseCode": "IE442",

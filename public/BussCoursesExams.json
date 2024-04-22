@@ -425,6 +425,11 @@
     "time": "13:30"
   },
   {
+    "courseCode": "MAN102",
+    "date": "28.03.24",
+    "time": "16:30"
+  },
+  {
     "courseCode": "KAM441",
     "date": "29.03.24",
     "time": "13:30"
@@ -618,6 +623,11 @@
     "courseCode": "ISL313",
     "date": "18.04.24",
     "time": "09:30-10:20"
+  },
+  {
+    "courseCode": "IR102",
+    "date": "18.04.24",
+    "time": "14:30-15:30"
   },
   {
     "courseCode": "ECON102",

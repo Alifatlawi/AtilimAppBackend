@@ -5,6 +5,7 @@ const fetchDataAndProcess = require('./controller/dataFetcherController').fetchD
 const scheduleGenerator = require('./controller/scheduleController');
 const { fetchMidExams, fetchBussMidExams, fetchAviMidExams, fetchfefMidExams, fetchgsodMidExams } = require('./controller/examsFetchController');
 const { fetchGeneralCoursesExams } = require('./controller/examsFetchController');
+const { fetchGeneralFinalExams } = require('./controller/finalExamsController');
 
 
 const app = express();
@@ -92,6 +93,18 @@ app.get('/fineartsMidExams', (req, res) => {
 });
 
 
+app.get('/GeneralFinalExams', (req, res) => {
+    const filePath = path.join(__dirname, 'public/FinalExams/GeneralFinalExams.json');
+    fs.readFile(filePath, 'utf8', (err, data) => {
+        if (err){
+            res.status(500).json({message: "Error reading exam data file"});
+        } else {
+            res.json(JSON.parse(data));
+        }
+    });
+});
+
+
 app.post('/generateSchedule', async (req, res) => {
     try {
         const courseIds = req.body.courseIds;
@@ -133,6 +146,8 @@ setInterval(fetchfefMidExams, 24 * 3600 * 1000);
 
 setInterval(fetchgsodMidExams, 24 * 3600 * 1000);
 
+setInterval(fetchGeneralFinalExams, 24 * 3600 * 1000);
+
 
 
 
@@ -144,6 +159,7 @@ fetchBussMidExams();
 fetchAviMidExams();
 fetchfefMidExams();
 fetchgsodMidExams();
+fetchGeneralFinalExams();
 
 
 

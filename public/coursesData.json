@@ -9940,7 +9940,7 @@
       {
         "id": "01",
         "teacher": {
-          "name": "Rahim Jafari"
+          "name": "ALİ EMİN"
         },
         "schedules": [
           {
@@ -9962,7 +9962,7 @@
       {
         "id": "01",
         "teacher": {
-          "name": "Rahim Jafari"
+          "name": "ALİ EMİN"
         },
         "schedules": [
           {
@@ -13435,7 +13435,7 @@
         "schedules": [
           {
             "day": "Perşembe",
-            "classroom": "Müh. B1017H",
+            "classroom": "Müh. 1017H",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "12:20",
