@@ -85,22 +85,12 @@
     "time": "10:00"
   },
   {
-    "courseCode": "ME108-01-1",
+    "courseCode": "ME108-01-03-1",
     "date": "16.03.24",
     "time": "15:45"
   },
   {
-    "courseCode": "ME108-01-2",
-    "date": "04.05.24",
-    "time": "15:00"
-  },
-  {
-    "courseCode": "ME108-03-1",
-    "date": "16.03.24",
-    "time": "15:45"
-  },
-  {
-    "courseCode": "ME108-03-2",
+    "courseCode": "ME108-01-03-2",
     "date": "04.05.24",
     "time": "15:00"
   },
@@ -215,8 +205,13 @@
     "time": "09:30-10:20"
   },
   {
-    "courseCode": "AE312",
+    "courseCode": "AE312-1",
     "date": "20.03.24",
+    "time": "17:30"
+  },
+  {
+    "courseCode": "AE312-2",
+    "date": "02.05.24",
     "time": "17:30"
   },
   {
@@ -876,8 +871,8 @@
   },
   {
     "courseCode": "EE236-2",
-    "date": "06.05.24",
-    "time": "12:30-14:30"
+    "date": "10.05.24",
+    "time": "13:30-15:20"
   },
   {
     "courseCode": "ENE404",

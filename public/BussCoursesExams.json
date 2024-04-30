@@ -633,5 +633,10 @@
     "courseCode": "ECON102",
     "date": "19.04.24",
     "time": "16:30"
+  },
+  {
+    "courseCode": "IR110",
+    "date": "17.05.24",
+    "time": "13:30"
   }
 ]

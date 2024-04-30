@@ -8270,36 +8270,6 @@
     ]
   },
   {
-    "id": "ICM242",
-    "name": "Çevre Psikolojisi",
-    "sections": [
-      {
-        "id": "01",
-        "teacher": {
-          "name": "Elçin Yörük"
-        },
-        "schedules": [
-          {
-            "day": "Cuma",
-            "classroom": "Konf.Sal. 1020",
-            "period": "4.",
-            "startTime": "12:30",
-            "endTime": "14:20",
-            "duration": "2 period(s)"
-          },
-          {
-            "day": "Çarşamba",
-            "classroom": "Konf.Sal. 1022",
-            "period": "2.",
-            "startTime": "10:30",
-            "endTime": "12:20",
-            "duration": "2 period(s)"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "CMPE525",
     "name": "CMPE525",
     "sections": [
@@ -8333,7 +8303,7 @@
         "schedules": [
           {
             "day": "Salı",
-            "classroom": "Müh. B1027Ö",
+            "classroom": "L 1006",
             "period": "1.",
             "startTime": "09:30",
             "endTime": "12:20",
@@ -11524,7 +11494,7 @@
       {
         "id": "01",
         "teacher": {
-          "name": "Rahim Jafari"
+          "name": "EREN BİLLUR"
         },
         "schedules": [
           {
@@ -11590,7 +11560,7 @@
       {
         "id": "01",
         "teacher": {
-          "name": "Rahim Jafari"
+          "name": "EREN BİLLUR"
         },
         "schedules": [
           {
@@ -23136,6 +23106,28 @@
             "startTime": "12:30",
             "endTime": "13:20",
             "duration": "1 period(s)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ICM242",
+    "name": "Çevre Psikolojisi",
+    "sections": [
+      {
+        "id": "01",
+        "teacher": {
+          "name": "Elçin Yörük"
+        },
+        "schedules": [
+          {
+            "day": "Çarşamba",
+            "classroom": "Konf.Sal. 1022",
+            "period": "2.",
+            "startTime": "10:30",
+            "endTime": "12:20",
+            "duration": "2 period(s)"
           }
         ]
       }

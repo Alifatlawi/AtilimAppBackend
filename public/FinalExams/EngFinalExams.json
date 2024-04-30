@@ -1,0 +1,922 @@
+[
+  {
+    "courseCode": "ASE102",
+    "date": "20.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "CE417",
+    "date": "20.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "CE521",
+    "date": "20.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "CEAC571",
+    "date": "20.05.24",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "CHE312",
+    "date": "20.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "CMPE225-01-02-03",
+    "date": "20.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "CMPE341-01-02",
+    "date": "20.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "CMPE578",
+    "date": "20.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "EE425",
+    "date": "20.05.24",
+    "time": "09:30"
+  },
+  {
+    "courseCode": "IE304",
+    "date": "20.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "IE305",
+    "date": "20.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "IE422",
+    "date": "20.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "MATE204",
+    "date": "20.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "MATE314",
+    "date": "20.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "MATE531",
+    "date": "20.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "ME201-01",
+    "date": "20.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "ME201-02",
+    "date": "20.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "ME414",
+    "date": "20.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "SE422",
+    "date": "20.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "SE463",
+    "date": "20.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "AE436",
+    "date": "21.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "CE204",
+    "date": "21.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "CE402",
+    "date": "21.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "CE407",
+    "date": "21.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "CEAC418",
+    "date": "21.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "CMPE326-01-02",
+    "date": "21.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "EE428",
+    "date": "21.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "ENE203-01",
+    "date": "21.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "ENE203-02",
+    "date": "21.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "IE206-01-02",
+    "date": "21.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "ISE424",
+    "date": "21.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "MATE410",
+    "date": "21.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "ME425",
+    "date": "21.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "SE328-01-02",
+    "date": "21.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "CE201",
+    "date": "22.05.24",
+    "time": "12:30-14:20"
+  },
+  {
+    "courseCode": "CE566 - ME601",
+    "date": "22.05.24",
+    "time": "12:30-14:20"
+  },
+  {
+    "courseCode": "CHE210",
+    "date": "22.05.24",
+    "time": "12:30-14:20"
+  },
+  {
+    "courseCode": "CMPE134-01-02-03",
+    "date": "22.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "CMPE431",
+    "date": "22.05.24",
+    "time": "12:30-14:20"
+  },
+  {
+    "courseCode": "EE212",
+    "date": "22.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "EE234-01-02-03",
+    "date": "22.05.24",
+    "time": "12:30-14:20"
+  },
+  {
+    "courseCode": "EE306",
+    "date": "22.05.24",
+    "time": "12:30-14:20"
+  },
+  {
+    "courseCode": "ENE406",
+    "date": "22.05.24",
+    "time": "12:30-14:20"
+  },
+  {
+    "courseCode": "IE316",
+    "date": "22.05.24",
+    "time": "12:30-14:20"
+  },
+  {
+    "courseCode": "ISE102-01-02",
+    "date": "22.05.24",
+    "time": "14:30-16:20"
+  },
+  {
+    "courseCode": "ISE332",
+    "date": "22.05.24",
+    "time": "12:30-14:20"
+  },
+  {
+    "courseCode": "MATE202",
+    "date": "22.05.24",
+    "time": "12:30-14:20"
+  },
+  {
+    "courseCode": "ME101",
+    "date": "22.05.24",
+    "time": "14:30-16:20"
+  },
+  {
+    "courseCode": "SE112",
+    "date": "22.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "SE559",
+    "date": "22.05.24",
+    "time": "12:30-14:20"
+  },
+  {
+    "courseCode": "AE312",
+    "date": "23.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "AE434 - AE435",
+    "date": "23.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "ASE304",
+    "date": "23.05.24",
+    "time": "12:30-14:00"
+  },
+  {
+    "courseCode": "CE342",
+    "date": "23.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "CE464",
+    "date": "23.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "CHE416",
+    "date": "23.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "CMPE334-01-02",
+    "date": "23.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "EE452",
+    "date": "23.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "ENE314",
+    "date": "23.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "ENE428",
+    "date": "23.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "IE445",
+    "date": "23.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "ISE422",
+    "date": "23.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "MATE318",
+    "date": "23.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "ME108-01",
+    "date": "23.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "ME108-03",
+    "date": "23.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "ME108-04",
+    "date": "23.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "ME108-05",
+    "date": "23.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "ME390",
+    "date": "23.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "MECE332",
+    "date": "23.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "SE344",
+    "date": "23.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "ASE302",
+    "date": "24.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "CE310",
+    "date": "24.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "CE472",
+    "date": "24.05.24",
+    "time": "10:30-12:20"
+  },
+  {
+    "courseCode": "CEAC558",
+    "date": "24.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "CHE402 - CEAC402",
+    "date": "24.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "CMPE225 LAB SINAVI",
+    "date": "24.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "CMPE464",
+    "date": "24.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "EE236",
+    "date": "24.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "ENE202",
+    "date": "24.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "ENE404",
+    "date": "24.05.24",
+    "time": "15:45"
+  },
+  {
+    "courseCode": "IE426",
+    "date": "24.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "ISE552",
+    "date": "24.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "MATE310",
+    "date": "24.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "ME316-01",
+    "date": "24.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "ME316-03",
+    "date": "24.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "ME422",
+    "date": "24.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "MECE406",
+    "date": "24.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "SE470",
+    "date": "24.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "CMPE114",
+    "date": "25.05.24",
+    "time": "10:30"
+  },
+  {
+    "courseCode": "EE506",
+    "date": "25.05.24",
+    "time": "19:00-22:00"
+  },
+  {
+    "courseCode": "ENE102",
+    "date": "25.05.24",
+    "time": "14:30"
+  },
+  {
+    "courseCode": "ENE308",
+    "date": "25.05.24",
+    "time": "12:30"
+  },
+  {
+    "courseCode": "IE122",
+    "date": "25.05.24",
+    "time": "12:30"
+  },
+  {
+    "courseCode": "IE306",
+    "date": "25.05.24",
+    "time": "14:30"
+  },
+  {
+    "courseCode": "ME210-01-02-03",
+    "date": "25.05.24",
+    "time": "10:30"
+  },
+  {
+    "courseCode": "ME211",
+    "date": "25.05.24",
+    "time": "10:30"
+  },
+  {
+    "courseCode": "SE346-01-02-03",
+    "date": "25.05.24",
+    "time": "14:30"
+  },
+  {
+    "courseCode": "AE423",
+    "date": "27.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "CE430-01-02",
+    "date": "27.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "CE565",
+    "date": "27.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "CEAC578",
+    "date": "27.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "CHE104",
+    "date": "27.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "CHE304 - CEAC304",
+    "date": "27.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "EE222",
+    "date": "27.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "ENE204",
+    "date": "27.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "ISE434",
+    "date": "27.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "MATE474",
+    "date": "27.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "ME416",
+    "date": "27.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "MECE228",
+    "date": "27.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "SE426",
+    "date": "27.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "SE554",
+    "date": "27.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "SE654",
+    "date": "27.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "AE308",
+    "date": "28.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "ASE306",
+    "date": "28.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "ASE462 SUNUM",
+    "date": "28.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "CE423",
+    "date": "28.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "CMPE462",
+    "date": "28.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "EE352-01-02",
+    "date": "28.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "EE402",
+    "date": "28.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "IE442",
+    "date": "28.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "ISE426",
+    "date": "28.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "ISE514",
+    "date": "28.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "ME205-01-02",
+    "date": "28.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "ME436",
+    "date": "28.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "MECE404",
+    "date": "28.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "SE322-01-02",
+    "date": "28.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "CE202",
+    "date": "29.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "CE344",
+    "date": "29.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "CHE108",
+    "date": "29.05.24",
+    "time": "14:30-16:20"
+  },
+  {
+    "courseCode": "CHE202",
+    "date": "29.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "CHE303",
+    "date": "29.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "CMPE102",
+    "date": "29.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "CMPE113-01-02-03-04",
+    "date": "29.05.24",
+    "time": "12:30-14:20"
+  },
+  {
+    "courseCode": "CMPE236-01-02",
+    "date": "29.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "CMPE468",
+    "date": "29.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "CMPE525",
+    "date": "29.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "EE210",
+    "date": "29.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "EE454",
+    "date": "29.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "IE314-01-02",
+    "date": "29.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "ISE314",
+    "date": "29.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "MATE312",
+    "date": "29.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "ME412",
+    "date": "29.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "ME420",
+    "date": "29.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "MECE204-01-02-03",
+    "date": "29.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "MECE306-01",
+    "date": "29.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "MECE306-02",
+    "date": "29.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "SE212-01-02-03",
+    "date": "29.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "ASE432",
+    "date": "30.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "CE110-01-02-03-04",
+    "date": "30.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "CE450",
+    "date": "30.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "CHE302 - CEAC302",
+    "date": "30.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "CMPE114 LAB SINAVI",
+    "date": "30.05.24",
+    "time": "14:30"
+  },
+  {
+    "courseCode": "CMPE493 - ISE93 - SE493",
+    "date": "30.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "EE106",
+    "date": "30.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "EE316",
+    "date": "30.05.24",
+    "time": "12:30-14:20"
+  },
+  {
+    "courseCode": "ENE306",
+    "date": "30.05.24",
+    "time": "15:30"
+  },
+  {
+    "courseCode": "IE220",
+    "date": "30.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "IE222-01-02",
+    "date": "30.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "IE427",
+    "date": "30.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "MATE404",
+    "date": "30.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "ME418",
+    "date": "30.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "MECE102",
+    "date": "30.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "MECE416",
+    "date": "30.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "SE324-01-02",
+    "date": "30.05.24",
+    "time": "11:30-13:20"
+  },
+  {
+    "courseCode": "AE214",
+    "date": "31.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "ASE308",
+    "date": "31.05.24",
+    "time": "12:30-14:20"
+  },
+  {
+    "courseCode": "CE210",
+    "date": "31.05.24",
+    "time": "14:30"
+  },
+  {
+    "courseCode": "CE328",
+    "date": "31.05.24",
+    "time": "12:30-14:20"
+  },
+  {
+    "courseCode": "CE443",
+    "date": "31.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "CHE208",
+    "date": "31.05.24",
+    "time": "12:30-14:20"
+  },
+  {
+    "courseCode": "CHE406 - CEAC406",
+    "date": "31.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "CMPE102 LAB",
+    "date": "31.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "CMPE226-01-02-03",
+    "date": "31.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "EE326",
+    "date": "31.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "ENE305",
+    "date": "31.05.24",
+    "time": "12:30-14:20"
+  },
+  {
+    "courseCode": "IE202",
+    "date": "31.05.24",
+    "time": "13:30-15:20"
+  },
+  {
+    "courseCode": "IE326",
+    "date": "31.05.24",
+    "time": "15:45"
+  },
+  {
+    "courseCode": "MATE316",
+    "date": "31.05.24",
+    "time": "12:30-14:20"
+  },
+  {
+    "courseCode": "SE421",
+    "date": "31.05.24",
+    "time": "09:30-11:20"
+  },
+  {
+    "courseCode": "CMPE113 LAB SINAVI",
+    "date": "01.06.24",
+    "time": "12:30-14:20"
+  },
+  {
+    "courseCode": "CMPE338-01-02",
+    "date": "01.06.24",
+    "time": "10:30-12:20"
+  },
+  {
+    "courseCode": "EE503",
+    "date": "01.06.24",
+    "time": "19:00-22:00"
+  },
+  {
+    "courseCode": "IE324",
+    "date": "01.06.24",
+    "time": "14:30"
+  },
+  {
+    "courseCode": "MATE207-01-02-03",
+    "date": "01.06.24",
+    "time": "10:30-12:20"
+  }
+]
