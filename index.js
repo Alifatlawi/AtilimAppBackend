@@ -5,23 +5,29 @@ const SamlStrategy = require('passport-saml').Strategy;
 const session = require('express-session');
 const fs = require('fs');
 const path = require('path');
+
+// Import your controllers (ensure these are correctly implemented and available)
 const fetchDataAndProcess = require('./controller/dataFetcherController').fetchDataAndProcess;
 const scheduleGenerator = require('./controller/scheduleController');
-const { fetchMidExams, fetchBussMidExams, fetchAviMidExams, fetchfefMidExams, fetchgsodMidExams } = require('./controller/examsFetchController');
-const { fetchGeneralCoursesExams } = require('./controller/examsFetchController');
+const { fetchMidExams, fetchBussMidExams, fetchAviMidExams, fetchfefMidExams, fetchgsodMidExams, fetchGeneralCoursesExams } = require('./controller/examsFetchController');
 const { fetchGeneralFinalExams, fetchEngFinalExams } = require('./controller/finalExamsController');
 
 const port = process.env.PORT || 4000;
 
-// Middleware
+// Initialize Express app
 const app = express();
+
+// Middleware setup
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(session({ secret: 's3cr3tK3yTh@t1sV3ryL0ng@ndR@nd0m', resave: false, saveUninitialized: true }));
+
+// Passport initialization
 app.use(passport.initialize());
 app.use(passport.session());
 
-const samlStrategy = new SamlStrategy({
+// SAML Strategy configuration
+passport.use(new SamlStrategy({
     path: '/saml/acs',
     entryPoint: 'https://kimlik-dev.atilim.edu.tr/saml2/sso',
     issuer: 'https://beta-atacs.atilim.edu.tr/',
@@ -36,7 +42,7 @@ const samlStrategy = new SamlStrategy({
     console.log('SAML Profile:', profile);  // Logging the profile for debugging
     return done(null, profile);
   }
-);
+));
 
 passport.serializeUser((user, done) => {
   done(null, user);
@@ -46,21 +52,22 @@ passport.deserializeUser((user, done) => {
   done(null, user);
 });
 
+// SAML ACS endpoint with enhanced error handling and logging
 app.post('/saml/acs', (req, res, next) => {
   console.log('SAML ACS request received');
   passport.authenticate('saml', (err, user, info) => {
     if (err) {
       console.error('SAML Authentication Error:', err);
-      return res.redirect('/');
+      return res.status(500).send('SAML Authentication Error');
     }
     if (!user) {
       console.error('SAML Authentication Failed:', info);
-      return res.redirect('/');
+      return res.status(401).send('SAML Authentication Failed');
     }
     req.logIn(user, (err) => {
       if (err) {
         console.error('Login Error:', err);
-        return res.redirect('/');
+        return res.status(500).send('Login Error');
       }
       console.log('SAML Authentication Successful');
       return res.redirect('/');
@@ -68,6 +75,7 @@ app.post('/saml/acs', (req, res, next) => {
   })(req, res, next);
 });
 
+// SAML SLO endpoint
 app.get('/saml/logout', (req, res) => {
   req.logout((err) => {
     if (err) {
@@ -77,6 +85,7 @@ app.get('/saml/logout', (req, res) => {
   });
 });
 
+// Basic route
 app.get('/', (req, res) => {
   res.send("Hello World");
 });
