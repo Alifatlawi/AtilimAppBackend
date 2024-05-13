@@ -15,15 +15,13 @@ const port = process.env.PORT || 4000;
 
 // Middleware
 const app = express();
-app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(session({ secret: 's3cr3tK3yTh@t1sV3ryL0ng@ndR@nd0m', resave: false, saveUninitialized: true }));
 app.use(passport.initialize());
 app.use(passport.session());
 
-// SAML Strategy
-passport.use(new SamlStrategy({
+const samlStrategy = new SamlStrategy({
     path: '/saml/acs',
     entryPoint: 'https://kimlik-dev.atilim.edu.tr/saml2/sso',
     issuer: 'https://beta-atacs.atilim.edu.tr/',
@@ -48,8 +46,8 @@ passport.deserializeUser((user, done) => {
   done(null, user);
 });
 
-// Enhanced Error Handling
 app.post('/saml/acs', (req, res, next) => {
+  console.log('SAML ACS request received');
   passport.authenticate('saml', (err, user, info) => {
     if (err) {
       console.error('SAML Authentication Error:', err);
@@ -64,22 +62,23 @@ app.post('/saml/acs', (req, res, next) => {
         console.error('Login Error:', err);
         return res.redirect('/');
       }
+      console.log('SAML Authentication Successful');
       return res.redirect('/');
     });
   })(req, res, next);
 });
 
 app.get('/saml/logout', (req, res) => {
-    req.logout((err) => {
-        if (err) {
-            console.error('Logout Error:', err);
-        }
-        res.redirect('/');
-    });
+  req.logout((err) => {
+    if (err) {
+      console.error('Logout Error:', err);
+    }
+    res.redirect('/');
+  });
 });
 
 app.get('/', (req, res) => {
-    res.send("Hello World");
+  res.send("Hello World");
 });
 
 app.get('/courses', (req, res) => {
