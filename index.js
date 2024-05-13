@@ -36,7 +36,7 @@ const samlStrategy = new SamlStrategy({
     console.log('SAML Profile:', profile);  // Logging the profile for debugging
     return done(null, profile);
   }
-));
+);
 
 passport.serializeUser((user, done) => {
   done(null, user);
