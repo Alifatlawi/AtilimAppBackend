@@ -60,6 +60,9 @@ app.get('/login', (req, res, next) => {
 // SAML ACS endpoint with enhanced error handling and logging
 app.post('/saml/acs', (req, res, next) => {
   console.log('SAML ACS request received');
+  console.log('SAML Request Headers:', req.headers);  // Log request headers
+  console.log('SAML Request Body:', req.body);  // Log request body
+  
   passport.authenticate('saml', (err, user, info) => {
     if (err) {
       console.error('SAML Authentication Error:', err);
@@ -89,7 +92,6 @@ app.get('/saml/logout', (req, res) => {
     res.redirect('/');
   });
 });
-
 
 // Basic route
 app.get('/', (req, res) => {
