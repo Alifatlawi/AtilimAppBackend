@@ -5,12 +5,7 @@ const SamlStrategy = require('passport-saml').Strategy;
 const session = require('express-session');
 const fs = require('fs');
 const path = require('path');
-
-// Import your controllers (ensure these are correctly implemented and available)
-const fetchDataAndProcess = require('./controller/dataFetcherController').fetchDataAndProcess;
-const scheduleGenerator = require('./controller/scheduleController');
-const { fetchMidExams, fetchBussMidExams, fetchAviMidExams, fetchfefMidExams, fetchgsodMidExams, fetchGeneralCoursesExams } = require('./controller/examsFetchController');
-const { fetchGeneralFinalExams, fetchEngFinalExams } = require('./controller/finalExamsController');
+const axios = require('axios');
 
 const port = process.env.PORT || 4000;
 
@@ -37,7 +32,7 @@ passport.use(new SamlStrategy({
     identifierFormat: 'urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName'
   },
   (profile, done) => {
-    console.log('SAML Profile:', profile);  // Logging the profile for debugging
+    console.log('SAML Profile:', profile);
     return done(null, profile);
   }
 ));
@@ -58,9 +53,9 @@ app.get('/login', (req, res, next) => {
 // SAML ACS endpoint with enhanced error handling and logging
 app.post('/saml/acs', (req, res, next) => {
   console.log('SAML ACS request received');
-  console.log('SAML Request Headers:', req.headers);  // Log request headers
-  console.log('SAML Request Body:', req.body);  // Log request body
-  
+  console.log('SAML Request Headers:', req.headers);
+  console.log('SAML Request Body:', req.body);
+
   passport.authenticate('saml', (err, user, info) => {
     if (err) {
       console.error('SAML Authentication Error:', err);
