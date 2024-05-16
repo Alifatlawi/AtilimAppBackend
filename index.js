@@ -56,23 +56,24 @@ app.get('/login', (req, res, next) => {
   passport.authenticate('saml')(req, res, next);
 });
 
-// Middleware to simulate Postman behavior
-app.use('/saml/acs', (req, res, next) => {
-  if (req.method === 'POST' && req.body.SAMLResponse) {
-    // Simulate sending the SAMLResponse to the ACS endpoint programmatically
-    axios.post('https://atilim-759xz.ondigitalocean.app/saml/acs', {
-      SAMLResponse: req.body.SAMLResponse
-    })
-    .then(response => {
-      console.log('SAML Response forwarded successfully:', response.data);
-      next();
-    })
-    .catch(error => {
-      console.error('Error forwarding SAML Response:', error);
-      res.status(500).send('Error forwarding SAML Response');
+// Intermediate route to capture SAML response from IdP
+app.post('/Auth/AssertionConsumerService', async (req, res, next) => {
+  console.log('Received SAML response at intermediate endpoint');
+  console.log('SAML Request Body:', req.body);  // Log request body
+  
+  const samlResponse = req.body.SAMLResponse;
+
+  try {
+    // Forward the SAMLResponse to the ACS endpoint
+    const response = await axios.post('https://atilim-759xz.ondigitalocean.app/saml/acs', {
+      SAMLResponse: samlResponse
     });
-  } else {
-    next();
+
+    console.log('SAML Response forwarded successfully:', response.data);
+    res.send(response.data); // Forward the response back to the client
+  } catch (error) {
+    console.error('Error forwarding SAML Response:', error);
+    res.status(500).send('Error forwarding SAML Response');
   }
 });
 
@@ -112,17 +113,11 @@ app.get('/saml/logout', (req, res) => {
   });
 });
 
-// Handle the incorrect ACS URL and forward to the correct endpoint
-app.post('/Auth/AssertionConsumerService', (req, res, next) => {
-  console.log('Received SAML response at incorrect ACS URL');
-  req.url = '/saml/acs';  // Change the URL to the correct endpoint
-  app._router.handle(req, res, next);  // Forward the request to the correct endpoint
-});
-
 // Basic route
 app.get('/', (req, res) => {
   res.send("Hello World");
 });
+
 
 app.get('/courses', (req, res) => {
     const filePath = path.join(__dirname, 'public/coursesData.json');
