@@ -33,7 +33,7 @@ passport.use(new SamlStrategy({
     issuer: 'https://beta-atacs.atilim.edu.tr/',
     cert: `-----BEGIN CERTIFICATE-----
     MIIFFTCCA32gAwIBAgIUTzQpE3mo0aa8BXI5Zc93OQ2Bqi0wDQYJKoZIhvcNAQELBQAwgZkxCzAJBgNVBAYTAlRSMQ8wDQYDVQQIDAZUdXJrZXkxDzANBgNVBAcMBkFua2FyYTElMCMGA1UECgwcQXTDhMKxbMOEwrFtIMODwpxuaXZlcnNpdGVzaTEiMCAGA1UECwwZS2ltbGlrIFNhw4TCn2xhecOEwrFjw4TCsTEdMBsGA1UEAwwUa2ltbGlrLmF0aWxpbGltLmVkdS50cjCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAP02LBWq4XPJ7dgO8NgHe9FBtn/+RgyvZQcaJepeYEkzQyjc+KUadPVt+vjz+BIr6mFyZNMEzHhdLVvEbfz1K9q9b8EM74Ww3Sjc04/R0xKWAiJQt+pREikZV+J17EtH6y/1DYkStm4Ubbnz+aaNlsfInk7CqvDgjPN/rsQ50HNYfP8LOpuwDRFPjR7h3OKKWYmTAFiERaAHVAPPtgf6cG3BLm8c7oZUo2qugd3ECrzZ9MbU7MfWFWHBQuYlGB0DiRX5C4g8DQ5ZmnM0ax7JURtB5ARl8A8cBfnUQmRRYcZK4g401s5bSNAmbxx25M/vSgSCPCgnqmXKOoOjWNgfDl/jEY4JSRv3Be7gItejDLfOGxTuJxhsDcxhmUkZ4IDwjZ5lCLYHEyLhqkAikeOHgpZrwj84J+8HcslP952QoxETF+tgt0Sq1dcFZIJ/sOzXOG22QRTsynaczvpshUtIzPJvDgeHUeSJkhXxJ7qlugAdWb5NEWXi5rdpwOMWeYmEPwIDAQABo1MwUTAdBgNVHQ4EFgQUwLdggZfkTWtt/gLxVJd43PcT5R0wHwYDVR0jBBgwFoAUwLdggZfkTWtt/gLxVJd43PcT5R0wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAYEAxeZZ59EaTmEcRt0IywFjEosEq9QoIg94qvKKI4fSE5QOLMIQTUOydrfDnEfMDdLcbsIFrw0GJImkcTp0I/kaWDWaSOCyNg4+u8GAXO6cwI/GuzA13j5MK1p4MNii5QimqV5mhsM1MBtBZirxjp4aZMAOyQonp7wgguJdNfmGhh1Mt/SiGR5MeTqjQ7weJRIZfvqtb6qH40X51siHourQIsNsx7KKIMvwaPjBS61PNLdXCczz17Z+8P5di7KoRUUTDBRxVrkZvTeII1QNFZott1Rb3gVktvCSPaQnZTWD6XzidE+do5whClDRmlaZy8ChP2w7BJfWFGIQRu454+bDm5hBAC/uMSaXp6anxYWJD13S+6o/YaOBbLRkR1MCTOTt6X1t/NkuFiRKJN/K/BMDSVhASnsG9uwOQUN5SpVfShNWn+r1SAdbZWuF64bKRj7pOrSPH42WYbjSmquzgyc8E8G0kqvlG5ApSMN3KeE/fxRE+xlMGlSnSJ2eAn259Kp6
-    -----END CERTIFICATE-----`,
+-----END CERTIFICATE-----`,
     callbackUrl: 'https://atilim-759xz.ondigitalocean.app/saml/acs',
     logoutUrl: 'https://atilim-759xz.ondigitalocean.app/saml/logout',
     identifierFormat: 'urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName'
@@ -91,6 +91,13 @@ app.get('/saml/logout', (req, res) => {
     }
     res.redirect('/');
   });
+});
+
+// Handle the incorrect ACS URL and forward to the correct endpoint
+app.post('/Auth/AssertionConsumerService', (req, res, next) => {
+  console.log('Received SAML response at incorrect ACS URL');
+  req.url = '/saml/acs';  // Change the URL to the correct endpoint
+  app._router.handle(req, res, next);  // Forward the request to the correct endpoint
 });
 
 // Basic route
@@ -242,9 +249,7 @@ setInterval(fetchgsodMidExams, 24 * 3600 * 1000);
 
 setInterval(fetchGeneralFinalExams, 24 * 3600 * 1000);
 
-setInterval(fetchEngFinalExams, 24 * 3600 * 1000)
-
-
+setInterval(fetchEngFinalExams, 24 * 3600 * 1000);
 
 
 // Initial fetch on startup for both functions
