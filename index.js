@@ -5,8 +5,9 @@ const SamlStrategy = require('passport-saml').Strategy;
 const session = require('express-session');
 const fs = require('fs');
 const path = require('path');
+const axios = require('axios'); // Using Axios to simulate Postman
 
-// Import your controllers (ensure these are correctly implemented and available)
+// Import your controllers
 const fetchDataAndProcess = require('./controller/dataFetcherController').fetchDataAndProcess;
 const scheduleGenerator = require('./controller/scheduleController');
 const { fetchMidExams, fetchBussMidExams, fetchAviMidExams, fetchfefMidExams, fetchgsodMidExams, fetchGeneralCoursesExams } = require('./controller/examsFetchController');
@@ -53,6 +54,26 @@ passport.deserializeUser((user, done) => {
 // Route to initiate SAML authentication
 app.get('/login', (req, res, next) => {
   passport.authenticate('saml')(req, res, next);
+});
+
+// Middleware to simulate Postman behavior
+app.use('/saml/acs', (req, res, next) => {
+  if (req.method === 'POST' && req.body.SAMLResponse) {
+    // Simulate sending the SAMLResponse to the ACS endpoint programmatically
+    axios.post('https://atilim-759xz.ondigitalocean.app/saml/acs', {
+      SAMLResponse: req.body.SAMLResponse
+    })
+    .then(response => {
+      console.log('SAML Response forwarded successfully:', response.data);
+      next();
+    })
+    .catch(error => {
+      console.error('Error forwarding SAML Response:', error);
+      res.status(500).send('Error forwarding SAML Response');
+    });
+  } else {
+    next();
+  }
 });
 
 // SAML ACS endpoint with enhanced error handling and logging
