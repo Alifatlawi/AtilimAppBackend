@@ -115,7 +115,9 @@ app.get('/', (req, res) => {
 // Example route to fetch user data
 app.get('/api/user', (req, res) => {
   if (req.isAuthenticated()) {
-    res.json({ user: req.user });
+    const email = req.user.email || req.user.attributes.email;
+    const studentNumber = req.user.studentNumber || req.user.attributes.studentNumber
+    res.json({ email, studentNumber });
   } else {
     res.status(401).send('Unauthorized');
   }
