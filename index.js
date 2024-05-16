@@ -5,9 +5,9 @@ const SamlStrategy = require('passport-saml').Strategy;
 const session = require('express-session');
 const fs = require('fs');
 const path = require('path');
-const axios = require('axios'); // Using Axios to simulate Postman
+const axios = require('axios');
 
-// Import your controllers (ensure these are correctly implemented and available)
+// Import your controllers
 const fetchDataAndProcess = require('./controller/dataFetcherController').fetchDataAndProcess;
 const scheduleGenerator = require('./controller/scheduleController');
 const { fetchMidExams, fetchBussMidExams, fetchAviMidExams, fetchfefMidExams, fetchgsodMidExams, fetchGeneralCoursesExams } = require('./controller/examsFetchController');
@@ -50,6 +50,7 @@ passport.deserializeUser((user, done) => {
   done(null, user);
 });
 
+// Route to initiate SAML authentication
 app.get('/login', (req, res, next) => {
   passport.authenticate('saml')(req, res, next);
 });
@@ -70,6 +71,7 @@ app.post('/intercept-saml', (req, res, next) => {
   });
 });
 
+// SAML ACS endpoint
 app.post('/saml/acs', (req, res, next) => {
   console.log('SAML ACS request received');
   console.log('SAML Request Headers:', req.headers);
@@ -90,11 +92,12 @@ app.post('/saml/acs', (req, res, next) => {
         return res.status(500).send('Login Error');
       }
       console.log('SAML Authentication Successful');
-      return res.redirect('/');
+      return res.json({ user });
     });
   })(req, res, next);
 });
 
+// SAML SLO endpoint
 app.get('/saml/logout', (req, res) => {
   req.logout((err) => {
     if (err) {
@@ -104,159 +107,85 @@ app.get('/saml/logout', (req, res) => {
   });
 });
 
+// Basic route
 app.get('/', (req, res) => {
   res.send("Hello World");
 });
 
-
-app.get('/courses', (req, res) => {
-    const filePath = path.join(__dirname, 'public/coursesData.json');
-    fs.readFile(filePath, 'utf8', (err, data) => {
-        if (err) {
-            res.status(500).json({ message: "Error reading data file" });
-        } else {
-            res.json(JSON.parse(data));
-        }
-    });
+// Example route to fetch user data
+app.get('/api/user', (req, res) => {
+  if (req.isAuthenticated()) {
+    res.json({ user: req.user });
+  } else {
+    res.status(401).send('Unauthorized');
+  }
 });
 
-app.get('/EngMidExams', (req, res) => {
-    const filePath = path.join(__dirname, 'public/EngMidExams.json');
-    fs.readFile(filePath, 'utf8', (err, data) => {
-        if (err) {
-            res.status(500).json({ message: "Error reading exam data file" });
-        } else {
-            res.json(JSON.parse(data));
-        }
-    });
+// Example protected route
+app.get('/api/protected', passport.authenticate('jwt', { session: false }), (req, res) => {
+  res.send('This is a protected route');
 });
 
-app.get('/GeneralMidExams', (req, res) => {
-    const filePath = path.join(__dirname, 'public/GenCoursesExams.json');
+// Other routes to fetch exam data
+const routes = [
+  { path: '/courses', file: 'public/coursesData.json' },
+  { path: '/EngMidExams', file: 'public/EngMidExams.json' },
+  { path: '/GeneralMidExams', file: 'public/GenCoursesExams.json' },
+  { path: '/bussMidExams', file: 'public/BussCoursesExams.json' },
+  { path: '/AviMidExams', file: 'public/CavCoursesExams.json' },
+  { path: '/artsAndSinMidExams', file: 'public/fefCoursesExams.json' },
+  { path: '/fineartsMidExams', file: 'public/gsodCoursesExams.json' },
+  { path: '/GeneralFinalExams', file: 'public/FinalExams/GeneralFinalExams.json' },
+  { path: '/EngFinalExams', file: 'public/FinalExams/EngFinalExams.json' },
+];
+
+routes.forEach(route => {
+  app.get(route.path, (req, res) => {
+    const filePath = path.join(__dirname, route.file);
     fs.readFile(filePath, 'utf8', (err, data) => {
-        if (err){
-            res.status(500).json({message: "Error reading exam data file"});
-        } else {
-            res.json(JSON.parse(data));
-        }
+      if (err) {
+        res.status(500).json({ message: "Error reading data file" });
+      } else {
+        res.json(JSON.parse(data));
+      }
     });
+  });
 });
 
-app.get('/bussMidExams', (req, res) => {
-    const filePath = path.join(__dirname, 'public/BussCoursesExams.json');
-    fs.readFile(filePath, 'utf8', (err, data) => {
-        if (err){
-            res.status(500).json({message: "Error reading exam data file"});
-        } else {
-            res.json(JSON.parse(data));
-        }
-    });
-});
-
-app.get('/AviMidExams', (req, res) => {
-    const filePath = path.join(__dirname, 'public/CavCoursesExams.json');
-    fs.readFile(filePath, 'utf8', (err, data) => {
-        if (err){
-            res.status(500).json({message: "Error reading exam data file"});
-        } else {
-            res.json(JSON.parse(data));
-        }
-    });
-});
-
-app.get('/artsAndSinMidExams', (req, res) => {
-    const filePath = path.join(__dirname, 'public/fefCoursesExams.json');
-    fs.readFile(filePath, 'utf8', (err, data) => {
-        if (err){
-            res.status(500).json({message: "Error reading exam data file"});
-        } else {
-            res.json(JSON.parse(data));
-        }
-    });
-});
-
-app.get('/fineartsMidExams', (req, res) => {
-    const filePath = path.join(__dirname, 'public/gsodCoursesExams.json');
-    fs.readFile(filePath, 'utf8', (err, data) => {
-        if (err){
-            res.status(500).json({message: "Error reading exam data file"});
-        } else {
-            res.json(JSON.parse(data));
-        }
-    });
-});
-
-
-app.get('/GeneralFinalExams', (req, res) => {
-    const filePath = path.join(__dirname, 'public/FinalExams/GeneralFinalExams.json');
-    fs.readFile(filePath, 'utf8', (err, data) => {
-        if (err){
-            res.status(500).json({message: "Error reading exam data file"});
-        } else {
-            res.json(JSON.parse(data));
-        }
-    });
-});
-
-app.get('/EngFinalExams', (req, res) => {
-    const filePath = path.join(__dirname, 'public/FinalExams/EngFinalExams.json');
-    fs.readFile(filePath, 'utf8', (err, data) => {
-        if (err){
-            res.status(500).json({message: "Error reading exam data file"});
-        } else {
-            res.json(JSON.parse(data));
-        }
-    });
-});
-
-
+// Route to generate schedules
 app.post('/generateSchedule', async (req, res) => {
-    try {
-        const courseIds = req.body.courseIds;
+  try {
+    const courseIds = req.body.courseIds;
 
-        // Load courses from the JSON file
-        const filePath = path.join(__dirname, 'public/coursesData.json');
-        const data = fs.readFileSync(filePath, 'utf8');
-        const allCourses = JSON.parse(data);
+    // Load courses from the JSON file
+    const filePath = path.join(__dirname, 'public/coursesData.json');
+    const data = fs.readFileSync(filePath, 'utf8');
+    const allCourses = JSON.parse(data);
 
-        // Filter courses based on the provided IDs
-        const selectedCourses = allCourses.filter(course => courseIds.includes(course.id));
+    // Filter courses based on the provided IDs
+    const selectedCourses = allCourses.filter(course => courseIds.includes(course.id));
 
-        // Generate all possible schedules without time conflicts using functions from scheduleGenerator module
-        const schedules = scheduleGenerator.generateAllSchedules(selectedCourses);
-        
-        res.json(schedules);
-    } catch (error) {
-        res.status(500).json({ message: "Error generating schedules: " + error.message });
-    }
+    // Generate all possible schedules without time conflicts
+    const schedules = scheduleGenerator.generateAllSchedules(selectedCourses);
+    
+    res.json(schedules);
+  } catch (error) {
+    res.status(500).json({ message: "Error generating schedules: " + error.message });
+  }
 });
 
-
-// ... (other routes and configurations)
-
-
-// Schedule fetchDataAndProcess to run every 3 hours
+// Schedule fetchDataAndProcess to run every 24 hours
 setInterval(fetchDataAndProcess, 24 * 3600 * 1000);
-
-// Schedule fetchMidExams to run every 3 hours
 setInterval(fetchMidExams, 24 * 3600 * 1000);
-
 setInterval(fetchGeneralCoursesExams, 24 * 3600 * 1000);
-
 setInterval(fetchBussMidExams, 24 * 3600 * 1000);
-
 setInterval(fetchAviMidExams, 24 * 3600 * 1000);
-
 setInterval(fetchfefMidExams, 24 * 3600 * 1000);
-
 setInterval(fetchgsodMidExams, 24 * 3600 * 1000);
-
 setInterval(fetchGeneralFinalExams, 24 * 3600 * 1000);
-
 setInterval(fetchEngFinalExams, 24 * 3600 * 1000);
 
-
-// Initial fetch on startup for both functions
+// Initial fetch on startup
 fetchDataAndProcess();
 fetchMidExams();
 fetchGeneralCoursesExams();
