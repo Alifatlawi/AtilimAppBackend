@@ -31,11 +31,10 @@ app.use(passport.session());
 passport.use(new SamlStrategy({
     path: '/saml/acs',
     entryPoint: 'https://kimlik-dev.atilim.edu.tr/saml2/sso',
-    issuer: 'https://beta-atacs.atilim.edu.tr/',
+    issuer: 'https://atilim-759xz.ondigitalocean.app/',
     cert: fs.readFileSync(path.join(__dirname, 'private/university-certificate.crt'), 'utf8'),
     callbackUrl: 'https://atilim-759xz.ondigitalocean.app/saml/acs',
-    logoutUrl: 'https://atilim-759xz.ondigitalocean.app/saml/logout',
-    identifierFormat: 'urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName'
+    identifierFormat: 'urn:oasis:names:tc:SAML:2.0:nameid-format:transient'
   },
   (profile, done) => {
     console.log('SAML Profile:', profile);
@@ -51,29 +50,26 @@ passport.deserializeUser((user, done) => {
   done(null, user);
 });
 
-// Route to initiate SAML authentication
 app.get('/login', (req, res, next) => {
   passport.authenticate('saml')(req, res, next);
 });
 
-// New route to intercept SAML response
+// Endpoint to intercept SAML response from university ACS endpoint
 app.post('/intercept-saml', (req, res, next) => {
-  console.log('Intercepted SAML response');
-  console.log('SAML Response Body:', req.body);
+  const samlResponse = req.body.SAMLResponse;
+  console.log('Intercepted SAML Response:', samlResponse);
 
-  // Forward the SAML response to the ACS endpoint
-  axios.post('https://atilim-759xz.ondigitalocean.app/saml/acs', req.body)
-    .then(response => {
-      console.log('Successfully forwarded SAML response to ACS');
-      res.redirect('/');
-    })
-    .catch(error => {
-      console.error('Error forwarding SAML response to ACS:', error);
-      res.status(500).send('Error forwarding SAML response to ACS');
-    });
+  axios.post('https://atilim-759xz.ondigitalocean.app/saml/acs', {
+    SAMLResponse: samlResponse,
+  }).then(response => {
+    console.log('Successfully forwarded SAML response to ACS');
+    res.redirect('/');
+  }).catch(error => {
+    console.error('Error forwarding SAML response to ACS:', error);
+    res.status(500).send('Error forwarding SAML response to ACS');
+  });
 });
 
-// SAML ACS endpoint with enhanced error handling and logging
 app.post('/saml/acs', (req, res, next) => {
   console.log('SAML ACS request received');
   console.log('SAML Request Headers:', req.headers);
@@ -99,7 +95,6 @@ app.post('/saml/acs', (req, res, next) => {
   })(req, res, next);
 });
 
-// SAML SLO endpoint
 app.get('/saml/logout', (req, res) => {
   req.logout((err) => {
     if (err) {
@@ -109,7 +104,6 @@ app.get('/saml/logout', (req, res) => {
   });
 });
 
-// Basic route
 app.get('/', (req, res) => {
   res.send("Hello World");
 });
