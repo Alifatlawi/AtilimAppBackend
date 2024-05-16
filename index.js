@@ -5,7 +5,13 @@ const SamlStrategy = require('passport-saml').Strategy;
 const session = require('express-session');
 const fs = require('fs');
 const path = require('path');
-const axios = require('axios');
+const axios = require('axios'); // Using Axios to simulate Postman
+
+// Import your controllers (ensure these are correctly implemented and available)
+const fetchDataAndProcess = require('./controller/dataFetcherController').fetchDataAndProcess;
+const scheduleGenerator = require('./controller/scheduleController');
+const { fetchMidExams, fetchBussMidExams, fetchAviMidExams, fetchfefMidExams, fetchgsodMidExams, fetchGeneralCoursesExams } = require('./controller/examsFetchController');
+const { fetchGeneralFinalExams, fetchEngFinalExams } = require('./controller/finalExamsController');
 
 const port = process.env.PORT || 4000;
 
@@ -91,6 +97,7 @@ app.get('/', (req, res) => {
   res.send("Hello World");
 });
 
+
 app.get('/courses', (req, res) => {
     const filePath = path.join(__dirname, 'public/coursesData.json');
     fs.readFile(filePath, 'utf8', (err, data) => {
@@ -168,6 +175,7 @@ app.get('/fineartsMidExams', (req, res) => {
     });
 });
 
+
 app.get('/GeneralFinalExams', (req, res) => {
     const filePath = path.join(__dirname, 'public/FinalExams/GeneralFinalExams.json');
     fs.readFile(filePath, 'utf8', (err, data) => {
@@ -190,6 +198,7 @@ app.get('/EngFinalExams', (req, res) => {
     });
 });
 
+
 app.post('/generateSchedule', async (req, res) => {
     try {
         const courseIds = req.body.courseIds;
@@ -211,18 +220,30 @@ app.post('/generateSchedule', async (req, res) => {
     }
 });
 
+
 // ... (other routes and configurations)
+
 
 // Schedule fetchDataAndProcess to run every 3 hours
 setInterval(fetchDataAndProcess, 24 * 3600 * 1000);
+
+// Schedule fetchMidExams to run every 3 hours
 setInterval(fetchMidExams, 24 * 3600 * 1000);
+
 setInterval(fetchGeneralCoursesExams, 24 * 3600 * 1000);
+
 setInterval(fetchBussMidExams, 24 * 3600 * 1000);
+
 setInterval(fetchAviMidExams, 24 * 3600 * 1000);
+
 setInterval(fetchfefMidExams, 24 * 3600 * 1000);
+
 setInterval(fetchgsodMidExams, 24 * 3600 * 1000);
+
 setInterval(fetchGeneralFinalExams, 24 * 3600 * 1000);
+
 setInterval(fetchEngFinalExams, 24 * 3600 * 1000);
+
 
 // Initial fetch on startup for both functions
 fetchDataAndProcess();
@@ -234,6 +255,7 @@ fetchfefMidExams();
 fetchgsodMidExams();
 fetchGeneralFinalExams();
 fetchEngFinalExams();
+
 
 app.listen(port, () => {
     console.log(`Server started on port: ${port}`);
