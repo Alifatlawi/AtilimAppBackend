@@ -92,7 +92,12 @@ app.post('/saml/acs', (req, res, next) => {
         return res.status(500).send('Login Error');
       }
       console.log('SAML Authentication Successful');
-      return res.json({ user });
+
+      // Extract email and student number
+      const email = user.eMail || user.attributes.eMail;
+      const studentNumber = user.studentNumber || user.attributes.studentNumber;
+
+      return res.json({ email, studentNumber });
     });
   })(req, res, next);
 });
@@ -115,8 +120,9 @@ app.get('/', (req, res) => {
 // Example route to fetch user data
 app.get('/api/user', (req, res) => {
   if (req.isAuthenticated()) {
-    const email = req.user.email || req.user.attributes.email;
-    const studentNumber = req.user.studentNumber || req.user.attributes.studentNumber
+    console.log('Authenticated User:', req.user); // Log the entire user object for debugging
+    const email = req.user.eMail || req.user.attributes.eMail;
+    const studentNumber = req.user.studentNumber || req.user.attributes.studentNumber;
     res.json({ email, studentNumber });
   } else {
     res.status(401).send('Unauthorized');
@@ -197,7 +203,6 @@ fetchfefMidExams();
 fetchgsodMidExams();
 fetchGeneralFinalExams();
 fetchEngFinalExams();
-
 
 app.listen(port, () => {
     console.log(`Server started on port: ${port}`);
