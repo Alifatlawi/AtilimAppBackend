@@ -54,7 +54,7 @@ passport.deserializeUser((user, done) => {
 // Route to initiate SAML authentication
 app.get('/login', (req, res, next) => {
   passport.authenticate('saml')(req, res, next);
-  console.log(req)
+  console.log('the req is ', req , 'and the res are ', res , 'and the next is ', next)
 });
 
 // SAML ACS endpoint with enhanced error handling and logging
